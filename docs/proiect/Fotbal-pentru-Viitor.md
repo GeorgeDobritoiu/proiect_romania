@@ -305,7 +305,7 @@ Copiii U8/U10 dintr-un pilot lansat după pregătire nu pot produce rezultate pr
 
 # 15 Românii din diaspora: identificare, selecție și integrare
 ## 15.1 Punctul de plecare și obiectivul
-FRF are deja o platformă de înregistrare pentru juniorii și junioarele din străinătate, anunțată prin campania „Căutăm viitorii stranieri!”. Familia poate transmite informații Departamentului Scouting. Programul propus completează această funcție cu sprijin teritorial, logistică, relația cu familiile și verificarea datelor. Nevoile concrete se stabilesc împreună cu FRF, prin evaluarea serviciilor existente. [S11]
+FRF are deja o platformă de înregistrare pentru juniorii și junioarele din străinătate, anunțată prin campania „Căutăm viitorii stranieri!”. Familia poate transmite informații Departamentului Scouting. Programul propus completează această funcție cu sprijin teritorial, logistică, relația cu familiile și verificarea datelor, fără să creeze un sistem paralel de scouting. Nevoile concrete se stabilesc împreună cu FRF, prin evaluarea serviciilor existente. [S11]
 
 GOLAZO.ro, la 11 martie 2025, raporta 481 de juniori monitorizați de FRF: Spania 131, Italia 126, Germania 68, Anglia 38 și alte țări 118. Articolul indică, pentru 2024 și perioada din 2025 de până la publicare, 10 jucători convocați la U15, 12 la U16, 21 la U17, 13 la U18 și 10 la U19: 66 prin însumare. Sursa secundară descrie activitatea FRF; confirmarea primară, definiția convocării și deduplicarea între loturi se solicită federației. Aceste valori sunt un reper istoric de dimensionare, nu situația curentă și nici 66 de persoane unice demonstrate. [S12]
 
