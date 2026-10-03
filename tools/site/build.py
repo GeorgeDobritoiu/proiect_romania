@@ -12,7 +12,7 @@ pdf='/Fotbal-pentru-Viitor-2026-10-03-corectat.pdf'; brief='/Fotbal-pentru-Viito
 project={'id':'fotbal-pentru-viitor','author':'George Dobritoiu','horizon':'2030–2040','domain':'sport','status':'proposal','pdf':pdf,'summaryPdf':brief,'ro':{'title':'Fotbal pentru Viitor','url':R[7],'description':'O propunere pentru copii activi, antrenori pregătiți și comunități care cresc prin fotbal.'},'en':{'title':'Football for the Future','url':E[7],'description':'A proposal for active children, trained coaches and communities that grow through football.'}}
 project=json.loads((P/'data/proiecte.json').read_text())[0]
 def image(name,alt,hero=False):
- return f'<img src="/assets/img/{name}-960.webp" srcset="/assets/img/{name}-480.webp 480w, /assets/img/{name}-960.webp 960w, /assets/img/{name}-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="1600" height="1067" alt="{alt}" '+('fetchpriority="high"' if hero else 'loading="lazy"')+' decoding="async">'
+ return f'<img src="/assets/img/{name}-960.webp" srcset="/assets/img/{name}-480.webp 480w, /assets/img/{name}-960.webp 960w, /assets/img/{name}-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" width="1600" height="{2400 if name=='city' else 1200}" alt="{alt}" '+('fetchpriority="high"' if hero else 'loading="lazy"')+' decoding="async">'
 def button(url,text,secondary=False):return f'<a class="btn {"secondary" if secondary else ""}" href="{url}">{text} <span aria-hidden="true">↗</span></a>'
 def header(en,i):
  paths=E if en else R; ll=labels[en]
@@ -67,7 +67,9 @@ for en in [False,True]:
   h=a['href']
   if h.endswith('.pdf'): a['href']='/'+h.lstrip('/')
   elif h.startswith(('index.html','index-en.html')):a['href']=paths[5] if '#' in h else paths[0]
- for section in main.select('section.contact'):section.decompose()
+ for section in main.select('section.contact'):
+  section.clear()
+  section.append(BeautifulSoup('<h2>'+('Contribute to the project' if en else 'Contribuie la proiect')+'</h2>'+button(paths[5],'Get in touch' if en else 'Ia legătura cu noi'),'html.parser'))
  for a in main.select('a[href="#contact"]'):a['href']=paths[5]
  main.select_one('h1').clear();main.select_one('h1').append('Golden generations are developed.' if en else 'Generațiile de aur se formează.')
  hero=main.select_one('.hero-grid'); panel=main.select_one('.hero-panel')

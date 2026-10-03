@@ -4,3 +4,4 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 .football-page .site-header{height:auto;border-top:0;border-image:none}.football-page .site-nav a:hover{color:var(--blue)}.football-page .site-footer{align-items:flex-start}.football-page .site-brand span{margin-left:0;font-weight:700}.football-page .site-header .languages{display:flex}
 .football-page .section-label,.football-page .num{color:#52656b}.football-page .pilot .section-label{color:#c4d5da}
+.football-page .closing .section-label{color:#283c40}
