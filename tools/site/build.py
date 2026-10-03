@@ -65,7 +65,7 @@ for en in [False,True]:
  soup=BeautifulSoup(source,'html.parser');main=soup.main
  for a in main.find_all('a',href=True):
   h=a['href']
-  if h.endswith('.pdf'): a['href']='/'+h.lstrip('/')
+  if h.split('#',1)[0].split('?',1)[0].lower().endswith('.pdf'): a['href']='/'+h.lstrip('/')
   elif h.startswith(('index.html','index-en.html')):a['href']=paths[5] if '#' in h else paths[0]
  for section in main.select('section.contact'):
   section.clear()
