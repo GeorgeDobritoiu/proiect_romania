@@ -7,7 +7,7 @@ Static bilingual HTML/CSS/JavaScript website. Vercel preset: Other; no build com
 Romanian: `/`, `/proiecte`, `/cum-functioneaza`, `/propune-un-proiect`, `/despre`, `/contact`, `/confidentialitate`, `/proiecte/fotbal-pentru-viitor`.
 English: `/en`, `/en/projects`, `/en/how-it-works`, `/en/propose-a-project`, `/en/about`, `/en/contact`, `/en/privacy`, `/en/projects/football-for-the-future`.
 
-`vercel.json` provides clean URLs and explicit 301 legacy redirects. All existing PDF names are retained unchanged.
+`vercel.json` uses explicit rewrites for clean URLs and direct HTTP 301 redirects. Automatic `cleanUrls` is disabled because it inserted an HTTP 308 before legacy redirects. All existing PDF names are retained unchanged.
 
 ## Editing
 
@@ -19,7 +19,7 @@ Page generator: `tools/site/build.py` (Python + beautifulsoup4). Run from any di
 
 ## Preview review gates
 
-The current restructuring is on `restructurare-site`. Do not merge until review. Preview-only notices appear on localhost and Vercel preview hosts; hidden by default on the production custom domain.
+The reviewed restructuring was published on 3 October 2026. `main` and `restructurare-site` include the release. Preview-only notices appear on localhost and Vercel preview hosts; hidden by default on the production custom domain.
 
 Before production confirm: origin story, legal data controller/contact, privacy legal basis and retention, editorial decision maker, response time and author withdrawal procedure. Privacy is explicitly a draft. No institutional partnerships are implied.
 
