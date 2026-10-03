@@ -11,4 +11,3 @@ document.documentElement.classList.add('js');
 const toggle=document.querySelector('.menu-toggle'), menu=document.querySelector('.site-nav');
 toggle?.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));menu.classList.toggle('is-open',open)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle?.getAttribute('aria-expanded')==='true'){toggle.setAttribute('aria-expanded','false');menu.classList.remove('is-open');toggle.focus()}});
-if(location.hostname==='localhost'||location.hostname==='127.0.0.1'||location.hostname.endsWith('.vercel.app'))document.querySelectorAll('.preview-only').forEach(el=>el.hidden=false);
