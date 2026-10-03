@@ -10,3 +10,39 @@
 .site-brand::after{content:"";display:block;width:100%;height:3px;margin-top:9px;background:linear-gradient(to right,#17469e 0 33.333%,#f8cc37 33.333% 66.666%,#ce3539 66.666% 100%)}
 
 .site-brand{width:max-content}
+/* Shared editorial design for detailed project pages. */
+.football-page{--navy:var(--ink);--lime:var(--gold)}
+.football-page .hero{background:var(--paper);color:var(--ink);padding-top:38px}
+.football-page .hero-grid{gap:60px;padding:30px 0 55px}
+.football-page .hero h1{font-size:clamp(2.7rem,5.3vw,5.25rem);font-weight:700;letter-spacing:-.035em;line-height:1.1}
+.football-page .hero .eyebrow,.football-page .hero-copy,.football-page .project-subtitle,.football-page .byline,.football-page .byline span,.football-page .football-photo figcaption{color:var(--muted)}
+.football-page .hero-lead{color:var(--blue)}
+.football-page .hero-bottom{border-color:var(--line);color:var(--muted)}
+.football-page .hero-bottom>span:first-child{color:var(--ink);font-weight:700}
+.football-page .football-photo img{border-radius:3px;min-height:360px;max-height:520px;object-fit:cover}
+.football-page .button{border-radius:3px;font-size:14px;font-weight:600;padding:15px 22px;min-height:50px;transition:background .15s}
+.football-page .button:hover{transform:none}
+.football-page .hero .lime,.football-page .document-download .lime{background:var(--ink);color:white;border-color:var(--ink)}
+.football-page .hero .outline{color:var(--ink);border-color:var(--ink);background:transparent}
+.football-page .hero .outline:hover,.football-page .hero .lime:hover,.football-page .document-download .lime:hover{background:#294956;color:white}
+.football-page .document-download{background:#eaf0ed;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.football-page .document-download-card,.football-page .cost-table{background:white;border:1px solid var(--line);border-radius:4px;box-shadow:none}
+.football-page .section-label{font-size:11px;letter-spacing:.16em;color:var(--muted)}
+.football-page h2{font-size:clamp(2rem,3.3vw,3.2rem);font-weight:700;letter-spacing:-.035em;line-height:1.1}
+.football-page .governance h2{font-size:clamp(2rem,3.3vw,3.2rem)}
+.football-page .measure h3{font-size:24px;letter-spacing:-.035em;line-height:1.2}
+.football-page .measure p,.football-page .detail{font-size:17px;line-height:1.65}
+.football-page .measure:target{background:#eaf0ed;box-shadow:inset 3px 0 var(--blue)}
+.football-page .roles>div,.football-page .stages>div{border-top:1px solid var(--line);padding-top:24px}
+.football-page .pilot{background:var(--ink)}
+.football-page .pilot .section-label{color:#c4d5da}
+.football-page .stats strong{color:var(--gold)}
+.football-page .closing{background:var(--ink);color:white}
+.football-page .closing .section-label{color:#c4d5da}
+.football-page .closing .dark{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.football-page .closing .light{background:transparent;color:white;border-color:#a9bec5}
+.football-page .community-invite{background:#eaf0ed}
+.football-page .community-invite .button{background:var(--ink);color:white;border-color:var(--ink)}
+@media(max-width:760px){.football-page .hero{padding-top:30px}.football-page .hero-grid{gap:32px;padding:24px 0 35px}.football-page .hero h1{font-size:clamp(2.6rem,10vw,4rem)}.football-page .football-photo img{min-height:0;height:280px}.football-page .section,.football-page .pilot,.football-page .closing{padding-top:45px;padding-bottom:45px}.football-page .measure h3{font-size:22px}.football-page .measure p,.football-page .detail{font-size:16px}}
+
+.football-page .document-download-card{color:var(--ink)}.football-page .document-download-card p,.football-page .document-download-card small{color:var(--muted)}.football-page .document-preview{color:var(--ink)}.football-page .document-download-card .document-format{color:var(--blue);border-color:var(--blue)}
