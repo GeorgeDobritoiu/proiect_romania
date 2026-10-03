@@ -8,6 +8,9 @@ România poate forma mai mulți copii într-un mediu sigur și poate construi un
 
 Document pentru consultare cu FRF, AJF-uri, cluburi, școli, administrații locale, organizații civice, universități și finanțatori. Adoptarea instituțională face obiectul consultării și al deciziilor ulterioare. Rolurile propuse devin responsabilități efective numai prin acorduri și decizii ale organismelor competente.
 
+## Consultare și licențiere
+Consultarea și descărcarea documentului sunt gratuite, pentru informare și evaluare. Drepturile de utilizare a materialelor protejate din documentație pentru implementare se acordă contra cost, prin contract de licență.
+
 ## Cum se citește documentul
 Pentru decizie: capitolele 1–4, 17–23 și 30–31. Pentru implementare: capitolele 5–16, 24–29 și fișele operaționale din anexe. Pentru finanțare: bugetul pilotului, proiecțiile anuale, planul de atragere a fondurilor și registrul ipotezelor. Pentru verificare: bibliografia și lista datelor care trebuie obținute înaintea contractării.
 
@@ -691,7 +694,11 @@ Până la jumătatea sezonului pilot se discută finanțarea următoarelor 12 lu
 # 25 Guvernanță și responsabilități
 Organizația gazdă are responsabilitatea contractuală și financiară. Un consiliu de coordonare propus reunește competențe sportive, educaționale, financiare și de protecție, cu participare consultativă a părinților și comunităților. Componența exactă se negociază; documentul nu numește persoane în funcții neacceptate.
 
-George Dobritoiu este autorul propunerii. Companiile asociate autorului nu participă la achiziția platformei rezultate direct din strategie, conform principiului deja stabilit. Regula se consemnează în procedura de achiziție și se extinde prin declararea tuturor conflictelor relevante ale evaluatorilor și decidenților.
+George Dobritoiu poate fi remunerat pentru licențierea documentației. Autorul și firmele asociate lui nu participă la contractele de implementare a strategiei, inclusiv dezvoltarea platformei, formare, consultanță de implementare sau administrarea programului. Interesul financiar din licențiere este declarat transparent.
+
+Licența privește numai materialele asupra cărora autorul deține drepturi și nu conferă exclusivitate asupra ideilor, metodelor ori faptelor ca atare. Excepțiile legale și drepturile terților rămân aplicabile. Prețul, materialele, utilizările permise, durata și teritoriul se stabilesc în contract; descărcarea nu încheie un contract și nu creează o obligație de plată.
+
+Taxa de licență nu este stabilită și nu este inclusă în estimările financiare publicate. Dacă este necesară pentru utilizarea convenită, se bugetează separat și se include în necesarul total de finanțare înainte de contractare.
 
 | Decizie sau activitate | Răspunde de execuție | Aprobă în proiect | Consultă |
 | Buget și modificări majore | Manager și financiar | Conducerea organizației gazdă | Consiliu și finanțatori |
@@ -1227,3 +1234,4 @@ Următoarea decizie concretă este alegerea organizației gazdă și aprobarea e
 Propunere: George Dobritoiu. Fotbal pentru Viitor. Orizont 2030–2040. Document de lucru | octombrie 2026.
 
 Document publicat pentru consultare publică.
+
