@@ -6,7 +6,7 @@ Proiect de implementare și cadru de finanțare
 
 România poate forma mai mulți copii într-un mediu sigur și poate construi un traseu mai bun către fotbalul de performanță dacă investește consecvent în comunități, în oamenii care le susțin și în evaluarea rezultatelor. Acest document transformă propunerea într-un program de lucru: ce facem, cu cine, în ce ordine, cu ce resurse și în ce condiții decidem extinderea.
 
-Document pentru consultare cu FRF, AJF-uri, cluburi, școli, administrații locale, organizații civice, universități și finanțatori. Nu reprezintă o strategie adoptată de aceste instituții. Rolurile propuse devin responsabilități efective numai prin acorduri și decizii ale organismelor competente.
+Document pentru consultare cu FRF, AJF-uri, cluburi, școli, administrații locale, organizații civice, universități și finanțatori. Adoptarea instituțională face obiectul consultării și al deciziilor ulterioare. Rolurile propuse devin responsabilități efective numai prin acorduri și decizii ale organismelor competente.
 
 ## Cum se citește documentul
 Pentru decizie: capitolele 1–4, 17–23 și 30–31. Pentru implementare: capitolele 5–16, 24–29 și fișele operaționale din anexe. Pentru finanțare: bugetul pilotului, proiecțiile anuale, planul de atragere a fondurilor și registrul ipotezelor. Pentru verificare: bibliografia și lista datelor care trebuie obținute înaintea contractării.
@@ -18,11 +18,11 @@ Propunem dezvoltarea unei rețele comunitare de fotbal, conectată cu structuril
 
 Primul pas este o etapă de pregătire de șase luni. Ea verifică cererea, bazele sportive, personalul, cadrul de colaborare și costurile. Urmează un sezon de 12 luni pentru aproximativ 400 de copii, în circa 25 de echipe, într-un municipiu și 4–6 comune. Închiderea și evaluarea se întind pe alte trei luni. Durata totală de planificare este de 21 de luni. Cohortele sunt urmărite ulterior la 24 de luni printr-un buget distinct de continuitate.
 
-Echipele funcționează cu aproximativ 60 de adulți locali verificați și instruiți, trei mentori tehnici cu timp parțial, coordonare operațională și un responsabil pentru protecția copilului. Programul pregătește și un nucleu pilot de 12 candidați formatori, repartizați pe specializări. Aceștia nu sunt considerați competenți înainte de absolvire; primele activități sunt asigurate de profesioniști deja calificați și contractați.
+Echipele funcționează cu aproximativ 60 de adulți locali verificați și instruiți, trei mentori tehnici cu timp parțial, coordonare operațională și un responsabil pentru protecția copilului. Programul pregătește și un nucleu pilot de 12 candidați formatori, repartizați pe specializări. Competența candidaților se confirmă prin evaluare; primele activități sunt asigurate de profesioniști deja calificați și contractați.
 
 Prioritatea de politică publică este redirecționarea sprijinului pentru prima echipă din Superliga către formarea copiilor și beneficiul comunitar. Implementarea cere inventarierea contractelor existente, analiză juridică și decizii ale autorităților competente. Realocarea se propune autorităților; în planul de numerar intră numai finanțările contractate.
 
-Programul poate începe numai când sunt îndeplinite împreună condițiile financiare, operaționale și de protecție. O finanțare obținută nu compensează lipsa personalului verificat. O comunitate entuziastă nu compensează un teren nesigur. Un număr mare de înscrieri nu dovedește participarea regulată.
+Programul poate începe numai când sunt îndeplinite împreună condițiile financiare, operaționale și de protecție. Confirmăm finanțarea, personalul verificat și siguranța terenului înainte de deschidere. Participarea regulată se verifică prin prezențe, separat de înscrieri.
 
 ## Deciziile cerute partenerilor
 - Desemnarea unei organizații gazdă eligibile, cu capacitate contractuală și contabilitate separată pentru proiect.
@@ -40,7 +40,7 @@ Problema abordată este distanța dintre un contact ocazional cu fotbalul și pa
 
 Nevoile diferă între județe. Evaluarea inițială trebuie să distingă între lipsa spațiilor, lipsa personalului, costurile pentru familie, distanță, orare incompatibile, neîncredere și bariere instituționale. Soluția se adaptează diagnosticului: transportul nu rezolvă un program prost, iar o bază nouă nu înlocuiește formarea antrenorilor.
 
-Lanțul de schimbare propus este următorul: acces la spații și oameni competenți; activități previzibile și sigure; participare repetată; progres și încredere; continuitate în adolescență; identificarea corectă a celor care aleg performanța; tranziție sprijinită către seniori. Fiecare treaptă are indicatori și poate eșua separat. Nu deducem automat rezultate profesioniste din numărul copiilor înscriși.
+Lanțul de schimbare propus este următorul: acces la spații și oameni competenți; activități previzibile și sigure; participare repetată; progres și încredere; continuitate în adolescență; identificarea corectă a celor care aleg performanța; tranziție sprijinită către seniori. Fiecare treaptă are indicatori și poate eșua separat. Evaluăm rezultatele profesioniste separat, prin urmărirea parcursurilor individuale.
 
 ## Beneficiarii și nevoile lor
 | Grup | Nevoie urmărită | Răspunsul proiectului |
@@ -52,15 +52,15 @@ Lanțul de schimbare propus este următorul: acces la spații și oameni compete
 | Practicieni | Pregătire aplicată și suport | Mentor, resurse, evaluare în teren și rol clar |
 | Școli și cluburi | Resurse pentru a susține accesul | Acorduri de utilizare și bugete transparente |
 
-Pentru copiii cu dizabilități sau alte nevoi de sprijin, accesul se proiectează individual împreună cu familia și persoane competente. Nu folosim o înscriere simbolică drept dovadă de incluziune. Verificăm dacă spațiul, transportul, comunicarea și activitățile permit participarea efectivă.
+Pentru copiii cu dizabilități sau alte nevoi de sprijin, accesul se proiectează individual împreună cu familia și persoane competente. Măsurăm incluziunea prin participarea efectivă. Verificăm dacă spațiul, transportul, comunicarea și activitățile permit participarea efectivă.
 
 ## Ipoteze de impact care trebuie testate
 Presupunem că distanța mică și programul stabil cresc continuitatea; că mentoratul reduce abandonul voluntarilor; că practicile de protecție cresc încrederea familiilor; că un buget predictibil scade întreruperile. Acestea sunt ipoteze, nu efecte demonstrate pentru pilot. Evaluatorul consemnează explicațiile alternative, inclusiv sezonul, selecția familiilor și schimbările din cluburile existente.
 
 ## Repere externe și lecții de adaptare
-BELGIA — coerență între formarea jucătorilor și a personalului. UEFA descria în 2004 o politică pe termen lung, un cadru tehnic comun și întâlniri lunare cu cluburile. Lecția propusă pentru România: metodologie explicată și dialog regulat, cu adaptare locală. Exemplul nu dovedește că aceeași schemă tactică sau același buget produce aceleași rezultate. [S18]
+BELGIA — viziune comună și legături între nivelurile fotbalului. În comunicatul despre Masterplanul pentru viitorul sportiv, RBFA prezintă acordul cu ACFF, Voetbal Vlaanderen și Pro League. Planul include cooperarea cluburilor amatoare și profesioniste până în 2030, programe comune de pregătire, infrastructură și trasee ale jucătorilor. Reperul documentează un angajament instituțional de implementare. Pentru România, lecția propusă este negocierea cadrului comun și a responsabilităților înaintea extinderii. [S18]
 
-ISLANDA — acces pe tot parcursul anului și antrenori pregătiți. Relatarea UEFA din 2007 leagă dezvoltarea juniorilor de terenuri mici artificiale, săli și formarea antrenorilor. Pentru România, implicația de proiectare este bugetarea sezonului rece și a personalului împreună cu baza sportivă. Dimensiunea și geografia diferă; costurile islandeze nu se transferă mecanic. [S19]
+ISLANDA — formarea formatorilor și specializarea. Raportul anual KSÍ pentru 2023 consemnează opt trasee de calificare recunoscute de UEFA și un curs pentru 16 formatori experimentați, finalizat cu diploma KSÍ A pentru formatori. Este un exemplu direct de dezvoltare a celor care pregătesc antrenorii. Pentru România, implicația este bugetarea pregătirii formatorilor și a specializărilor distincte. Cifrele descriu activitatea raportată în 2023; efectele sportive necesită evaluare separată. [S19]
 
 IRLANDA — dosar de eligibilitate și integrare în fotbalul feminin. FAI a anunțat în aprilie 2024 aprobarea FIFA pentru Anna Patten, după schimbarea asociației; legătura familială provenea de la bunicii irlandezi. Cazul susține pregătirea timpurie a documentelor și tratarea junioarelor cu aceeași atenție. Este un caz individual documentat, nu o evaluare cauzală a unei reforme naționale. [S20]
 
@@ -108,7 +108,7 @@ Sprijinul unei academii aparținând unui club profesionist poate fi eligibil î
 | Lucrări majore și construcții | Proiect separat cu avize și cost total de utilizare |
 
 ## Alocare echitabilă și control
-O formulă de lucru poate combina 40% acces și deficit de ofertă, 30% vulnerabilitate și distanță, 20% capacitate de implementare și 10% rezultate ajustate la context. Ponderile sunt propuse, nu validate. Nu distribuim fondurile exclusiv după numărul de jucători buni: ar încuraja selecția celor deja avantajați. Finanțăm remedierea acolo unde capacitatea este scăzută, înainte de a cere extindere.
+O formulă de lucru poate combina 40% acces și deficit de ofertă, 30% vulnerabilitate și distanță, 20% capacitate de implementare și 10% rezultate ajustate la context. Ponderile sunt propuse, nu validate. Distribuim fondurile după acces, vulnerabilitate, capacitate și progres, pentru a susține și comunitățile dezavantajate. Finanțăm remedierea acolo unde capacitatea este scăzută, înainte de a cere extindere.
 
 Se publică bugetele aprobate și cheltuielile agregate, iar documentele individuale se verifică prin audit. Conflictele de interese se declară înainte de evaluare. Sprijinul public nu cumpără susținerea politică a proiectului, acces la datele copiilor sau influență asupra selecției sportive. Instrumentul juridic și regulile de finanțare se stabilesc pentru fiecare autoritate; Legea 350/2005 este un reper pentru anumite finanțări nonprofit, nu o soluție universală pentru orice beneficiar. [S5]
 
@@ -136,7 +136,7 @@ Programul organizează traseul pe etape: U6–U10 joc și descoperire; U11–U13
 Echipa de lucru are 10–20 de copii și 2–3 adulți verificați. Configurația de referință a pilotului este de 16 copii pe echipă. Regula celor doi adulți privește siguranța și continuitatea; nu presupune că orice doi voluntari pot prelua conducerea tehnică fără competențele necesare. Dacă personalul minim lipsește, sesiunea se reorganizează sau se amână.
 
 ## Program săptămânal și competiții
-Se publică orare pe un interval de minimum șase săptămâni, cu un responsabil pentru modificări și o procedură de anunțare. Ligile de sâmbătă și duminică sunt formate de acces propuse; detaliile competiționale și legitimările se stabilesc cu organismele competente. Nu se introduce dublă legitimare la cluburi diferite prin acest proiect și nu se promite derogare de la regulamente.
+Se publică orare pe un interval de minimum șase săptămâni, cu un responsabil pentru modificări și o procedură de anunțare. Ligile de sâmbătă și duminică sunt formate de acces propuse; detaliile competiționale și legitimările se stabilesc cu organismele competente. Legitimările și participarea la competiții respectă regulamentele organismelor competente.
 
 Meciurile la vârste mici trebuie să ofere timp de joc, experiențe variate și reguli de conduită pentru adulți. Planul tehnic documentează rotația, adaptarea jocului și progresul, fără clasamente publice care stigmatizează copiii. Antrenorii nu folosesc amenințarea excluderii ca instrument de disciplină.
 
@@ -155,7 +155,7 @@ Pentru fiecare bază se calculează costul incremental în bani și valoarea res
 ## Conținutul protocolului de acces
 Protocolul trebuie să precizeze părțile, baza și spațiile autorizate, perioadele, numărul maxim de participanți, persoanele cu chei, obligațiile de deschidere și închidere, utilitățile, curățenia, asigurările și răspunderea pentru deteriorări. Include procedura de incident, anularea unei sesiuni, accesul altor utilizatori și perioada de preaviz. Modelul este revizuit juridic în raport cu proprietarul și regimul bunului.
 
-Școala poate primi materiale, reparații mici și formare numai prin condiții transparente și aprobate. Beneficiile se justifică prin utilizarea comunitară, nu prin favorizarea unui club ori condiționarea înscrierii copiilor. Nu se transferă informal bunuri fără inventar și document de predare.
+Școala poate primi materiale, reparații mici și formare numai prin condiții transparente și aprobate. Beneficiile se justifică prin utilizarea comunitară, nu prin favorizarea unui club ori condiționarea înscrierii copiilor. Fiecare transfer de bunuri are inventar și document de predare.
 
 | Element de verificat | Dovadă pentru deschidere |
 | Drept de utilizare | Acord semnat, orar și responsabil |
@@ -167,7 +167,7 @@ Protocolul trebuie să precizeze părțile, baza și spațiile autorizate, perio
 | Urgențe | Adresă exactă, acces pentru intervenție și persoane instruite |
 
 ## Investițiile majore
-O bază nouă sau o renovare amplă necesită proiect separat: teren și drepturi, analiză a cererii, variante tehnice, avize, buget de investiție, achiziție și cost de funcționare pe minimum cinci ani. Nu finanțăm construcția din rezerva pilotului. O clădire finalizată nu este indicator suficient; măsurăm orele efectiv folosite și costul pe oră.
+O bază nouă sau o renovare amplă necesită proiect separat: teren și drepturi, analiză a cererii, variante tehnice, avize, buget de investiție, achiziție și cost de funcționare pe minimum cinci ani. Construcția necesită un buget de investiții distinct; rezerva pilotului acoperă riscurile activităților aprobate. O clădire finalizată nu este indicator suficient; măsurăm orele efectiv folosite și costul pe oră.
 
 Pentru a compara opțiunile, evaluăm întâi costul activării unei baze existente, apoi adaptarea unei baze apropiate și abia ulterior construcția. Decizia include costul deplasării familiilor și riscul ca o investiție mare să consume resursele necesare oamenilor. Școala își păstrează prioritatea educațională în condițiile protocolului.
 
@@ -206,7 +206,7 @@ Pentru pilot, 12 candidați reprezintă o ipoteză de dimensionare: șase pentru
 ## Traseul formatorilor
 Durata de lucru este 6–12 luni. Pilotul folosește nouă luni de învățare și practică în interiorul calendarului general. Pregătirea este hibridă, cu întâlniri regionale și mentorat. Modulele naționale de până la una–două săptămâni rămân opțiuni pentru specializările care le justifică; nu sunt condiție obligatorie pentru toți și nu sunt incluse automat în bugetul de referință.
 
-Evaluarea include activitate în teren, portofoliu și probă de predare, cu evaluator independent de formatorul direct. Autorizarea internă precizează specializarea, activitățile permise, perioada și condițiile de reevaluare. Nu conferă dreptul de a emite licențe oficiale. Componenta pentru antrenori urmărește recunoașterea elementelor eligibile în traseul către UEFA C, numai dacă FRF aprobă această integrare. [S9]
+Evaluarea include activitate în teren, portofoliu și probă de predare, cu evaluator independent de formatorul direct. Autorizarea internă precizează specializarea, activitățile permise, perioada și condițiile de reevaluare. Emiterea licențelor oficiale rămâne atribuția organismelor competente. Componenta pentru antrenori urmărește recunoașterea elementelor eligibile în traseul către UEFA C, numai dacă FRF aprobă această integrare. [S9]
 
 # 10 Traseele practicienilor și controlul calității formării
 Practicienii locali primesc o instruire proporțională cu sarcina lor și lucrează numai în limitele competenței demonstrate. Cursul introductiv nu transformă un voluntar în antrenor licențiat, arbitru autorizat sau specialist în protecția copilului. Cerințele organismelor competente se aplică separat.
@@ -231,7 +231,7 @@ Rubrica de evaluare este comunicată înainte: siguranță și conduită, organi
 ## Continuitate și recertificare
 La 6 și 12 luni verificăm activitatea efectivă, iar la 24 de luni urmărim cohortele care permit acest lucru. Pentru formatori propunem observare anuală și actualizare când se schimbă standardele. Plata nu depinde exclusiv de promovabilitate. Un curs cu 100% promovare nu este automat bun, iar un curs cu rezultate slabe nu demonstrează automat lipsa de efort a candidaților.
 
-Retenția se construiește prin roluri reale, mentorat, costuri acoperite și oportunități de dezvoltare. Nu introducem automat datorii pentru voluntarii care pleacă. Orice bursă cu obligații specifice necesită analiză juridică și condiții proporționale; proiecția financiară nu presupune recuperări de bani de la absolvenți.
+Retenția se construiește prin roluri reale, mentorat, costuri acoperite și oportunități de dezvoltare. Retenția voluntarilor se bazează pe sprijin și roluri sustenabile; orice obligație contractuală distinctă necesită analiză juridică și acceptare informată. Orice bursă cu obligații specifice necesită analiză juridică și condiții proporționale; proiecția financiară nu presupune recuperări de bani de la absolvenți.
 
 # 11 Protecția copilului și răspunsul la incidente
 Protecția copilului este o condiție de deschidere, nu o activitate de comunicare. Fiecare club juvenil partener are persoană desemnată, iar pilotul are un responsabil cu acces direct la conducere și un canal alternativ pentru situațiile în care conducerea este implicată. Copiii și părinții află cum pot cere ajutor într-un limbaj accesibil.
@@ -249,7 +249,7 @@ Persoana care primește relatarea ascultă, notează faptele și cuvintele relev
 Datele sunt accesibile doar celor care au nevoie legitimă să gestioneze cazul. Situația nu este relatată în grupurile de părinți sau în tabloul public. Suspendarea temporară a accesului la copii este o măsură de protecție, nu o concluzie publică despre vinovăție. Persoanele implicate primesc tratament corect, fără a subordona siguranța copilului reputației instituției.
 
 ## Pregătire și verificare
-FIFA Guardians oferă resurse și trasee de educație în protecție; verificăm accesul și condițiile actuale înainte de înscriere. Nu afirmăm că diploma este automată sau gratuită pentru orice candidat al proiectului. [S8] Echipa exersează înainte de start o simulare de copil nepreluat, o sesizare și o indisponibilitate a responsabilului. Evaluarea urmărește răspunsul și protecția, nu obiectivul artificial „zero sesizări”.
+FIFA Guardians oferă resurse și trasee de educație în protecție; verificăm accesul și condițiile actuale înainte de înscriere. Accesul, evaluarea și costurile diplomei se confirmă pentru fiecare categorie de candidat. [S8] Echipa exersează înainte de start o simulare de copil nepreluat, o sesizare și o indisponibilitate a responsabilului. Evaluarea urmărește răspunsul și protecția, nu obiectivul artificial „zero sesizări”.
 
 # 12 Incluziune și acces echitabil
 Familiile vulnerabile au contribuție zero. Identificarea sprijinului se face discret, prin criterii convenite cu organizații competente și fără expunerea situației materiale în fața echipei. Refuzul de a transmite documente care nu sunt necesare nu devine motiv arbitrar de excludere. Bugetul de incluziune acoperă bariere concrete: încălțăminte, transport, adaptări ori acces la comunicare.
@@ -257,7 +257,7 @@ Familiile vulnerabile au contribuție zero. Identificarea sprijinului se face di
 Pilotul urmărește recrutarea fetelor și a copiilor din rural încă de la început. Ca ținte orientative de acces propunem minimum 30% fete și minimum 50% participanți din comune, supuse verificării cererii locale. Acestea sunt obiective de proiectare și mobilizare, nu condiții care permit eliminarea unor copii pentru a îmbunătăți procentele. Raportăm și rata de continuitate pe grupuri.
 
 ## Cum evităm recrutarea selectivă
-Nu se cer teste de performanță pentru accesul la fotbalul de bază. Dacă există mai multe cereri decât locuri, criteriile sunt publice: proximitate, lipsa unei oferte comparabile, nevoi de acces și ordinea ori mecanismul de repartizare aprobat. Nu acordăm prioritate sponsorilor, relațiilor personale sau copiilor considerați ușor de promovat.
+Accesul la fotbalul de bază este deschis indiferent de nivelul performanței sportive. Dacă există mai multe cereri decât locuri, criteriile sunt publice: proximitate, lipsa unei oferte comparabile, nevoi de acces și ordinea ori mecanismul de repartizare aprobat. Nu acordăm prioritate sponsorilor, relațiilor personale sau copiilor considerați ușor de promovat.
 
 Grupele mixte la vârste mici sunt o opțiune de organizare care respectă regulamentele și nevoile participanților. Acolo unde fetele sau familiile identifică bariere, se pot crea sesiuni de introducere dedicate, cu un traseu ulterior clar. O activitate izolată de promovare nu este raportată drept acces anual.
 
@@ -285,7 +285,7 @@ Academiile partenere stabilesc un responsabil pentru educație, compatibilitatea
 ## Ce măsurăm la academii
 Progres individual, continuitate, bunăstare, calitatea pregătirii, accesul la educație, tranziția la seniori și minutele efective. Numărul de copii recrutați nu dovedește valoarea adăugată. O academie care selectează din alte cluburi nu poate atribui integral formarea propriului program. Se păstrează istoricul parcursului, în limitele permise.
 
-Finanțarea unei academii din fonduri de dezvoltare are rezultate și buget separat. Nu recompensăm exclusiv transferurile sau convocările: acestea depind de mulți factori și pot încuraja selecția timpurie. Proiectul nu dobândește drepturi economice asupra copiilor ori asupra viitoarelor transferuri prin simpla finanțare a participării.
+Finanțarea unei academii din fonduri de dezvoltare are rezultate și buget separat. Recompensăm calitatea formării și progresul; transferurile și convocările sunt analizate împreună cu ceilalți indicatori, ținând cont de factorii externi și de riscul selecției premature. Proiectul nu dobândește drepturi economice asupra copiilor ori asupra viitoarelor transferuri prin simpla finanțare a participării.
 
 # 14 Tranziția către seniori și reinvestirea valorii
 Traseul U17–U19 către seniori cere un plan individual: nivel competițional potrivit, minute de joc, continuitate educațională, sprijin psihologic accesibil și consiliere privind opțiunile de carieră. Pentru majoritatea participanților, rezultatul valoros poate fi continuarea sportului, studiul sau o calificare profesională, fără contract de jucător profesionist.
@@ -311,6 +311,11 @@ GOLAZO.ro, la 11 martie 2025, raporta 481 de juniori monitorizați de FRF: Spani
 
 Prima etapă propusă este un singur centru de coordonare într-o țară, pe un sezon, apoi extindere după evaluare. Spania, Italia, Germania și Marea Britanie formează lista inițială de analiză; ordinea se decide după dosarele actualizate, distanțe, acces la cluburi și personal. Datele despre Anglia nu se extrapolează automat întregii Mari Britanii. Franța, Belgia și Austria pot urma dacă cererea și resursele justifică extinderea.
 
+## Vârstele vizate de rețea
+Propunem identificarea de la categoria U13 și observarea structurată la U14–U19, pentru băieți și fete. Anii de naștere eligibili se publică la începutul fiecărui sezon, potrivit categoriilor și calendarului FRF. La U13, accentul cade pe semnalare, acordul familiei și pregătirea dosarului; cele 40 de intervenții de observare bugetate pe țară se alocă traseului U14–U19.
+
+Reperul GOLAZO privește convocări U15–U19. Începerea identificării la U13 și a observării la U14 oferă timp de pregătire înaintea acestor etape și reprezintă o ipoteză de proiectare, de validat cu FRF. U21 și echipa A sunt în afara activităților și bugetului acestei rețele; selecția și observarea pentru aceste loturi sunt gestionate direct de FRF. Urmărirea ulterioară a absolvenților U19 poate alimenta indicatorii de progres, prin date agregate furnizate de FRF.
+
 ## 15.2 Eligibilitatea: verificare înaintea invitației
 Coordonatorul pregătește fișa, iar responsabilul juridic desemnat de FRF validează încadrarea. Filtrul se finalizează înainte de invitații de selecție sau cheltuieli de deplasare; semnalarea inițială poate preceda obținerea tuturor actelor. Dosarele incomplete rămân în clarificare. Identitatea culturală și cetățenia sunt înregistrate distinct.
 
@@ -332,6 +337,19 @@ Fișa are status: în clarificare / eligibil confirmat / condiționat de cetăț
 Cerința celor două observări este standardul propus al programului, nu o obligație FIFA. Dacă sănătatea, calendarul ori accesul împiedică observarea, dosarul rămâne incomplet; FRF poate documenta o derogare motivată pentru o acțiune proprie. Grila urmărește tehnica sub presiune, decizia, înțelegerea jocului, cooperarea și evoluția. Maturizarea este apreciată de personal competent, cu metode proporționale; trimestrul nașterii contextualizează evaluarea, fără punctaj automat de selecție.
 
 Familia primește confirmarea primirii în maximum zece zile lucrătoare, ca țintă de serviciu propusă. După evaluare primește stadiul și următorul pas, inclusiv când este necesară urmărirea suplimentară. Programul pregătește și susține; selecția la loturi aparține exclusiv staff-ului tehnic FRF. Reclamațiile despre conduită sau procedură sunt analizate separat de judecata tehnică.
+
+## Prioritizarea când cererea depășește capacitatea
+Bugetul de referință susține 40 de intervenții de observare pe țară și sezon, echivalentul a 20 de dosare cu câte două observări. Coordonatorul publică înaintea sezonului calendarul ferestrelor de analiză, capacitatea și criteriile de ordonare, aprobate de staff-ul tehnic FRF. Toate semnalările primesc număr de înregistrare și răspuns; data înscrierii servește urmăririi administrative.
+
+| Criteriu public | Aplicare în ordonarea dosarelor | Control de echitate |
+| Eligibilitate și documente | Dosare confirmate sau cu un traseu juridic documentat, realizabil până la acțiunea vizată | Dosarele în clarificare primesc sprijin juridic și termen de reanalizare |
+| Vârstă și fereastră sportivă | Potrivirea cu categoria lotului și timpul disponibil până la următoarea acțiune FRF | Se folosește categoria și calendarul, evitând avantajul automat al celor născuți la începutul anului |
+| Nivel competițional și dovezi | Nivelul real al competiției clubului, rolul jucătorului și materialele comparabile justifică observarea | Prestigiul clubului se separă de nivelul observat; cluburile mici au acces la aceeași grilă |
+| Distanță și acces | Gruparea deplasărilor reduce costul între dosare cu prioritate sportivă și juridică echivalentă | Distanța este criteriu logistic de departajare, cu soluții de acces pentru zonele îndepărtate |
+
+Ordonarea se face mai întâi după posibilitatea juridică și fereastra sportivă, apoi după evaluarea contextuală a dovezilor. Coordonatorul propune lista, staff-ul tehnic FRF o validează, iar fiecare decizie are o justificare scurtă. Relațiile personale, sponsorii și ordinea înscrierii sunt excluse din punctaj. Pentru cazuri echivalente după aceste criterii se folosește o tragere la sorți documentată.
+
+Lista de așteptare se reanalizează lunar și înaintea fiecărei ferestre sportive. Familia primește stadiul, motivul și următoarea dată de analiză, cu posibilitatea corectării datelor sau contestării procedurii. Se publică numai rezultate agregate pe vârstă, sex și teritoriu. Extinderea distanțelor sau volumului se aprobă împreună cu finanțarea suplimentară, păstrând standardul celor două observări și limitele mandatului FRF.
 
 ## 15.4 Coordonatori și observatori verificabili
 Fiecare țară activată are un coordonator cu timp parțial, un responsabil de protecție accesibil și o rețea restrânsă de observatori. Mandatul, zona, sarcinile, supervizorul și valabilitatea sunt scrise. Folosirea numelui FRF presupune aprobarea sa expresă. Selecția observatorilor combină experiența, proba de raport și instruirea; agenții sau intermediarii activi sunt incompatibili cu rolul propus de evaluator.
@@ -372,7 +390,7 @@ Se urmăresc alegerea altei federații și motivele comunicate voluntar, satisfa
 # 16 Comunicare publică și sistemul operațional
 Comunicarea publică a programului cuprinde pagina de prezentare, documentele și apelul la colaborare. Versiunile română și engleză ajută dialogul cu diaspora și partenerii. Formularul public poate pregăti un mesaj de contact, dar nu trebuie folosit pentru sesizări despre copii, documente medicale ori acte de identitate.
 
-Sistemul operațional este un proiect distinct de site. Înainte de achiziție se verifică soluțiile FRF și ale partenerilor, posibilitatea integrării și drepturile de export. Nu reconstruim din reflex un sistem de legitimări sau competiții. Bugetul pilotului susține o soluție minimă adaptată, nu o platformă națională completă.
+Sistemul operațional este un proiect distinct de site. Înainte de achiziție se verifică soluțiile FRF și ale partenerilor, posibilitatea integrării și drepturile de export. Folosim sistemele existente de legitimări și competiții și completăm numai funcțiile necesare programului. Bugetul pilotului susține o soluție minimă adaptată, nu o platformă națională completă.
 
 ## Funcțiile minime
 Evidența echipelor și a adulților autorizați; programarea activităților; prezență; validarea documentelor fără expunerea lor largă; registru de costuri și documente justificative; rapoarte agregate. Cazurile de protecție se gestionează într-un circuit separat, cu acces restrâns. Numele copiilor nu apar în tabloul public.
@@ -391,7 +409,7 @@ Perioadele de păstrare sunt aprobate pe categorii, în raport cu scopul și obl
 Testăm înscrierea fără date excesive, o prezență înregistrată fără semnal și sincronizată, un export complet, retragerea accesului unui voluntar, restaurarea unei copii de siguranță și imposibilitatea accesului neautorizat la o sesizare. Plata finală pentru configurare este legată de rezultate demonstrate, nu doar de prezentarea unui ecran.
 
 # 17 Proiectul pilot și calendarul complet
-Pilotul testează capacitatea de a livra un sezon coerent și sigur pentru aproximativ 400 de copii U8/U10, cu 25 de echipe într-un municipiu și 4–6 comune. Nu este demonstrație de impact național și nu produce rezultate la seniori în primul an. Rolul său este să verifice costurile, participarea, resursele umane, colaborarea și controlul calității.
+Pilotul testează capacitatea de a livra un sezon coerent și sigur pentru aproximativ 400 de copii U8/U10, cu 25 de echipe într-un municipiu și 4–6 comune. Pilotul testează fezabilitatea locală; impactul național și parcursul la seniori se evaluează în etape ulterioare. Rolul său este să verifice costurile, participarea, resursele umane, colaborarea și controlul calității.
 
 Calendarul este relativ la aprobarea proiectului. O variantă orientativă este pregătirea în 2027, activitatea în 2028 și închiderea în 2029, în funcție de contractare. Niciun termen nu justifică lansarea fără finanțare și personal. Dacă startul se mută, întregul calendar și proiecțiile se reiau de la noua bază.
 
@@ -406,7 +424,7 @@ Calendarul este relativ la aprobarea proiectului. O variantă orientativă este 
 ## Selecția teritoriului
 Se solicită expresii de interes și se aplică o grilă publică: deficit de ofertă și nevoi de acces 30%, disponibilitatea bazelor 20%, personal și parteneri 20%, diversitate urban–rural 15%, capacitate de evidență și cooperare 15%. Ponderile sunt propuse. Orice risc critic de siguranță sau lipsă a dreptului de utilizare exclude deschiderea până la remediere, indiferent de scor.
 
-Nu alegem exclusiv cel mai ușor teritoriu. Pilotul trebuie să includă bariere reale, dar să rămână gestionabil. Se descrie în ce măsură rezultatele pot fi transferate în alte județe și ce condiții diferă. Publicarea unui scor nu elimină nevoia unei vizite și a verificării documentelor.
+Alegem un teritoriu cu nevoi relevante și capacitate suficientă pentru testarea modelului. Pilotul trebuie să includă bariere reale, dar să rămână gestionabil. Se descrie în ce măsură rezultatele pot fi transferate în alte județe și ce condiții diferă. Publicarea unui scor nu elimină nevoia unei vizite și a verificării documentelor.
 
 ## Designul evaluării
 Evaluatorul fixează cohorta și indicatorii înainte de înscriere. Compară evoluția cu situația inițială și, dacă este fezabil și etic, cu comunități similare care nu primesc încă intervenția. Alocarea nu restrânge arbitrar accesul la activități disponibile. Un pilot mic oferă în principal dovezi de fezabilitate; diferențele observate nu sunt automat efecte cauzale.
@@ -417,7 +435,7 @@ Pentru 25 de echipe sunt necesare 50 de intervale săptămânale de antrenament.
 Copiii sunt înscriși numai în limita locurilor confirmate. Lista de așteptare este transparentă și nu este raportată drept participare. La închiderea proiectului, fiecare familie primește opțiunea de continuitate și persoana de contact; programul nu dispare imediat după raportarea finală.
 
 # 18 Bugetul pilotului și ipotezele de cost
-Bugetul următor este o estimare de proiectare, calculată de jos în sus pentru configurația de 21 de luni. Nu este o ofertă de piață și nu constituie o solicitare aprobată de finanțare. Costurile unitare sunt ipoteze care trebuie înlocuite prin oferte și costuri salariale complete, înainte de contractare.
+Bugetul următor este o estimare de proiectare, calculată de jos în sus pentru configurația de 21 de luni. Valorile sunt ipoteze de planificare, care devin buget de execuție după ofertare și aprobarea finanțării. Costurile unitare sunt ipoteze care trebuie înlocuite prin oferte și costuri salariale complete, înainte de contractare.
 
 Sumele pentru personal reprezintă cost total bugetat al organizației, nu salariu net. Pentru servicii și bunuri, ipoteza este costul total suportat de proiect, inclusiv taxele nerecuperabile. Dacă ofertele sau tratamentul TVA diferă, linia este recalculată; nu se adaugă încă o dată TVA peste un preț deja brut. Conversia în lei se face la cursul bugetar aprobat la contractare, nu la un curs presupus în document.
 
@@ -460,7 +478,7 @@ Componenta dedicată formatorilor este de 37.200 EUR înainte de rezervă, iar i
 Pentru a nu ascunde dependența de resurse gratuite, ipoteza de lucru este de 4.500 de ore de contribuție locală evaluate la 8 EUR/oră, adică 36.000 EUR, plus 12.000 EUR valoare a accesului la spații peste costul incremental plătit. Rezultă 48.000 EUR resurse în natură. Valoarea economică a pachetului este astfel aproximativ 413.505 EUR dacă întreaga rezervă este utilizată. Aceasta nu este suma de cerut în numerar și nici cofinanțare automat eligibilă la un grant.
 
 ## Excluderi explicite
-Nu sunt incluse construcții, renovări majore, tabere internaționale, salarii de jucători, transferuri, o platformă națională dezvoltată integral de la zero, achiziția de vehicule sau taxele suplimentare pentru calificări oficiale care nu au fost încă ofertate. Nu este inclusă monitorizarea extinsă până la 24 de luni după toate absolvirile. Fiecare adăugire cere buget și sursă separată înainte de angajare.
+Construcțiile, renovările majore, taberele internaționale, o platformă națională dezvoltată integral de la zero, achiziția de vehicule și taxele suplimentare pentru calificări oficiale necesită bugete și aprobări distincte. Salariile jucătorilor și transferurile rămân în afara scopului pilotului. Monitorizarea extinsă până la 24 de luni după toate absolvirile necesită un buget suplimentar. Fiecare adăugire cere buget și sursă separată înainte de angajare.
 
 ## Verificări înainte de aprobare
 Se obțin oferte pentru baze, transport, asigurări, formare oficială, evaluare, tehnologie și servicii administrative. Pentru costurile de personal se confirmă timpul real și obligațiile totale. Bugetul este revizuit dacă voluntariatul sau sprijinul în natură nu sunt disponibile. Rezerva nu este o soluție pentru costuri cunoscute și omise.
@@ -489,7 +507,7 @@ Ca regulă internă propusă, abaterile de peste 10% pe o linie ori orice schimb
 Se urmăresc separat economiile, întârzierile și anulările. O economie la transport poate însemna eficiență sau excluderea copiilor; interpretarea cere date de participare. Indicatorii financiari sunt citiți împreună cu calitatea și accesul.
 
 ## Plan în caz de întârziere a finanțării
-Se amână extinderea și cheltuielile opționale, se renegociază legal calendarul și se păstrează obligațiile esențiale de protecție și continuitate. Nu se solicită informal părinților să acopere lipsa. Dacă sezonul nu mai poate fi susținut, se aplică planul de închidere și transferul responsabil al activităților; problema se comunică înainte de întrerupere.
+Se amână extinderea și cheltuielile opționale, se renegociază legal calendarul și se păstrează obligațiile esențiale de protecție și continuitate. Organizația gazdă acoperă deficitul prin finanțare aprobată sau ajustează activitățile, protejând accesul familiilor. Dacă sezonul nu mai poate fi susținut, se aplică planul de închidere și transferul responsabil al activităților; problema se comunică înainte de întrerupere.
 
 # 20 Costul anual după pilot
 Costul pilotului include pregătirea, evaluarea și funcții care pot deservi ulterior mai mulți copii. Operarea anuală a rețelei se dimensionează separat, pe loc ocupat și pe capacitate de coordonare, conform formulelor de mai jos.
@@ -511,12 +529,12 @@ La costul recurent se adaugă 100 EUR pentru fiecare loc net nou față de anul 
 ## Formule reproductibile
 N este numărul mediu anual de locuri ocupate, echivalent an complet, nu totalul de înscrieri ocazionale. H = rotunjire în sus a lui N / 2.000. C = 300.000 + 100.000 × max(0, rotunjire în sus a lui N / 50.000 − 1). Cost recurent = 420 × N + 60.000 × H + C. Activare = 100 × max(0, N − N anterior). Buget cu rezervă = 1,10 × (cost recurent + activare).
 
-Contribuția în natură orientativă este 120 EUR × N, adăugată doar pentru costul economic. Nu este încasare și nu reduce automat necesarul de numerar. Nu se adaugă încă o dată liniile de formare, mentorat și transport peste formula de 420 EUR: ele sunt deja incluse în componentele indicate.
+Contribuția în natură orientativă este 120 EUR × N, adăugată doar pentru costul economic. Contribuția în natură se evidențiază separat de încasări; efectul asupra necesarului de numerar se demonstrează pe fiecare cost substituit. Liniile de formare, mentorat și transport sunt incluse o singură dată în componentele formulei de 420 EUR.
 
 ## Capacitate și limite
 Un centru de suport nu este automat o clădire nouă. El reprezintă personal și servicii teritoriale, care pot folosi spații existente. La 100.000 de locuri, formula cere 50 de centre, care nu coincid obligatoriu cu județele. La distanțe mari ori complexitate ridicată, raportul 1 la 2.000 trebuie redus și costul crește.
 
-Modelul presupune disponibilitatea unei baze importante de voluntariat și spații la cost incremental. Nu include investiții majore și nici toate serviciile posibile ale unei academii de performanță. Dacă se cere livrare integral prin personal plătit ori chirii comerciale, scenariul de 420 EUR trebuie înlocuit cu costuri ofertate. Extinderea nu este autorizată de simpla existență a unui tabel financiar.
+Modelul presupune disponibilitatea unei baze importante de voluntariat și spații la cost incremental. Investițiile majore și serviciile suplimentare ale academiilor de performanță se bugetează separat. Dacă se cere livrare integral prin personal plătit ori chirii comerciale, scenariul de 420 EUR trebuie înlocuit cu costuri ofertate. Extinderea nu este autorizată de simpla existență a unui tabel financiar.
 
 # 21 Proiecții de participare și finanțare pentru 2030–2040
 Cele trei scenarii sunt traiectorii condiționate de resurse, nu prognoze statistice și nici angajamente publice. Ele încep după etapa de pilot și presupun că există o rețea inițială de 400 de locuri. Scenariile au aceeași formulă de cost pentru comparabilitate, dar viteze diferite de creștere. Valorile din 2030 includ activarea capacității centrale de extindere; acest cost explică nivelul ridicat per copil la scară mică.
@@ -524,7 +542,7 @@ Cele trei scenarii sunt traiectorii condiționate de resurse, nu prognoze statis
 Tabelul arată bugetul anual la prețuri constante 2026 și echivalentul nominal calculat cu o ipoteză de inflație de 2,5% pe an. Aceasta este o convenție de planificare, nu o prognoză macroeconomică. Factorul nominal este 1,025 la puterea anului minus 2026. Bugetele se recalculează anual din oferte, salarii și curs valutar efectiv.
 
 ## Scenariul prudent
-Concentrează resursele pe consolidare și ajunge la 35.000 de locuri în 2040. Este adecvat dacă recrutarea personalului sau finanțarea multianuală avansează lent. Nu este un scenariu de calitate redusă: standardele de protecție și evaluare rămân aceleași.
+Concentrează resursele pe consolidare și ajunge la 35.000 de locuri în 2040. Este adecvat dacă recrutarea personalului sau finanțarea multianuală avansează lent. Scenariul păstrează integral standardele de protecție și evaluare.
 
 | An | Locuri ocupate | Centre de suport | Bani EUR 2026 | Bani nominali EUR |
 | 2030 | 400 | 1 | 580.800 | 641.095 |
@@ -558,7 +576,7 @@ Crește treptat la 100.000 de locuri în 2040. Este o ambiție de dimensionare, 
 | Total | 413.400 ani-participant | | 219.810.800 | 293.561.879 |
 
 ## Scenariul accelerat
-Ajunge la 150.000 de locuri în 2040 și impune recrutare, formare și coordonare mult mai ample. Nu se selectează doar pentru că atrage un finanțator. Dacă auditul capacității nu susține ritmul, programul revine la scenariul prudent sau de referință.
+Ajunge la 150.000 de locuri în 2040 și impune recrutare, formare și coordonare mult mai ample. Scenariul se selectează după capacitatea de implementare și resursele sustenabile. Dacă auditul capacității nu susține ritmul, programul revine la scenariul prudent sau de referință.
 
 | An | Locuri ocupate | Centre de suport | Bani EUR 2026 | Bani nominali EUR |
 | 2030 | 400 | 1 | 580.800 | 641.095 |
@@ -575,7 +593,7 @@ Ajunge la 150.000 de locuri în 2040 și impune recrutare, formare și coordonar
 | Total | 612.400 ani-participant | | 324.112.800 | 432.845.228 |
 
 ## Cum se interpretează totalurile
-Suma locurilor anuale reprezintă ani-participant, nu copii unici. Același copil poate apărea în mai mulți ani. Nu adunăm aceste valori pentru a afirma câți copii diferiți au fost ajutați. Bugetele celor trei scenarii sunt alternative și nu se însumează. Costul pilotului 2027–2029 este separat și se adaugă numai când se calculează finanțarea întregului program de la pregătire.
+Suma locurilor anuale reprezintă ani-participant, nu copii unici. Același copil poate apărea în mai mulți ani. Numărul beneficiarilor unici se calculează distinct, prin deduplicarea cohortelor. Bugetele celor trei scenarii sunt alternative și nu se însumează. Costul pilotului 2027–2029 este separat și se adaugă numai când se calculează finanțarea întregului program de la pregătire.
 
 Proiecția nu include venituri din transferuri, drepturi TV, taxe ale familiilor vulnerabile sau alocări publice încă neadoptate. Ea măsoară necesarul financiar brut. Acoperirea lui se verifică distinct prin contracte și încasări, iar lipsa finanțării impune reducerea volumului, nu diluarea siguranței.
 
@@ -599,7 +617,7 @@ La 10.000 de locuri ocupate și rată de activitate de 75%, rezultă 7.500 de co
 | Participare activă 85% | 5.280.000 | 621 |
 
 
-Cazurile de cost redus și ridicat schimbă numai componenta variabilă, la 340 și 520 EUR. Costurile teritoriale, centrale și rezerva rămân în aceeași formulă. Nu sunt oferte alternative și nu dovedesc că standardele pot fi respectate la valoarea redusă. Se testează explicit disponibilitatea personalului și spațiilor pentru fiecare configurație.
+Cazurile de cost redus și ridicat schimbă numai componenta variabilă, la 340 și 520 EUR. Costurile teritoriale, centrale și rezerva rămân în aceeași formulă. Sunt teste de sensibilitate; orice variantă de execuție necesită oferte și verificarea respectării standardelor. Se testează explicit disponibilitatea personalului și spațiilor pentru fiecare configurație.
 
 ## Sensibilitatea pilotului
 | Configurație | Plafon EUR | Cost pe înscris | Cost pe activ la 75% |
@@ -612,7 +630,7 @@ Reducerea numărului de participanți fără reducerea costurilor fixe mărește
 ## Alte șocuri care cer recalculare
 Dacă spațiile gratuite dispar, fiecare 50 EUR suplimentari pe loc/an adaugă 550.000 EUR la bugetul de 10.000 de locuri, cu rezerva de 10% inclusă. Dacă finanțarea privată reprezintă 35% din pilot și jumătate din ea nu se contractează, lipsa este 17,5% din plafonul total, aproximativ 63.963 EUR. Această lipsă nu se acoperă printr-o notă optimistă despre donații.
 
-Inflația se testează și la 0% și 5%; la 2040, factorii față de 2026 sunt aproximativ 1,00, 1,413 pentru 2,5% și 1,980 pentru 5%. Un contract în lei cu costuri parțial în euro cere și scenariu de curs. Nu se însumează mecanic toate șocurile fără a explica dacă sunt simultane și ce componente afectează.
+Inflația se testează și la 0% și 5%; la 2040, factorii față de 2026 sunt aproximativ 1,00, 1,413 pentru 2,5% și 1,980 pentru 5%. Un contract în lei cu costuri parțial în euro cere și scenariu de curs. Scenariile combinate precizează simultaneitatea șocurilor și componentele afectate.
 
 # 23 Surse de finanțare și eligibilitate
 Finanțarea trebuie să combine resurse recurente pentru activitate cu fonduri de proiect pentru formare, incluziune și dezvoltare. O competiție de granturi poate susține un modul, dar nu este o sursă sigură pentru salarii și chirii pe termen nelimitat. Fiecare oportunitate are solicitant eligibil, cheltuieli permise, cofinanțare, calendar și obligații de raportare.
@@ -620,10 +638,10 @@ Finanțarea trebuie să combine resurse recurente pentru activitate cu fonduri d
 ## Finanțări publice locale și naționale
 Se analizează programele autorităților și instrumentele legale potrivite beneficiarului. Legea 350/2005 oferă un cadru pentru anumite finanțări nonprofit, cu selecție și condiții specifice. Cheltuielile, investițiile și contribuțiile în natură se încadrează separat în regulile finanțatorului. Eligibilitatea, cofinanțarea și procedura se verifică în ghidul și contractul aplicabil. [S5]
 
-Realocarea de la prima echipă spre copii este o sursă propusă, dependentă de decizia autorităților și de contractele existente. Pentru pilot, finanțarea publică poate proveni și din programe deja eligibile, fără a aștepta reforma națională. Nu prezentăm suma totală a subvențiilor din fotbal ca fond disponibil al proiectului.
+Realocarea de la prima echipă spre copii este o sursă propusă, dependentă de decizia autorităților și de contractele existente. Pentru pilot, finanțarea publică poate proveni și din programe deja eligibile, fără a aștepta reforma națională. Disponibilul proiectului cuprinde numai alocările confirmate pentru activitățile sale.
 
 ## UEFA HatTrick
-Reper verificat: HatTrick VI se referă la ciclul iulie 2024–iunie 2028, în care fiecare federație membră poate primi până la 17 milioane EUR, prin componente și condiții distincte. Nu este un grant de 17 milioane pentru o platformă civică. Accesul proiectului ar presupune integrarea unor activități eligibile în planurile și aprobările FRF. Alocările și disponibilul efectiv pentru România trebuie confirmate; ciclurile viitoare nu sunt extrapolate ca venituri garantate. [S1]
+Reper verificat: HatTrick VI se referă la ciclul iulie 2024–iunie 2028, în care fiecare federație membră poate primi până la 17 milioane EUR, prin componente și condiții distincte. Plafonul se referă la cadrul instituțional al federației; accesul proiectului depinde de eligibilitate, prioritizare și alocare. Accesul proiectului ar presupune integrarea unor activități eligibile în planurile și aprobările FRF. Alocările și disponibilul efectiv pentru România trebuie confirmate; ciclurile viitoare nu sunt extrapolate ca venituri garantate. [S1]
 
 ## FIFA Forward: pregătirea ciclului 2027–2030
 Ciclul relevant pentru pregătirea implementării este 2027–2030. Congresul FIFA din 30 aprilie 2026 a aprobat bugetul ciclului, iar comunicarea oficială indică investiții globale Forward de 2,7 miliarde USD. Acesta este un plafon global al programului, nu o alocare pentru România sau pentru această propunere. [S2a]
@@ -633,9 +651,9 @@ Separat, FIFA a anunțat o propunere de creștere a finanțării pe federație l
 Forward 3.0, 2023–2026, rămâne un reper de arhitectură și control. Pentru cheltuielile viitoare, FRF confirmă regulile operative ale noului ciclu, categoriile eligibile, calendarul și aprobările. Bugetul pilotului înregistrează numai contribuții contractate; anunțurile globale susțin identificarea oportunității. [S2]
 
 ## Erasmus Plus Sport
-Parteneriatele la scară mică au în ghidul consultat granturi forfetare de 30.000 sau 60.000 EUR. Sunt potrivite de explorat pentru cooperare, învățare și incluziune, cu parteneriat transnațional eligibil. Nu finanțează automat întreaga operare a unei rețele naționale. Parteneriatele de cooperare au opțiuni de 120.000, 250.000 și 400.000 EUR; ghidul cere minimum trei organizații din trei țări eligibile și stabilește condiții pentru coordonator, inclusiv vechimea sa. Bugetul privește consorțiul, nu numai organizația română. [S3a, S3b]
+Parteneriatele la scară mică au în ghidul consultat granturi forfetare de 30.000 sau 60.000 EUR. Sunt potrivite de explorat pentru cooperare, învățare și incluziune, cu parteneriat transnațional eligibil. Operarea rețelei naționale necesită un plan de finanțare distinct și surse complementare. Parteneriatele de cooperare au opțiuni de 120.000, 250.000 și 400.000 EUR; ghidul cere minimum trei organizații din trei țări eligibile și stabilește condiții pentru coordonator, inclusiv vechimea sa. Bugetul privește consorțiul, nu numai organizația română. [S3a, S3b]
 
-Termenul Sport din ghidul 2026 consultat a fost 5 martie 2026 și este trecut la data documentului. Pregătim un dosar pentru un apel ulterior numai după publicarea și verificarea regulilor sale. Nu prezentăm un apel expirat ca oportunitate încă deschisă.
+Termenul Sport din ghidul 2026 consultat a fost 5 martie 2026 și este trecut la data documentului. Pregătim un dosar pentru un apel ulterior numai după publicarea și verificarea regulilor sale. Registrul oportunităților afișează starea și termenul actualizat al fiecărui apel.
 
 ## Fundații, sponsori și donații
 UEFA Foundation for Children are apeluri pentru proiecte care servesc drepturile și nevoile copiilor; pagina consultată indică apelul 2026 închis. Urmărim ciclul următor, fără să presupunem suma sau eligibilitatea. [S10] Fundațiile private și sponsorii pot susține transport, echipament, formare sau evaluare, cu contract și raportare. Facilitățile fiscale se verifică la contractare, fără a promite un beneficiu fiscal universal.
@@ -643,7 +661,7 @@ UEFA Foundation for Children are apeluri pentru proiecte care servesc drepturile
 Donațiile recurente sunt utile pentru continuitate, dar au volatilitate. Campaniile prezintă destinația, costurile și ce se întâmplă dacă ținta nu este atinsă. Datele copiilor nu sunt recompensă pentru donatori. Nu acceptăm condiții care influențează selecțiile sau impun promovare nepotrivită minorilor.
 
 ## Programe regionale și investiții
-Pentru clădiri, reabilitare, accesibilitate ori eficiență energetică se examinează apelurile autorităților de management și eligibilitatea proprietarului. Nu este identificat aici un apel regional concret, deschis și potrivit unei localități încă neselectate. Proiectul de infrastructură are finanțare, autorizare și buget de exploatare proprii. Funcționarea echipelor are surse și contracte distincte de investiția fizică.
+Pentru clădiri, reabilitare, accesibilitate ori eficiență energetică se examinează apelurile autorităților de management și eligibilitatea proprietarului. Apelul regional potrivit se identifică după alegerea localității și verificarea calendarului disponibil. Proiectul de infrastructură are finanțare, autorizare și buget de exploatare proprii. Funcționarea echipelor are surse și contracte distincte de investiția fizică.
 
 # 24 Planul de atragere a finanțării
 Înainte de contactarea finanțatorilor, organizația gazdă pregătește identitatea juridică, situațiile financiare disponibile, politica de integritate, documentele de protecție, bugetul și dovezile de nevoie locală. O platformă publică nu substituie capacitatea de a semna contracte și de a administra fonduri.
@@ -716,7 +734,7 @@ Publicăm trimestrial categorii de cheltuieli și stadiul livrabilelor. Publicar
 Registrul identifică fiecare document unic și verifică folosirea lui în toate rapoartele. Un cost declarat în natură nu este simultan plătit din alt grant fără corecție. Costul profesorului deja acoperit de altă instituție poate fi imputat proiectului numai pentru activitatea și condițiile legal eligibile. Orice neclaritate se soluționează înainte de raportare, nu după solicitarea rambursării.
 
 # 27 Monitorizare și evaluare
-Evaluarea răspunde la trei întrebări: putem livra sigur și constant, pentru cine funcționează și cât costă? Nu folosim un singur procent pentru a declara succesul. Un program poate avea prezență bună și probleme de protecție, ori cost scăzut pentru că nu ajunge la copiii cu bariere mari.
+Evaluarea răspunde la trei întrebări: putem livra sigur și constant, pentru cine funcționează și cât costă? Decizia de succes folosește împreună indicatorii de acces, calitate, siguranță, continuitate și cost. Un program poate avea prezență bună și probleme de protecție, ori cost scăzut pentru că nu ajunge la copiii cu bariere mari.
 
 ## Dicționar de indicatori
 | Indicator | Definiție și frecvență | Responsabil |
@@ -793,7 +811,7 @@ Extinderea pornește după raportul pilotului, remedierea problemelor și finan�
 Putem extinde când condițiile de protecție sunt îndeplinite, activitatea este stabilă, datele sunt credibile, costurile sunt explicate și există finanțare pentru următoarea etapă. Pragurile cantitative ajută decizia, dar nu înlocuiesc analiza. O comunitate rurală dificilă poate avea nevoie de sprijin suplimentar chiar dacă media pilotului este bună.
 
 ## Modificăm
-Dacă participarea, retenția ori costurile se abat, dar problemele au soluții realiste, aprobăm o etapă de remediere cu obiective și termen. Exemple: reducerea încărcării mentorilor, înlocuirea unui spațiu, reorganizarea transportului, ajustarea programei sau îmbunătățirea administrării. Nu extindem întâi și corectăm ulterior.
+Dacă participarea, retenția ori costurile se abat, dar problemele au soluții realiste, aprobăm o etapă de remediere cu obiective și termen. Exemple: reducerea încărcării mentorilor, înlocuirea unui spațiu, reorganizarea transportului, ajustarea programei sau îmbunătățirea administrării. Extinderea urmează remedierii problemelor și confirmării capacității.
 
 ## Oprim extinderea sau o activitate
 Lipsa finanțării, riscurile de protecție necontrolate, datele falsificate ori incapacitatea de livrare pot impune suspendare. Decizia precizează ce se oprește, cum sunt protejați participanții și ce condiții permit reluarea. Oprirea unei activități nu presupune automat desființarea tuturor componentelor.
@@ -843,14 +861,14 @@ Pachetul de expertiză de mai sus cumpără timp de formatori și mentori. Rețe
 | Rezervă 15% | 28.200 × 15% | 4.230 |
 | Plafon pe țară | Total | 32.430 |
 
-Cele 40 de intervenții permit două observări pentru 20 de candidați, realizate de persoane diferite. Într-un meci pot fi observați mai mulți candidați, iar economiile se consemnează; bugetul nu dublează deplasarea. Pachetul de două zile locale este distinct de observarea la meciurile cluburilor. Extinderea distanțelor ori un volum mai mare de cazuri juridice cere ofertare și aprobare suplimentară.
+Cele 40 de intervenții permit două observări pentru 20 de candidați U14–U19, realizate de persoane diferite. Semnalările U13 sunt preluate administrativ în timpul coordonatorului. Alocarea observărilor urmează criteriile publice din capitolul 15. Într-un meci pot fi observați mai mulți candidați, iar economiile se consemnează; bugetul nu dublează deplasarea. Pachetul de două zile locale este distinct de observarea la meciurile cluburilor. Extinderea distanțelor ori un volum mai mare de cazuri juridice cere ofertare și aprobare suplimentară.
 
 Pentru o invitație FRF de trei zile în România, ipoteza pentru un copil și un însoțitor este: transport dus-întors 2 × 250 = 500 EUR; cazare și masă 2 × 3 × 100 = 600 EUR; transport local 100 EUR; asigurare 50 EUR; sprijin lingvistic și logistic 150 EUR. Bază 1.400 EUR; rezervă 210 EUR; plafon 1.610 EUR. Serviciile sportive și medicale ale acțiunii sunt asigurate prin bugetul FRF al gazdei, separat și confirmat înainte de invitație. Dacă nu sunt acoperite, se adaugă explicit la costul acțiunii; suma de 1.610 EUR reprezintă numai pachetul individual de deplasare și integrare.
 
 Patru țări înseamnă 4 × 32.430 = 129.720 EUR/sezon. Douăzeci de invitații adaugă 32.200 EUR. Plafonul ilustrativ al rețelei și al deplasărilor este 161.920 EUR, cu rezerve incluse, fără finanțare confirmată. Lansarea unei singure țări cu cinci invitații ar necesita 40.480 EUR, plus serviciile gazdei dacă sunt neacoperite. Numărul invitațiilor este plafon de lucru, nu obligație pentru selecționeri. Fiecare activitate are finanțator și costuri complete aprobate înainte de confirmare.
 
 ## Sprijin pentru tranziția la seniori
-Pentru un grup de 50 de jucători eligibili, un pachet anual de orientare poate include mentorat 50 × 400 EUR, sprijin educațional 50 × 300 EUR, coordonare 12.000 EUR și evaluare 6.000 EUR. Baza este 53.000 EUR, iar totalul cu rezervă de 15% este 60.950 EUR. Nu sunt salarii de jucători, comisioane de agenți ori sume pentru transferuri. Beneficiarii sunt selectați transparent și sunt urmărite opțiunile educaționale, nu numai contractele sportive.
+Pentru un grup de 50 de jucători eligibili, un pachet anual de orientare poate include mentorat 50 × 400 EUR, sprijin educațional 50 × 300 EUR, coordonare 12.000 EUR și evaluare 6.000 EUR. Baza este 53.000 EUR, iar totalul cu rezervă de 15% este 60.950 EUR. Bugetul finanțează exclusiv serviciile de sprijin descrise; salariile jucătorilor, comisioanele agenților și transferurile sunt în afara acestui pachet. Beneficiarii sunt selectați transparent și sunt urmărite opțiunile educaționale, nu numai contractele sportive.
 
 ## Infrastructură și investiții de capital
 Pentru mici adaptări, un exemplu de plafon de lucru este șase puncte × 2.000 EUR = 12.000 EUR, respectiv 13.800 EUR cu rezervă de 15%. Lista lucrărilor, regimul proprietății și avizele se confirmă înainte de utilizare. Suma nu este deja inclusă în taxa lunară de acces din pilot decât dacă acordul o prevede explicit.
@@ -858,7 +876,7 @@ Pentru mici adaptări, un exemplu de plafon de lucru este șase puncte × 2.000 
 Pentru construcții nu stabilim un preț unitar drept adevăr de piață. Folosim formula: investiție aprobată = lucrări ofertate + proiectare și avize + dotări + costuri de punere în funcțiune + rezervă justificată. Costul pe cinci ani adaugă utilități, personal, mentenanță, asigurare și înlocuiri. Orice teren nou are studiu și buget propriu; nu se aprobă prin aplicarea unui tarif generic pe copil.
 
 ## Cum se face bugetul consolidat
-La scenariul comunitar ales se adaugă numai componentele suplimentare aprobate pentru anul respectiv, din care se scad costurile comune deja acoperite. Nu se aplică încă o rezervă generală peste pachetele care au deja rezervă, fără motiv distinct. Pilotul, operarea anuală, investițiile și serviciile de performanță sunt coloane separate ale aceluiași plan financiar.
+La scenariul comunitar ales se adaugă numai componentele suplimentare aprobate pentru anul respectiv, din care se scad costurile comune deja acoperite. Rezervele incluse se consolidează o singură dată; o rezervă suplimentară cere un risc distinct și justificat. Pilotul, operarea anuală, investițiile și serviciile de performanță sunt coloane separate ale aceluiași plan financiar.
 
 Ca exemplu de portofoliu matur, cele patru centre, expertiza din diaspora și sprijinul pentru tranziție ar totaliza 245.824 EUR pe an, la prețuri de referință 2026, înainte de ajustarea suprapunerilor. Rețeaua de observare și deplasările jucătorilor sunt distincte: adăugarea scenariului cu patru țări și 20 de invitații conduce la 407.744 EUR, înainte de eliminarea suprapunerilor și de eventuala completare a costurilor sportive ale gazdei. Lucrările sunt separate. Volumele se aprobă anual, fără extrapolare automată până în 2040.
 
@@ -873,7 +891,7 @@ Livrabilele sunt metodologia de inventariere, baza agregată, analiza opțiunilo
 ## Pachetul 2 Copilul activ
 Coordonatorul local definește cohorta, înscrierea și prezența împreună cu evaluatorul înainte de luna 7. Administratorii sunt instruiți cu exemple de intrare târzie, absență și transfer. Un eșantion de evidențe este verificat lunar pentru dublări și erori.
 
-Livrabilele sunt dicționarul de date, registrul inițial și raportul de activitate la 3, 6 și 12 luni. Acceptanța cere numărător și numitor reproductibile. Bugetul folosește coordonarea, instrumentul digital și evaluarea. Nu se cumpără o platformă nouă doar pentru a calcula prezența. Riscul principal este înlocuirea copiilor plecați în numitor; cohorta inițială rămâne fixă pentru retenție.
+Livrabilele sunt dicționarul de date, registrul inițial și raportul de activitate la 3, 6 și 12 luni. Acceptanța cere numărător și numitor reproductibile. Bugetul folosește coordonarea, instrumentul digital și evaluarea. Calculul prezenței folosește instrumentele existente, configurate pentru cerințele pilotului. Riscul principal este înlocuirea copiilor plecați în numitor; cohorta inițială rămâne fixă pentru retenție.
 
 ## Pachetul 3 Fotbalul de bază
 Coordonatorul tehnic configurează 25 de echipe și calendarul celor două sesiuni săptămânale în cele 30 de săptămâni planificate. În lunile 4–6 verifică baza de iarnă, adulții, orarele și festivalurile. Primele șase săptămâni de activitate sunt revizuite cu familiile.
@@ -901,9 +919,9 @@ Coordonatorul tehnic inventariază programele și cluburile existente și propun
 Livrabilele sunt harta traseelor, criteriile de evaluare, regulile de revenire și acordurile cu academiile. Acceptanța cere protejarea locului comunitar pentru cei neselectați. Bugetul pilotului acoperă numai timpul de proiectare inclus în coordonare; centrele și serviciile de performanță nu sunt finanțate implicit. Riscul este atribuirea unor rezultate anterioare proiectului.
 
 ## Pachetul 8 Diaspora
-Două componente distincte: expertiza pentru formatori și rețeaua de identificare a jucătorilor, integrată în funcția FRF existentă. Responsabili: coordonatorul de țară, structura de observare și staff-ul tehnic FRF, responsabilul juridic și cel de protecție. Selecția sportivă la loturi aparține FRF.
+Două componente distincte: expertiza pentru formatori și rețeaua de identificare a jucătorilor, integrată în funcția FRF existentă. Responsabili: coordonatorul de țară, structura de observare și staff-ul tehnic FRF, responsabilul juridic și cel de protecție. Selecția sportivă la loturi aparține exclusiv staff-ului tehnic FRF. Identificarea începe la U13, observarea structurată acoperă U14–U19; U21/A sunt gestionate direct de FRF, în afara rețelei bugetate aici.
 
-Livrabile: acord și mandat, registru public al observatorilor, fișă de eligibilitate, două rapoarte de observare pentru fiecare candidat avansat, evaluare comparabilă, invitație și plan de urmărire. În primele 90 de zile se confirmă datele FRF și o țară de test. Acceptanța cere acorduri, acces legal la date, verificări și finanțare completă, inclusiv gazda acțiunilor.
+Livrabile: acord și mandat, registru public al observatorilor, fișă de eligibilitate, două rapoarte de observare pentru fiecare candidat avansat, evaluare comparabilă, invitație și plan de urmărire. În primele 90 de zile se confirmă datele FRF, o țară de test și criteriile publice de prioritizare din capitolul 15. Lista de așteptare și justificările ordonării sunt livrabile operaționale. Acceptanța cere acorduri, acces legal la date, verificări și finanțare completă, inclusiv gazda acțiunilor.
 
 Bugete distincte din capitolul 31: expertiză 14.490 EUR; o țară 32.430 EUR/sezon; deplasare și integrare per invitație 1.610 EUR. Acestea se activează separat de pilotul U8/U10, iar cheltuielile comune se deduplică. Riscurile sunt falsa reprezentare, presiunea comercială, selecția favorizată și datele excesive; controalele sunt mandate verificabile, declarații de interese, evaluare documentată și acces restrâns. Indicatorii din capitolul 15 includ junioarele și dosarele în așteptare.
 
@@ -944,7 +962,7 @@ Această programă este o propunere de dimensionare pentru formatorii programulu
 | Observare și predare supervizată | 64 | Portofoliu cu activități, feedback și remediere |
 | Date, evaluare și îmbunătățire | 24 | Interpretare corectă a rezultatelor și limite |
 | Probe finale și reflecție | 24 | Evaluare independentă și plan local de activitate |
-| Total de lucru | 240 | Nu echivalează automat o licență oficială |
+| Total de lucru | 240 | Recunoașterea oficială cere procedura organismului competent |
 
 Orele reprezintă timpul total de învățare și practică al candidatului, nu zile de onorariu facturabile de expert pentru fiecare persoană. O parte poate fi studiu individual și practică locală documentată. Această diferență explică de ce bugetul experților nu se calculează ca 240 de ore × 12 persoane × tarif de predare individuală.
 
@@ -984,7 +1002,7 @@ Dosarul conține clubul sau entitatea responsabilă, persoana tehnică, adulții
 Managerul, responsabilul tehnic și cel de protecție confirmă fiecare partea lor. O condiție neîndeplinită produce o listă de remediere și un termen. Echipa poate începe numai după închiderea condițiilor critice. Semnătura unui finanțator nu substituie aceste verificări.
 
 ## Primele șase săptămâni de activitate
-Se verifică prezența, timpul de deplasare, dificultățile de program și sarcina voluntarilor. Se observă fiecare punct și se oferă feedback. Modificările sunt comunicate familiilor și consemnate pentru a putea interpreta ulterior rezultatele. Nu se schimbă retroactiv definițiile de succes pentru a se potrivi datelor.
+Se verifică prezența, timpul de deplasare, dificultățile de program și sarcina voluntarilor. Se observă fiecare punct și se oferă feedback. Modificările sunt comunicate familiilor și consemnate pentru a putea interpreta ulterior rezultatele. Raportarea păstrează definițiile de succes aprobate înaintea colectării datelor; modificările metodologice se documentează separat.
 
 # Anexa D Modele operaționale pentru implementare
 Modelele de mai jos definesc informațiile necesare. Ele trebuie adaptate și aprobate înainte de utilizare; nu sunt contracte juridice gata de semnat. Datele personale se colectează numai în măsura necesară rolului și scopului.
@@ -1019,7 +1037,7 @@ Problema; variantele analizate; date și limite; costuri; persoane consultate; c
 
 # Anexa E Caiet de sarcini minim pentru sistemul operațional
 ## Scop și livrabile
-Furnizorul configurează o soluție pentru pilot, pornind de la procesele aprobate. Livrabilele sunt analiza scurtă de cerințe, configurația, rolurile, migrarea controlată a datelor aprobate, instruirea, documentația de administrare, exportul și planul de ieșire. Nu i se cere implicit un sistem național de legitimări și nu primește dreptul de a comercializa datele participanților.
+Furnizorul configurează o soluție pentru pilot, pornind de la procesele aprobate. Livrabilele sunt analiza scurtă de cerințe, configurația, rolurile, migrarea controlată a datelor aprobate, instruirea, documentația de administrare, exportul și planul de ieșire. Mandatul furnizorului acoperă funcțiile pilotului. Comercializarea datelor participanților este interzisă.
 
 ## Scenarii de acceptanță
 Un administrator înscrie o echipă, acordă acces numai adulților autorizați și înregistrează prezența. Un mentor vede echipele atribuite, fără documentele sensibile care nu îi sunt necesare. Un financiar poate urmări sursa și documentele cheltuielii, fără acces la sesizările de protecție. Un cont retras nu mai poate accesa datele, iar jurnalul arată modificarea.
@@ -1030,7 +1048,7 @@ Soluția exportă toate datele programului în formate documentate. Un export es
 Contractul stabilește persoana de contact, timpul de răspuns pe niveluri de incident, actualizările, monitorizarea, copiile de siguranță și costul modificărilor. Pentru incidente care afectează protecția datelor se aplică circuitul aprobat; un simplu tichet tehnic nu înlocuiește analiza responsabilului de date.
 
 ## Proprietate și ieșire
-La încetare se predau exportul, documentația, configurațiile și drepturile convenite asupra materialelor. Licențele și serviciile terțe sunt inventariate. Se verifică ștergerea sau returnarea datelor potrivit contractului și obligațiilor. Nu se acceptă ca ieșirea să depindă de o taxă nedefinită sau de bunăvoința unui singur administrator.
+La încetare se predau exportul, documentația, configurațiile și drepturile convenite asupra materialelor. Licențele și serviciile terțe sunt inventariate. Se verifică ștergerea sau returnarea datelor potrivit contractului și obligațiilor. Contractul fixează de la început condițiile, costurile și responsabilitățile tranziției, cu acces instituțional la administrare.
 
 ## Compararea ofertelor
 Grila propusă examinează adecvarea funcțională, protecția, interoperabilitatea, operarea și costul total pe trei ani. Ponderile se aprobă înainte de solicitarea ofertelor. Demonstrația folosește date fictive și aceleași scenarii pentru toți furnizorii. O prezentare comercială nu ține loc de test și nici promisiunea „AI inclus” nu primește punctaj fără nevoie concretă.
@@ -1046,10 +1064,10 @@ La retenție de 75%, 300 dintre cei 400 de copii ai cohortei ar continua la 12 l
 ## Formatori și practicieni
 Dacă 12 candidați formatori ar avea o absolvire de 75%, rezultatul ar fi nouă absolvenți, însă autorizarea se acordă numai după probe. Dacă 75% dintre cei nouă rămân activi, numărul efectiv este șase sau șapte persoane, nu 6,75 persoane utilizabile. Planificarea trebuie să țină cont de specializare: plecarea unui responsabil de protecție nu este acoperită de un antrenor în plus.
 
-Nu impunem ținta de promovare pentru a obține numărul dorit. Pregătim rezerve și dimensionăm activitatea după competențele reale. Indicatorul de cost pe practician activ folosește numărul efectiv de persoane active și costurile atribuite cohortei, cu explicația cheltuielilor comune.
+Standardul de competență determină promovarea; numărul absolvenților rezultă din evaluare. Pregătim rezerve și dimensionăm activitatea după competențele reale. Indicatorul de cost pe practician activ folosește numărul efectiv de persoane active și costurile atribuite cohortei, cu explicația cheltuielilor comune.
 
 ## Performanță și sănătate
-Nu estimăm numărul viitorilor profesioniști ori valoarea transferurilor fără rate de tranziție românești, pe cohorte comparabile și perioade suficiente. Nu calculăm economii în sistemul de sănătate ori beneficii fiscale ca venit al proiectului. Acestea pot fi evaluate ulterior prin cercetare adecvată, fără a promite sume care nu ajung în contul organizației.
+Estimarea viitorilor profesioniști și a valorii transferurilor se poate fundamenta după obținerea unor rate de tranziție românești, pe cohorte comparabile și perioade suficiente. Bugetul proiectului evidențiază veniturile contractate; beneficiile sociale și fiscale pot face obiectul unei evaluări separate. Acestea pot fi evaluate ulterior prin cercetare adecvată, fără a promite sume care nu ajung în contul organizației.
 
 # Anexa G Datele care lipsesc și planul de obținere
 | Date | Sursă de solicitat | Utilizare și termen |
@@ -1066,6 +1084,7 @@ Nu estimăm numărul viitorilor profesioniști ori valoarea transferurilor făr�
 | Diaspora: reper 481 / totaluri pe loturi 66, martie 2025 | Confirmare FRF a datelor publicate de GOLAZO.ro; actualizare pe țări, sexe și cohorte | Coordonator diaspora, înainte de selectarea țării pilot |
 | Istoric de reprezentare și cetățenie | Responsabil juridic FRF; documente și registre autorizate | Încadrare înainte de invitație; date sensibile cu acces restrâns |
 | Mandate, verificări și capacitate de observare | FRF și parteneri locali competenți | Înainte de orice contact autorizat cu minorii |
+| Categorii U13–U19 și prioritatea dosarelor | Staff tehnic FRF, coordonator de țară | Ani de naștere, ferestre sportive și criterii aprobate înaintea sezonului |
 | Calendar, eliberare de la club, costuri ale gazdei | FRF, club și organizatorul acțiunii | Înainte de confirmarea deplasării |
 | Forward 2027–2030: reguli și disponibil | FRF și documentele FIFA aplicabile ciclului | Înainte de cererea de finanțare |
 
@@ -1087,7 +1106,7 @@ Pentru fiecare solicitare se consemnează responsabilul, data, perioada cerută,
 | Rată de activitate ilustrativă | 75% | Prezența efectivă a cohortelor |
 | Venituri din transferuri | Zero în buget | Numai încasări și drepturi confirmate ulterior |
 | Rețea diaspora | 1 țară la start; scenariu de 4 țări | Date FRF, mandate, evaluarea sezonului |
-| Observare pe țară | 20 candidați, câte două intervenții | Capacitate și rapoarte distincte |
+| Observare pe țară | U14–U19: 20 candidați, câte două intervenții; identificare de la U13 | Capacitate, prioritizare publică și rapoarte distincte |
 | Invitație diaspora | 1.610 EUR deplasare și integrare | Oferte; servicii sportive ale gazdei confirmate separat |
 
 # Anexa H Dosarul pentru un partener sau finanțator
@@ -1110,7 +1129,7 @@ UEFA, pagina oficială HatTrick: ciclul 2024–2028, plafon pe federație și co
 https://www.uefa.com/development/our-support/hattrick/
 
 ## S2 FIFA Forward
-FIFA, Core principles, Forward 3.0: plafonul și perioada 2023–2026, obiective aprobate și cerințe de control. Nu constituie confirmare a finanțării pentru România ori pentru acest pilot și nu stabilește alocările 2030–2040.
+FIFA, Core principles, Forward 3.0: plafonul și perioada 2023–2026, obiective aprobate și cerințe de control. Finanțarea pentru România și pentru pilot, precum și alocările ulterioare, necesită confirmări distincte.
 https://inside.fifa.com/en/advancing-football/fifa-forward/core-principles
 
 ## S3a Erasmus Plus parteneriate la scară mică
@@ -1118,7 +1137,7 @@ Comisia Europeană, Programme Guide, Small-scale partnerships: granturi forfetar
 https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/small-scale-partnerships
 
 ## S3b Erasmus Plus parteneriate de cooperare
-Comisia Europeană, Programme Guide, Cooperation partnerships: sume forfetare, parteneriat transnațional, vechimea coordonatorului și termenul Sport 2026. Nu este o confirmare a unui apel 2027 sau ulterior.
+Comisia Europeană, Programme Guide, Cooperation partnerships: sume forfetare, parteneriat transnațional, vechimea coordonatorului și termenul Sport 2026. Apelurile din 2027 și din anii următori necesită verificarea documentelor publicate pentru fiecare ediție.
 https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/cooperation-partnerships
 
 ## S4 Integritate comportamentală
@@ -1188,13 +1207,13 @@ https://inside.fifa.com/transfer-system/news/bureau-council-new-regulatory-frame
 GOV.UK, eligibilitatea rolurilor pentru verificările DBS. Tipul verificării depinde de activitate și jurisdicție; denumirea DBS nu este folosită ca standard universal pentru toate țările.
 https://www.gov.uk/government/publications/eligibility-for-roles-working-with-children/eligiblity-for-roles-working-with-children
 
-## S18 Belgia: coordonarea formării
-UEFA, Belgium build for the future, 15 iulie 2004. Reper istoric pentru coordonarea federație–cluburi și dezvoltarea antrenorilor.
-https://www.uefa.com/under19/news/0257-0de66f1906d5-c1608795e986-1000--belgium-build-for-the-future/
+## S18 Belgia: plan comun de dezvoltare
+RBFA, comunicat instituțional „Le football belge adopte pour la première fois une vision commune de l’avenir du jeu”, publicat în centrul propriu de comunicare Prezly, consultat la 3 octombrie 2026. Sursă primară pentru adoptarea și conținutul planului; descrie angajamente și mecanisme propuse. Rezultatele implementării cer evaluare distinctă.
+https://rbfa-internal-communication.prezly.com/le-football-belge-adopte-pour-la-premiere-fois-une-vision-commune-de-lavenir-du-jeu
 
-## S19 Islanda: infrastructură și antrenori
-UEFA, Iceland warm to big occasion, 27 aprilie 2007. Reper istoric privind accesul la infrastructură și pregătirea antrenorilor; nu reprezintă o evaluare cauzală a rezultatelor ulterioare.
-https://www.uefa.com/under17/news/0252-0cddcf7773a2-bfbdb8da1b2c-1000--iceland-warm-to-big-occasion/
+## S19 Islanda: formarea formatorilor
+KSÍ, Raport anual 2023, secțiunea „Fræðsla” (Educație). Sursă primară pentru cele opt trasee de calificare recunoscute de UEFA și cursul celor 16 formatori experimentați. Diploma KSÍ A pentru formatori este prezentată distinct de licența UEFA A pentru antrenori; cifra de 16 se referă la participanții acelui curs.
+https://arsskyrsla2023.ksi.is/forsida/fraedsla/
 
 ## S20 Irlanda: un exemplu din fotbalul feminin
 FAI, WNT defender Patten eligible for opening EURO 2025 qualifiers, 1 aprilie 2024. Exemplu individual de eligibilitate și schimbare a asociației confirmată; nu dovedește eficiența unui întreg program național.
