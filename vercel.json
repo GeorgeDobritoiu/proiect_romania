@@ -1,5 +1,5 @@
 {
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": false,
   "redirects": [
     {
@@ -41,6 +41,86 @@
       "source": "/frf2030.html",
       "destination": "/proiecte/fotbal-pentru-viitor",
       "statusCode": 301
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en.html",
+      "destination": "/en",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte.html",
+      "destination": "/proiecte",
+      "statusCode": 301
+    },
+    {
+      "source": "/cum-functioneaza.html",
+      "destination": "/cum-functioneaza",
+      "statusCode": 301
+    },
+    {
+      "source": "/propune-un-proiect.html",
+      "destination": "/propune-un-proiect",
+      "statusCode": 301
+    },
+    {
+      "source": "/despre.html",
+      "destination": "/despre",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/confidentialitate.html",
+      "destination": "/confidentialitate",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte/fotbal-pentru-viitor.html",
+      "destination": "/proiecte/fotbal-pentru-viitor",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects.html",
+      "destination": "/en/projects",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/how-it-works.html",
+      "destination": "/en/how-it-works",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/propose-a-project.html",
+      "destination": "/en/propose-a-project",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/about.html",
+      "destination": "/en/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/contact.html",
+      "destination": "/en/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/privacy.html",
+      "destination": "/en/privacy",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/football-for-the-future.html",
+      "destination": "/en/projects/football-for-the-future",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -52,6 +132,68 @@
           "value": "public, max-age=3600"
         }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/en",
+      "destination": "/en.html"
+    },
+    {
+      "source": "/proiecte",
+      "destination": "/proiecte.html"
+    },
+    {
+      "source": "/cum-functioneaza",
+      "destination": "/cum-functioneaza.html"
+    },
+    {
+      "source": "/propune-un-proiect",
+      "destination": "/propune-un-proiect.html"
+    },
+    {
+      "source": "/despre",
+      "destination": "/despre.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/confidentialitate",
+      "destination": "/confidentialitate.html"
+    },
+    {
+      "source": "/proiecte/fotbal-pentru-viitor",
+      "destination": "/proiecte/fotbal-pentru-viitor.html"
+    },
+    {
+      "source": "/en/projects",
+      "destination": "/en/projects.html"
+    },
+    {
+      "source": "/en/how-it-works",
+      "destination": "/en/how-it-works.html"
+    },
+    {
+      "source": "/en/propose-a-project",
+      "destination": "/en/propose-a-project.html"
+    },
+    {
+      "source": "/en/about",
+      "destination": "/en/about.html"
+    },
+    {
+      "source": "/en/contact",
+      "destination": "/en/contact.html"
+    },
+    {
+      "source": "/en/privacy",
+      "destination": "/en/privacy.html"
+    },
+    {
+      "source": "/en/projects/football-for-the-future",
+      "destination": "/en/projects/football-for-the-future.html"
     }
   ]
 }
