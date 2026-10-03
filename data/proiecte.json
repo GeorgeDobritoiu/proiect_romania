@@ -1,0 +1,21 @@
+[
+  {
+    "id": "fotbal-pentru-viitor",
+    "author": "George Dobritoiu",
+    "horizon": "2030–2040",
+    "domain": "sport",
+    "status": "proposal",
+    "pdf": "/Fotbal-pentru-Viitor-2026-10-03-corectat.pdf",
+    "summaryPdf": "/Fotbal-pentru-Viitor-Rezumat-2026-10-03-corectat.pdf",
+    "ro": {
+      "title": "Fotbal pentru Viitor",
+      "url": "/proiecte/fotbal-pentru-viitor",
+      "description": "O propunere pentru copii activi, antrenori pregătiți și comunități care cresc prin fotbal."
+    },
+    "en": {
+      "title": "Football for the Future",
+      "url": "/en/projects/football-for-the-future",
+      "description": "A proposal for active children, trained coaches and communities that grow through football."
+    }
+  }
+]

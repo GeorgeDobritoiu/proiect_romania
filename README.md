@@ -1,7 +1,36 @@
 # Proiect România
 
-Platformă civică bilingvă. Fotbal pentru Viitor, orizont 2030–2040.
+Static bilingual HTML/CSS/JavaScript website. Vercel preset: Other; no build command; output directory `.`.
 
-Site static publicat din rădăcina repository-ului. Pe Vercel: preset Other, fără comandă de build, director de publicare `.`.
+## Routes
 
-Domeniu: proiectromania.ro. Contact prin WhatsApp; e-mailul afișat nu este încă activat.
+Romanian: `/`, `/proiecte`, `/cum-functioneaza`, `/propune-un-proiect`, `/despre`, `/contact`, `/confidentialitate`, `/proiecte/fotbal-pentru-viitor`.
+English: `/en`, `/en/projects`, `/en/how-it-works`, `/en/propose-a-project`, `/en/about`, `/en/contact`, `/en/privacy`, `/en/projects/football-for-the-future`.
+
+`vercel.json` provides clean URLs and explicit 301 legacy redirects. All existing PDF names are retained unchanged.
+
+## Editing
+
+Shared platform styles and interactions: `assets/site.css`, `assets/site.js`. Football retains its detailed content and legacy anchors with `assets/football.css`.
+
+Source project registry: `data/proiecte.json`. Cards are rendered into HTML so reading and navigation work without JavaScript. One published project currently; domain recruitment calls are not projects.
+
+Page generator: `tools/site/build.py` (Python + beautifulsoup4). Run from any directory to regenerate HTML. Football content sources are under `tools/site/source/`. CSS and JavaScript are edited directly. The generator is an authoring convenience, not a deployment dependency. Extend the card loop and route list when adding projects.
+
+## Preview review gates
+
+The current restructuring is on `restructurare-site`. Do not merge until review. Preview-only notices appear on localhost and Vercel preview hosts; hidden by default on the production custom domain.
+
+Before production confirm: origin story, legal data controller/contact, privacy legal basis and retention, editorial decision maker, response time and author withdrawal procedure. Privacy is explicitly a draft. No institutional partnerships are implied.
+
+The contact form prepares a WhatsApp message using the existing recipient. It never sends automatically. Email is not activated; do not replace with a fake endpoint. Replace WhatsApp only once an active email and a working, privacy-reviewed form service are available.
+
+PDFs are Romanian. English pages explicitly label the presentation as translated and downloads as Romanian.
+
+## Images
+
+See `CREDITS.md`. Two relevant photos (a real Bucharest street and football pitch), three responsive WebP sizes each. No generated people. Avoid decorative image quotas. System fonts keep loading light and support Romanian diacritics.
+
+## Verification
+
+Check 390px and 1440px views, menu and keyboard focus, no horizontal overflow, WhatsApp draft without sending, language counterpart links and all legacy anchors. After deployment verify the real 301 status for old RO/EN football URLs, including `.html`, and successful PDF downloads. Lighthouse scores should be measured, not assumed.

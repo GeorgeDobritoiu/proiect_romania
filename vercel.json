@@ -1,0 +1,57 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/fotbal-pentru-viitor",
+      "destination": "/proiecte/fotbal-pentru-viitor",
+      "statusCode": 301
+    },
+    {
+      "source": "/fotbal-pentru-viitor.html",
+      "destination": "/proiecte/fotbal-pentru-viitor",
+      "statusCode": 301
+    },
+    {
+      "source": "/football-for-the-future",
+      "destination": "/en/projects/football-for-the-future",
+      "statusCode": 301
+    },
+    {
+      "source": "/football-for-the-future.html",
+      "destination": "/en/projects/football-for-the-future",
+      "statusCode": 301
+    },
+    {
+      "source": "/index-en",
+      "destination": "/en",
+      "statusCode": 301
+    },
+    {
+      "source": "/index-en.html",
+      "destination": "/en",
+      "statusCode": 301
+    },
+    {
+      "source": "/frf2030",
+      "destination": "/proiecte/fotbal-pentru-viitor",
+      "statusCode": 301
+    },
+    {
+      "source": "/frf2030.html",
+      "destination": "/proiecte/fotbal-pentru-viitor",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}
