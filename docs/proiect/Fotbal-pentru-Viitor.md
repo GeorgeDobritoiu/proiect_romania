@@ -177,7 +177,7 @@ Pentru a compara opțiunile, evaluăm întâi costul activării unei baze existe
 # 8 Resurse umane și dimensionarea echipelor
 Resursa critică este timpul competent, nu doar numărul de persoane dintr-un registru. Fiecare rol are activități, capacitate săptămânală, înlocuitor și o limită clară de responsabilitate. O persoană cu două roluri nu are automat de două ori capacitatea; pontajul și bugetul reflectă suprapunerile.
 
-Pilotul include un manager pe 21 de luni, un sprijin financiar cu timp parțial, un coordonator local pe cele 12 luni de activitate, trei mentori tehnici cu timp parțial și un responsabil pentru protecție cu implicare pe întreaga perioadă. Sunt aproximativ 60 de adulți locali, dintre care cel puțin 50 acoperă perechile de bază pentru 25 de echipe, iar ceilalți susțin rezerva și logistica. Toți au roluri nominale; rezerva nu este presupusă disponibilă permanent.
+Pilotul include un manager pe 21 de luni, un sprijin financiar cu timp parțial, un coordonator local pe 15 luni (lunile 4–18), trei mentori tehnici cu timp parțial și un responsabil pentru protecție cu implicare pe întreaga perioadă. Sunt aproximativ 60 de adulți locali, dintre care cel puțin 50 acoperă perechile de bază pentru 25 de echipe, iar ceilalți susțin rezerva și logistica. Toți au roluri nominale; rezerva nu este presupusă disponibilă permanent.
 
 Cu două sesiuni pe săptămână, 30 de săptămâni și doi adulți prezenți, rezultă 3.000 de ore de contact adult–activitate pentru cele 25 de echipe. La acestea se adaugă pregătirea, transportul, întâlnirile și festivalurile. În pilot estimăm separat 4.500 de ore de contribuție locală neremunerată, care trebuie confruntate cu disponibilitatea reală. Dacă baza de voluntariat nu există, se majorează finanțarea în bani sau se reduce oferta.
 
@@ -305,6 +305,8 @@ Propunem ca entitățile beneficiare să urmărească distinct veniturile legale
 
 ## Evaluarea rezultatelor pe termen lung
 Copiii U8/U10 dintr-un pilot lansat după pregătire nu pot produce rezultate profesioniste imediate. Se păstrează legătura între cohortă, an de intrare și vârstă, astfel încât evaluările din 2030, 2035 și 2040 să nu atribuie proiectului jucători formați anterior. Un rezultat la echipa națională este raportat ca parcurs al unui participant, nu ca efect cauzal demonstrat al programului.
+
+Reper istoric: la 31 octombrie 2024, FRF a anunțat debutul unui proiect de scouting regional U14, în perspectiva selecției pentru U15. Statutul și calendarul actual se confirmă cu FRF înainte de integrarea centrelor locale propuse. Acestea ar oferi pregătire suplimentară regulată și ar completa structurile aprobate. [S21]
 
 # 15 Românii din diaspora: identificare, selecție și integrare
 ## 15.1 Punctul de plecare și obiectivul
@@ -445,8 +447,8 @@ Sumele pentru personal reprezintă cost total bugetat al organizației, nu salar
 | Linie | Cantitate × cost unitar | Total EUR |
 | Manager proiect | 21 luni × 2.200 | 46.200 |
 | Sprijin financiar cu timp parțial | 21 luni × 750 | 15.750 |
-| Coordonator local | 12 luni × 2.000 | 24.000 |
-| Trei mentori tehnici cu timp parțial | 36 persoană-luni × 1.100 | 39.600 |
+| Coordonator local | 15 luni × 2.000 | 30.000 |
+| Trei mentori tehnici cu timp parțial, inclusiv pregătirea coordonării tehnice | 39 persoană-luni × 1.100 | 42.900 |
 | Responsabil protecția copilului cu timp parțial | 21 luni × 900 | 18.900 |
 | Acces la șase baze | 72 bază-luni × 250 | 18.000 |
 | Echipament comun pentru echipe | 25 pachete × 600 | 15.000 |
@@ -468,17 +470,20 @@ Sumele pentru personal reprezintă cost total bugetat al organizației, nu salar
 | Evaluare formatori | 12 candidați × 400 | 4.800 |
 | Mentorat pentru formatori | 12 candidați × 400 | 4.800 |
 | Instruire practicieni locali | 60 participanți × 120 | 7.200 |
-| Total înainte de rezervă | | 317.830 |
-| Rezervă 15% | | 47.675 |
-| Plafon orientativ în bani | | 365.505 |
+| Total înainte de rezervă | | 327.130 |
+| Rezervă 15% | | 49.070 |
+| Plafon orientativ în bani | | 376.200 |
+
+## Acoperirea rolurilor și continuitatea
+Coordonatorul local lucrează în lunile 4–18: pregătește deschiderea și susține sezonul. Înainte de finalul lunii 18 predă managerului situația fiecărei echipe și legătura cu familiile; managerul asigură transferul către continuitate în lunile 19–21, în timpul deja bugetat. Unul dintre cei trei mentori are și rolul de coordonator tehnic. Pentru pregătirea din lunile 4–6 sunt bugetate suplimentar trei persoană-luni cu timp parțial, la 1.100 EUR/lună (3.300 EUR). Cele 36 persoană-luni din lunile 7–18 acoperă cei trei mentori, inclusiv coordonarea tehnică. Fișa rolului și timpul disponibil se confirmă înainte de contractare; dacă nu acoperă sarcinile, se redimensionează bugetul înainte de lansare. Acest timp este distinct de mentoratul pedagogic al formatorilor.
 
 ## Ipotezele bugetului
-Bugetul acoperă pregătirea, activitățile și închiderea: coordonare, protecția copilului, evaluare, audit și formarea formatorilor. Plafonul orientativ este 365.505 EUR pentru cele 21 de luni. Fiecare cost comun se contabilizează o singură dată.
+Bugetul acoperă pregătirea, activitățile și închiderea: coordonare, protecția copilului, evaluare, audit și formarea formatorilor. Plafonul orientativ este 376.200 EUR pentru cele 21 de luni. Fiecare cost comun se contabilizează o singură dată.
 
 Componenta dedicată formatorilor este de 37.200 EUR înainte de rezervă, iar instruirea incrementală a practicienilor este de 7.200 EUR. Cheltuielile comune ale proiectului se găsesc o singură dată în liniile de management, baze, tehnologie și evaluare. Mentoratul de predare pentru formatori este distinct de supravegherea echipelor și se documentează prin activități separate.
 
 ## Contribuții în natură
-Pentru a nu ascunde dependența de resurse gratuite, ipoteza de lucru este de 4.500 de ore de contribuție locală evaluate la 8 EUR/oră, adică 36.000 EUR, plus 12.000 EUR valoare a accesului la spații peste costul incremental plătit. Rezultă 48.000 EUR resurse în natură. Valoarea economică a pachetului este astfel aproximativ 413.505 EUR dacă întreaga rezervă este utilizată. Aceasta nu este suma de cerut în numerar și nici cofinanțare automat eligibilă la un grant.
+Pentru a nu ascunde dependența de resurse gratuite, ipoteza de lucru este de 4.500 de ore de contribuție locală evaluate la 8 EUR/oră, adică 36.000 EUR, plus 12.000 EUR valoare a accesului la spații peste costul incremental plătit. Rezultă 48.000 EUR resurse în natură. Valoarea economică a pachetului este astfel aproximativ 424.200 EUR dacă întreaga rezervă este utilizată. Aceasta nu este suma de cerut în numerar și nici cofinanțare automat eligibilă la un grant.
 
 ## Excluderi explicite
 Construcțiile, renovările majore, taberele internaționale, o platformă națională dezvoltată integral de la zero, achiziția de vehicule și taxele suplimentare pentru calificări oficiale necesită bugete și aprobări distincte. Salariile jucătorilor și transferurile rămân în afara scopului pilotului. Monitorizarea extinsă până la 24 de luni după toate absolvirile necesită un buget suplimentar. Fiecare adăugire cere buget și sursă separată înainte de angajare.
@@ -490,14 +495,14 @@ Se obțin oferte pentru baze, transport, asigurări, formare oficială, evaluare
 Un buget finanțat pe hârtie poate eșua din lipsă de lichiditate. Pentru fiecare contract se consemnează avansul, tranșele, condițiile de decontare, costurile eligibile și momentul încasării. Donațiile promise, aplicațiile depuse și discuțiile cu sponsori rămân în portofoliul de oportunități, nu în disponibilul pentru plăți.
 
 ## Eșalonare orientativă
-Tabelul împarte baza de 317.830 EUR și rezerva totală pe faze. Procentele sunt ipoteze de trezorerie, nu un substitut pentru calendarul lunar al contractelor. Plățile efective urmăresc livrabilele și recepțiile, fără avansuri nejustificate.
+Tabelul împarte baza de 327.130 EUR și rezerva totală pe faze. Majorarea de 9.300 EUR față de configurația inițială acoperă pregătirea locală și tehnică din lunile 4–6. Rezerva exactă de 49.069,50 EUR este rotunjită în sus la 49.070 EUR; totalul este 376.200 EUR. Costurile unitare din sensibilitate sunt rotunjite la cel mai apropiat euro, cu jumătățile în sus. Procentele sunt ipoteze de trezorerie, nu un substitut pentru calendarul lunar al contractelor. Plățile efective urmăresc livrabilele și recepțiile, fără avansuri nejustificate.
 
 | Fază | Bază EUR | Rezervă disponibilă EUR | Condiție |
-| Lunile 1–3 | 57.209 | 4.768 | Diagnostic și acorduri |
-| Lunile 4–6 | 69.923 | 9.535 | Personal și pregătire de deschidere |
-| Lunile 7–12 | 85.814 | 14.302 | Primele șase luni de activitate |
-| Lunile 13–18 | 79.458 | 14.302 | Continuarea sezonului |
-| Lunile 19–21 | 25.426 | 4.768 | Evaluare și închidere |
+| Lunile 1–3 | 57.209 | 4.907 | Diagnostic și acorduri |
+| Lunile 4–6 | 79.223 | 9.814 | Personal și pregătire de deschidere |
+| Lunile 7–12 | 85.814 | 14.721 | Primele șase luni de activitate |
+| Lunile 13–18 | 79.458 | 14.721 | Continuarea sezonului |
+| Lunile 19–21 | 25.426 | 4.907 | Evaluare și închidere |
 
 ## Condiția de lansare
 Înainte de activitățile cu copii se confirmă prin contracte acoperirea integrală a obligațiilor pilotului și un calendar de încasări compatibil cu plățile. O rezervă operațională de lichiditate pentru aproximativ trei luni din plățile viitoare se planifică în interiorul finanțării; nu este contabilizată automat ca o cheltuială suplimentară. Dacă grantul se rambursează ulterior, este necesară o sursă de avans legală și confirmată.
@@ -533,6 +538,14 @@ La costul recurent se adaugă 100 EUR pentru fiecare loc net nou față de anul 
 N este numărul mediu anual de locuri ocupate, echivalent an complet, nu totalul de înscrieri ocazionale. H = rotunjire în sus a lui N / 2.000. C = 300.000 + 100.000 × max(0, rotunjire în sus a lui N / 50.000 − 1). Cost recurent = 420 × N + 60.000 × H + C. Activare = 100 × max(0, N − N anterior). Buget cu rezervă = 1,10 × (cost recurent + activare).
 
 Contribuția în natură orientativă este 120 EUR × N, adăugată doar pentru costul economic. Contribuția în natură se evidențiază separat de încasări; efectul asupra necesarului de numerar se demonstrează pe fiecare cost substituit. Liniile de formare, mentorat și transport sunt incluse o singură dată în componentele formulei de 420 EUR.
+
+## Rețea stabilă, fără locuri net noi
+Tabelul folosește formula de mai sus, prețuri 2026 și rezervă de 10%; exclude activarea extinderii, investițiile majore, componentele de performanță și licența documentației. Locurile ocupate sunt echivalente an complet. La o rată de activitate de 75%, 10.000 de locuri corespund ipotezei de 7.500 de copii activi.
+
+| Locuri ocupate | Centre teritoriale | Buget anual EUR |
+| 10.000 | 5 | 5.280.000 |
+| 50.000 | 25 | 25.080.000 |
+| 100.000 | 50 | 49.940.000 |
 
 ## Capacitate și limite
 Un centru de suport nu este automat o clădire nouă. El reprezintă personal și servicii teritoriale, care pot folosi spații existente. La 100.000 de locuri, formula cere 50 de centre, care nu coincid obligatoriu cu județele. La distanțe mari ori complexitate ridicată, raportul 1 la 2.000 trebuie redus și costul crește.
@@ -624,14 +637,14 @@ Cazurile de cost redus și ridicat schimbă numai componenta variabilă, la 340 
 
 ## Sensibilitatea pilotului
 | Configurație | Plafon EUR | Cost pe înscris | Cost pe activ la 75% |
-| 400 copii de referință | 365.505 | 914 | 1.218 |
-| 320 copii, costuri neschimbate | 365.505 | 1.142 | 1.523 |
-| Costuri de bază +10% | 402.056 | 1.005 | 1.340 |
+| 400 copii de referință | 376.200 | 941 | 1.254 |
+| 320 copii, costuri neschimbate | 376.200 | 1.176 | 1.568 |
+| Costuri de bază +10% | 413.820 | 1.035 | 1.379 |
 
 Reducerea numărului de participanți fără reducerea costurilor fixe mărește costul per copil. De aceea, recrutarea trebuie verificată înaintea angajamentelor, dar nu se umplu locurile artificial și nu se relaxează cerințele de protecție pentru a atinge o țintă.
 
 ## Alte șocuri care cer recalculare
-Dacă spațiile gratuite dispar, fiecare 50 EUR suplimentari pe loc/an adaugă 550.000 EUR la bugetul de 10.000 de locuri, cu rezerva de 10% inclusă. Dacă finanțarea privată reprezintă 35% din pilot și jumătate din ea nu se contractează, lipsa este 17,5% din plafonul total, aproximativ 63.963 EUR. Această lipsă nu se acoperă printr-o notă optimistă despre donații.
+Dacă spațiile gratuite dispar, fiecare 50 EUR suplimentari pe loc/an adaugă 550.000 EUR la bugetul de 10.000 de locuri, cu rezerva de 10% inclusă. Dacă finanțarea privată reprezintă 35% din pilot și jumătate din ea nu se contractează, lipsa este 17,5% din plafonul total, aproximativ 65.835 EUR. Această lipsă nu se acoperă printr-o notă optimistă despre donații.
 
 Inflația se testează și la 0% și 5%; la 2040, factorii față de 2026 sunt aproximativ 1,00, 1,413 pentru 2,5% și 1,980 pentru 5%. Un contract în lei cu costuri parțial în euro cere și scenariu de curs. Scenariile combinate precizează simultaneitatea șocurilor și componentele afectate.
 
@@ -649,7 +662,7 @@ Reper verificat: HatTrick VI se referă la ciclul iulie 2024–iunie 2028, în c
 ## FIFA Forward: pregătirea ciclului 2027–2030
 Ciclul relevant pentru pregătirea implementării este 2027–2030. Congresul FIFA din 30 aprilie 2026 a aprobat bugetul ciclului, iar comunicarea oficială indică investiții globale Forward de 2,7 miliarde USD. Acesta este un plafon global al programului, nu o alocare pentru România sau pentru această propunere. [S2a]
 
-Separat, FIFA a anunțat o propunere de creștere a finanțării pe federație la 20 milioane USD pentru 2027–2030, condiționată de aprobarea asociațiilor membre. Materialele verificate nu justifică tratarea acestei propuneri drept sumă contractată. Organizația gazdă pregătește dosarul tehnic cu FRF; accesul se analizează prin federație, în funcție de regulamentul ciclului, planul aprobat și disponibilul efectiv. [S2b]
+Separat, propunerea FIFA din iulie 2026 lega creșterea finanțării Forward la 20 milioane USD pe federație pentru 2027–2030 de structura FIFA Forward Enterprise (FFE), veniturile proiectate și aprobările necesare ale asociațiilor membre și Consiliului FIFA. Programul opțional Fast Forward, cu alte 20 milioane USD pentru proiecte speciale, era o componentă distinctă. Anunțul global de 10 miliarde USD privea dezvoltarea fotbalului în ansamblu, nu exclusiv Forward. Acest document tratează anunțul ca reper istoric condiționat; forma finală și statutul aprobărilor se verifică înaintea oricărei cereri. Materialele verificate nu justifică tratarea acestei propuneri drept sumă contractată. Organizația gazdă pregătește dosarul tehnic cu FRF; accesul se analizează prin federație, în funcție de regulamentul ciclului, planul aprobat și disponibilul efectiv. [S2b]
 
 Forward 3.0, 2023–2026, rămâne un reper de arhitectură și control. Pentru cheltuielile viitoare, FRF confirmă regulile operative ale noului ciclu, categoriile eligibile, calendarul și aprobările. Bugetul pilotului înregistrează numai contribuții contractate; anunțurile globale susțin identificarea oportunității. [S2]
 
@@ -671,10 +684,10 @@ Pentru clădiri, reabilitare, accesibilitate ori eficiență energetică se exam
 
 ## Structură ipotetică pentru pilot
 | Sursă țintită | Pondere ipotetică | EUR pentru pilot | Statut |
-| Finanțare publică eligibilă | 40% | 146.202 | Necontractat |
-| Sponsorizări și fundații private | 35% | 127.927 | Necontractat |
-| Parteneriate sportive instituționale | 15% | 54.826 | Necontractat |
-| Donații și resurse proprii | 10% | 36.550 | Necontractat |
+| Finanțare publică eligibilă | 40% | 150.480 | Necontractat |
+| Sponsorizări și fundații private | 35% | 131.670 | Necontractat |
+| Parteneriate sportive instituționale | 15% | 56.430 | Necontractat |
+| Donații și resurse proprii | 10% | 37.620 | Necontractat |
 
 Procentele descriu o țintă de diversificare și toate sumele sunt necontractate. Participarea sportivă instituțională poate lipsi; în acel caz, diferența trebuie contractată din alte surse ori proiectul se redimensionează. Granturile europene nu sunt incluse obligatoriu în acest mix pentru a nu condiționa startul de un concurs viitor.
 
@@ -748,7 +761,7 @@ Evaluarea răspunde la trei întrebări: putem livra sigur și constant, pentru 
 | Locuri ocupate echivalent an complet | Suma lunilor de participare eligibilă împărțită la 12; anual | Administrator date |
 | Copii unici înscriși | Persoane distincte, fără dublare între echipe; lunar | Coordonator local |
 | Copii activi | Minimum 30 săptămâni disponibile și 70% prezență conform protocolului; sezon | Evaluator și coordonator |
-| Retenție la 12 luni | Membri rămași activi ai cohortei inițiale / cohortă inițială; anual | Evaluator |
+| Retenție la 12 luni | Membri ai cohortei inițiale care continuă să participe, cu cel puțin o prezență în ultimele patru săptămâni programate / cohortă inițială; anual. Separat de pragul pentru copil activ | Evaluator |
 | Continuitate în fotbal | Participanți confirmați în alte trasee, raportați separat; anual | Evaluator |
 | Sesiuni livrate | Sesiuni realizate / sesiuni planificate, cu motivele anulării; lunar | Coordonator tehnic |
 | Practicieni activi | Absolvenți care exercită rolul definit și documentat; 6, 12, 24 luni | Responsabil formare |
@@ -768,6 +781,9 @@ Aceste praguri se validează în faza de proiectare, înainte de colectarea rezu
 
 ## Raportul final
 Raportul separă activitățile realizate, rezultatele observate, costurile, incidentele și limitele interpretării. Include diferențe între comunități și grupuri, explicații alternative și recomandări. Echipa poate răspunde constatărilor, dar nu poate elimina concluziile independente doar pentru că afectează imaginea proiectului.
+
+## Repere de urmărire de la începutul activității
+Reperele de 1, 4 și 8 ani sunt intervale de evaluare raportate la începerea activității cu copii, nu promisiuni de rezultat și nici praguri automate de extindere. La un an urmărim retenția, prezența, costurile, voluntarii, protecția și utilizarea instrumentului digital. La patru ani evaluăm copiii U6–U12 activi, participarea fetelor și a mediului rural, capacitatea antrenorilor și arbitrilor, bazele utilizate și tranziția cohortelor eligibile la seniori. La opt ani urmărim jucătorii formați, minutele la profesioniști, contribuția la loturi, diaspora, transferurile și reinvestirea. Definițiile din acest capitol și raportarea anuală se păstrează la fiecare reper.
 
 # 28 Riscuri și continuitate
 Riscurile sunt evaluate lunar după probabilitate, impact și capacitate de răspuns. Registrul consemnează persoana responsabilă, semnalul timpuriu, măsura preventivă și decizia în caz de materializare. Eticheta „risc mic” nu poate închide o sesizare concretă despre un copil.
@@ -827,6 +843,9 @@ Lipsa finanțării, riscurile de protecție necontrolate, datele falsificate ori
 Până în 2030 urmărim o configurație validată și capacitate de replicare. În 2031–2034, accentul este pe extinderea controlată și comparația între contexte. În 2035–2037, urmărim continuitatea cohortelor și calitatea traseelor spre performanță. În 2038–2040, evaluăm maturitatea rețelei și rezultatele pe termen lung, fără a reduce succesul la transferuri sau la un turneu internațional.
 
 În fiecare an se aprobă un plan operațional cu număr de locuri, resurse, buget, finanțare contractată, investiții separate și praguri de oprire. Planul anual este mai important pentru execuție decât curba unei proiecții pe zece ani. Nicio echipă nouă nu este deschisă înaintea capacității de a o pregăti, sprijini și supraveghea în siguranță.
+
+## Etape condiționate de capacitate
+Etapa 0: evaluarea resurselor, costurilor și infrastructurii. Etapa 1: pilotul și decizia de continuare, modificare sau oprire. Etapa 2: o rețea de 5.000–10.000 de locuri ocupate. Etapa 3: o rețea de 25.000–50.000 de locuri ocupate. Aceste intervale descriu dimensiunea rețelei, nu copii activi și nici termene garantate. Trecerea depinde de rezultatele independente, personal, baze și finanțare contractată. Perioadele 2031–2034, 2035–2037 și 2038–2040 și scenariile financiare sunt repere de planificare; fiecare extindere se aprobă separat.
 
 # 31 Bugete distincte pentru componentele ulterioare
 Proiecția rețelei comunitare nu trebuie prezentată ca preț al întregului ecosistem de performanță. Pentru talent, diaspora, tranziție și investiții fizice sunt necesare pachete suplimentare. Modelele de mai jos arată cum pot fi calculate și aprobate, fără a ascunde cheltuieli în costul de bază. Sunt exclusiv ipoteze interne, fără oferte și fără finanțare confirmată.
@@ -1183,7 +1202,7 @@ FIFA, Congresul din 30 aprilie 2026: buget global aprobat de 2,7 miliarde USD pe
 https://inside.fifa.com/organisation/congress/media-releases/congress-highlights-world-cup-vehicle-unite-the-world
 
 ## S2b Propunere de extindere a finanțării FIFA
-FIFA, propunere de extindere a finanțării pentru dezvoltare, supusă aprobării asociațiilor membre. Valorile propuse sunt separate de finanțările aprobate și contractate.
+FIFA, iulie 2026: propunere legată de FFE, de veniturile proiectate și de aprobările asociațiilor membre și Consiliului FIFA. Forward și Fast Forward sunt componente distincte; statutul actual necesită confirmare instituțională. Valorile propuse sunt separate de finanțările aprobate și contractate.
 https://inside.fifa.com/organisation/media-releases/intends-expand-football-development-funding-usd-10-billion-subject-approval-member-associations?requester=MediaHub
 
 ## S11 Platforma FRF pentru diaspora
@@ -1225,6 +1244,10 @@ https://arsskyrsla2023.ksi.is/forsida/fraedsla/
 ## S20 Irlanda: un exemplu din fotbalul feminin
 FAI, WNT defender Patten eligible for opening EURO 2025 qualifiers, 1 aprilie 2024. Exemplu individual de eligibilitate și schimbare a asociației confirmată; nu dovedește eficiența unui întreg program național.
 https://www.fai.ie/latest/wnt-defender-patten-eligible-opening-euro-2025-qualifiers/
+
+## S21 Reper istoric: scouting regional U14
+FRF, 31 octombrie 2024. Anunțul documentează debutul proiectului; continuitatea actuală se confirmă separat.
+https://www.frf.ro/nationale/masculin/romania-u15/fotovideo-a-debutat-noul-proiect-de-scouting-regional-la-categoria-u14/
 
 # Încheiere și următoarea decizie
 Proiectul propune o schimbare de destinație a resurselor și un mod de implementare care poate fi verificat. Investim în copii, în oamenii care îi pregătesc și în comunitățile în care pot continua să joace. Formarea, accesul la baze, protecția, finanțarea și evaluarea sunt părți ale aceluiași sistem.

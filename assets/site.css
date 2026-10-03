@@ -46,3 +46,7 @@
 @media(max-width:760px){.football-page .hero{padding-top:30px}.football-page .hero-grid{gap:32px;padding:24px 0 35px}.football-page .hero h1{font-size:clamp(2.6rem,10vw,4rem)}.football-page .football-photo img{min-height:0;height:280px}.football-page .section,.football-page .pilot,.football-page .closing{padding-top:45px;padding-bottom:45px}.football-page .measure h3{font-size:22px}.football-page .measure p,.football-page .detail{font-size:16px}}
 
 .football-page .document-download-card{color:var(--ink)}.football-page .document-download-card p,.football-page .document-download-card small{color:var(--muted)}.football-page .document-preview{color:var(--ink)}.football-page .document-download-card .document-format{color:var(--blue);border-color:var(--blue)}
+
+
+/* Accessible language selector targets, including mobile. */
+.languages a {display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;}
