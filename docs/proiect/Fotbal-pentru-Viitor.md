@@ -8,8 +8,8 @@ România poate forma mai mulți copii într-un mediu sigur și poate construi un
 
 Document pentru consultare cu FRF, AJF-uri, cluburi, școli, administrații locale, organizații civice, universități și finanțatori. Adoptarea instituțională face obiectul consultării și al deciziilor ulterioare. Rolurile propuse devin responsabilități efective numai prin acorduri și decizii ale organismelor competente.
 
-## Consultare și licențiere
-Consultarea și descărcarea documentului sunt gratuite, pentru informare și evaluare. Drepturile de utilizare a materialelor protejate din documentație pentru implementare se acordă contra cost, prin contract de licență.
+## Un proiect deschis implementării
+Proiectul „Fotbal pentru Viitor” și materialele originale ale autorului pot fi consultate, descărcate, distribuite, adaptate și folosite gratuit pentru implementare, fără redevențe sau plăți către George Dobritoiu. Scopul este ca propunerea să fie îmbunătățită și pusă în practică. Menționarea autorului este apreciată. Materialele provenite de la terți își păstrează propriile condiții de utilizare.
 
 ## Cum se citește documentul
 Pentru decizie: capitolele 1–4, 17–23 și 30–31. Pentru implementare: capitolele 5–16, 24–29 și fișele operaționale din anexe. Pentru finanțare: bugetul pilotului, proiecțiile anuale, planul de atragere a fondurilor și registrul ipotezelor. Pentru verificare: bibliografia și lista datelor care trebuie obținute înaintea contractării.
@@ -540,7 +540,7 @@ N este numărul mediu anual de locuri ocupate, echivalent an complet, nu totalul
 Contribuția în natură orientativă este 120 EUR × N, adăugată doar pentru costul economic. Contribuția în natură se evidențiază separat de încasări; efectul asupra necesarului de numerar se demonstrează pe fiecare cost substituit. Liniile de formare, mentorat și transport sunt incluse o singură dată în componentele formulei de 420 EUR.
 
 ## Rețea stabilă, fără locuri net noi
-Tabelul folosește formula de mai sus, prețuri 2026 și rezervă de 10%; exclude activarea extinderii, investițiile majore, componentele de performanță și licența documentației. Locurile ocupate sunt echivalente an complet. La o rată de activitate de 75%, 10.000 de locuri corespund ipotezei de 7.500 de copii activi.
+Tabelul folosește formula de mai sus, prețuri 2026 și rezervă de 10%; exclude activarea extinderii, investițiile majore și componentele de performanță. Locurile ocupate sunt echivalente an complet. La o rată de activitate de 75%, 10.000 de locuri corespund ipotezei de 7.500 de copii activi.
 
 | Locuri ocupate | Centre teritoriale | Buget anual EUR |
 | 10.000 | 5 | 5.280.000 |
@@ -707,11 +707,11 @@ Până la jumătatea sezonului pilot se discută finanțarea următoarelor 12 lu
 # 25 Guvernanță și responsabilități
 Organizația gazdă are responsabilitatea contractuală și financiară. Un consiliu de coordonare propus reunește competențe sportive, educaționale, financiare și de protecție, cu participare consultativă a părinților și comunităților. Componența exactă se negociază; documentul nu numește persoane în funcții neacceptate.
 
-George Dobritoiu poate fi remunerat pentru licențierea documentației. Autorul și firmele asociate lui nu participă la contractele de implementare a strategiei, inclusiv dezvoltarea platformei, formare, consultanță de implementare sau administrarea programului. Interesul financiar din licențiere este declarat transparent.
+Proiectul „Fotbal pentru Viitor” și materialele originale ale autorului pot fi consultate, descărcate, distribuite, adaptate și folosite gratuit pentru implementare, fără redevențe sau plăți către George Dobritoiu. Scopul este ca propunerea să fie îmbunătățită și pusă în practică. Menționarea autorului este apreciată.
 
-Licența privește numai materialele asupra cărora autorul deține drepturi și nu conferă exclusivitate asupra ideilor, metodelor ori faptelor ca atare. Excepțiile legale și drepturile terților rămân aplicabile. Prețul, materialele, utilizările permise, durata și teritoriul se stabilesc în contract; descărcarea nu încheie un contract și nu creează o obligație de plată.
+Autorul și firmele asociate lui nu participă la contractele de implementare a strategiei, inclusiv dezvoltarea platformei, formare, consultanță de implementare sau administrarea programului.
 
-Taxa de licență nu este stabilită și nu este inclusă în estimările financiare publicate. Dacă este necesară pentru utilizarea convenită, se bugetează separat și se include în necesarul total de finanțare înainte de contractare.
+Materialele provenite de la terți își păstrează propriile condiții de utilizare.
 
 | Decizie sau activitate | Răspunde de execuție | Aprobă în proiect | Consultă |
 | Buget și modificări majore | Manager și financiar | Conducerea organizației gazdă | Consiliu și finanțatori |
