@@ -9,7 +9,7 @@ România poate forma mai mulți copii într-un mediu sigur și poate construi un
 Document pentru consultare cu FRF, AJF-uri, cluburi, școli, administrații locale, organizații civice, universități și finanțatori. Adoptarea instituțională face obiectul consultării și al deciziilor ulterioare. Rolurile propuse devin responsabilități efective numai prin acorduri și decizii ale organismelor competente.
 
 ## Un proiect deschis implementării
-Proiectul „Fotbal pentru Viitor” și materialele originale ale autorului pot fi consultate, descărcate, distribuite, adaptate și folosite gratuit pentru implementare, fără redevențe sau plăți către George Dobritoiu. Scopul este ca propunerea să fie îmbunătățită și pusă în practică. Menționarea autorului este apreciată. Materialele provenite de la terți își păstrează propriile condiții de utilizare.
+Materialele originale ale lui George Dobritoiu din „Fotbal pentru Viitor” sunt oferite sub licența Creative Commons Atribuire 4.0 Internațional (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/. Pot fi distribuite, adaptate, traduse și utilizate gratuit, inclusiv comercial, cu atribuirea autorului, link către licență și indicarea modificărilor, fără a sugera susținerea autorului. Licența acoperă doar materialele originale ale autorului. Fotografiile Unsplash și materialele din sursele citate sunt excluse și își păstrează condițiile proprii de utilizare.
 
 ## Cum se citește documentul
 Pentru decizie: capitolele 1–4, 17–23 și 30–31. Pentru implementare: capitolele 5–16, 24–29 și fișele operaționale din anexe. Pentru finanțare: bugetul pilotului, proiecțiile anuale, planul de atragere a fondurilor și registrul ipotezelor. Pentru verificare: bibliografia și lista datelor care trebuie obținute înaintea contractării.
@@ -707,11 +707,11 @@ Până la jumătatea sezonului pilot se discută finanțarea următoarelor 12 lu
 # 25 Guvernanță și responsabilități
 Organizația gazdă are responsabilitatea contractuală și financiară. Un consiliu de coordonare propus reunește competențe sportive, educaționale, financiare și de protecție, cu participare consultativă a părinților și comunităților. Componența exactă se negociază; documentul nu numește persoane în funcții neacceptate.
 
-Proiectul „Fotbal pentru Viitor” și materialele originale ale autorului pot fi consultate, descărcate, distribuite, adaptate și folosite gratuit pentru implementare, fără redevențe sau plăți către George Dobritoiu. Scopul este ca propunerea să fie îmbunătățită și pusă în practică. Menționarea autorului este apreciată.
+Materialele originale ale lui George Dobritoiu din „Fotbal pentru Viitor” sunt oferite sub licența Creative Commons Atribuire 4.0 Internațional (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/. Pot fi distribuite, adaptate, traduse și utilizate gratuit, inclusiv comercial, cu atribuirea autorului, link către licență și indicarea modificărilor, fără a sugera susținerea autorului.
 
-Autorul și firmele asociate lui nu participă la contractele de implementare a strategiei, inclusiv dezvoltarea platformei, formare, consultanță de implementare sau administrarea programului.
+Autorul nu primește remunerație pentru utilizarea documentației. Autorul și firmele asociate lui nu participă la contractele de implementare.
 
-Materialele provenite de la terți își păstrează propriile condiții de utilizare.
+Licența acoperă doar materialele originale ale autorului. Fotografiile Unsplash și materialele din sursele citate sunt excluse și își păstrează condițiile proprii de utilizare.
 
 | Decizie sau activitate | Răspunde de execuție | Aprobă în proiect | Consultă |
 | Buget și modificări majore | Manager și financiar | Conducerea organizației gazdă | Consiliu și finanțatori |
