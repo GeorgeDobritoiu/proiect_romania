@@ -101,3 +101,8 @@ print('Generated',len(list(P.rglob('*.html'))),'pages')
 
 # A bilingual, static 404 keeps missing pages useful without a soft-404 rewrite.
 put("404.html", '<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Pagina nu a fost găsită | Proiect România</title><link rel="stylesheet" href="/assets/site.css?rev=audit-20261003"></head><body class="platform-page">'+header(False,0)+'<main class="page-intro wrap" id="main"><p class="eyebrow">404</p><h1>Pagina nu a fost găsită.</h1><p>Poți continua de la <a href="/">prima pagină</a> sau poți explora <a href="/proiecte">proiectele</a>.</p><div lang="en"><h2>Page not found.</h2><p>Visit the <a href="/en">home page</a> or explore <a href="/en/projects">the projects</a>.</p></div></main>'+footer(False)+'<script src="/assets/site.js?rev=audit-20261003" defer></script></body></html>')
+
+
+# Funding articles are maintained separately and included in every site rebuild.
+import runpy
+runpy.run_path(str(HERE/'funding.py'))
