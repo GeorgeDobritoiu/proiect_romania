@@ -121,6 +121,16 @@
       "source": "/en/projects/football-for-the-future.html",
       "destination": "/en/projects/football-for-the-future",
       "statusCode": 301
+    },
+    {
+      "source": "/oportunitati-de-finantare.html",
+      "destination": "/oportunitati-de-finantare",
+      "statusCode": 301
+    },
+    {
+      "source": "/oportunitati-de-finantare/social-awards-2026.html",
+      "destination": "/oportunitati-de-finantare/social-awards-2026",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -194,6 +204,14 @@
     {
       "source": "/en/projects/football-for-the-future",
       "destination": "/en/projects/football-for-the-future.html"
+    },
+    {
+      "source": "/oportunitati-de-finantare",
+      "destination": "/oportunitati-de-finantare.html"
+    },
+    {
+      "source": "/oportunitati-de-finantare/social-awards-2026",
+      "destination": "/oportunitati-de-finantare/social-awards-2026.html"
     }
   ]
 }

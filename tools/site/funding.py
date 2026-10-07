@@ -38,3 +38,9 @@ print('Published funding section and article')
 
 css=P/"assets/site.css"
 if ".site-nav{flex-wrap:wrap}" not in css.read_text():css.write_text(css.read_text()+"\n.site-nav{flex-wrap:wrap}\n")
+config=P/'vercel.json'
+v=json.loads(config.read_text())
+for path in [route,url]:
+ if not any(x['source']==path for x in v['rewrites']):v['rewrites'].append({'source':path,'destination':path+'.html'})
+ if not any(x['source']==path+'.html' for x in v['redirects']):v['redirects'].append({'source':path+'.html','destination':path,'statusCode':301})
+config.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
