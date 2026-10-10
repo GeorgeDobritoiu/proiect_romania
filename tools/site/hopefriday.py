@@ -48,3 +48,8 @@ sm=(P/'sitemap.xml').read_text()
 if path+'</loc>' not in sm:sm=sm.replace('</urlset>','<url><loc>https://proiectromania.ro'+path+'</loc><lastmod>2026-10-10</lastmod></url></urlset>')
 (P/'sitemap.xml').write_text(sm)
 print('Built HopeFriday project and RO listings')
+
+# Keep shared navigation and discovery pages compact after content updates.
+import runpy
+from pathlib import Path
+runpy.run_path(str(Path(__file__).with_name('navigation.py')))

@@ -44,3 +44,8 @@ for path in [route,url]:
  if not any(x['source']==path for x in v['rewrites']):v['rewrites'].append({'source':path,'destination':path+'.html'})
  if not any(x['source']==path+'.html' for x in v['redirects']):v['redirects'].append({'source':path+'.html','destination':path,'statusCode':301})
 config.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+
+# Keep shared navigation and discovery pages compact after content updates.
+import runpy
+from pathlib import Path
+runpy.run_path(str(Path(__file__).with_name('navigation.py')))

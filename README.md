@@ -44,3 +44,7 @@ Run `python tools/site/democracy.py` after other page generators to regenerate t
 ### Manualul partidului responsabil
 
 Sursa editorială: `docs/manual-partid-responsabil.html`. Conține cerințe legale citate distinct de propunerile operaționale. După editare, rulați `python tools/site/manual.py` pentru PDF (ReportLab și fonturi DejaVu Sans), apoi `python tools/site/democracy.py` pentru paginile publice. Verificați vizual PDF-ul și pagina pe mobil înainte de publicare. PDF: `downloads/manual-partid-responsabil.pdf`. Sursele au data verificării 10.10.2026; normele trebuie reverificate la fiecare ediție.
+
+### Navigation and project discovery
+
+`tools/site/navigation.py` maintains the short RO/EN homepages, the full 12-entry project directory, and the five-link menu on all pages using the shared shell. Content generators invoke it last to prevent appended homepage sections returning. Add new entries to its `ITEMS` registry. Filters and accent-insensitive search progressively enhance the directory; all entries remain visible without JavaScript.

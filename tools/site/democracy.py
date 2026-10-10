@@ -169,3 +169,8 @@ for path in RO+EN:
   u=ET.SubElement(root,'{'+ns+'}url');ET.SubElement(u,'{'+ns+'}loc').text=BASE+path
 tree.write(P/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 
+
+# Keep shared navigation and discovery pages compact after content updates.
+import runpy
+from pathlib import Path
+runpy.run_path(str(Path(__file__).with_name('navigation.py')))

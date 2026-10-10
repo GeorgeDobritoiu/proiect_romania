@@ -118,3 +118,8 @@ runpy.run_path(str(HERE/"hopefriday.py"))
 
 # Citizen environment features.
 runpy.run_path(str(HERE/"environment.py"))
+
+# Keep shared navigation and discovery pages compact after content updates.
+import runpy
+from pathlib import Path
+runpy.run_path(str(Path(__file__).with_name('navigation.py')))

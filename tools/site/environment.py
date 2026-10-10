@@ -31,3 +31,8 @@ for route in paths:
  if route+'</loc>' not in sm:sm=sm.replace('</urlset>','<url><loc>https://proiectromania.ro'+route+'</loc><lastmod>2026-10-10</lastmod></url></urlset>')
 (P/'vercel.json').write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n');(P/'sitemap.xml').write_text(sm)
 print('Built two citizen environment features and updated listing')
+
+# Keep shared navigation and discovery pages compact after content updates.
+import runpy
+from pathlib import Path
+runpy.run_path(str(Path(__file__).with_name('navigation.py')))
