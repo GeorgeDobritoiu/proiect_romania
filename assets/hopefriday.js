@@ -23,11 +23,11 @@
   form.elements.turnover.value='';form.elements.gross.value='0';form.elements.tax.value='0';form.elements.used.value='0';form.elements.carried.value='0';document.getElementById('sponsor-result').textContent='Se verifică bilanțul. Estimarea anterioară a fost eliminată.';
   status.textContent='Se caută în baza publică ANAF…';
   try{
-   const response=await fetch('/api/anaf-bilant?'+new URLSearchParams({cui:lookup.elements.cui.value,year:lookup.elements.year.value}));const data=await response.json();if(!response.ok)throw Error(data.error||'Serviciul nu a răspuns.');
+   const response=await fetch('/api/anaf-bilant?'+new URLSearchParams({cui:lookup.elements.cui.value,year:lookup.elements.year.value}),{signal:AbortSignal.timeout(25000)});const data=await response.json();if(!response.ok)throw Error(data.error||'Serviciul nu a răspuns.');
    form.elements.turnover.value=data.turnover;form.elements.gross.value=data.grossProfit;form.elements.regime.value='estimate';
    status.textContent=`${data.name} · CUI ${data.cui} · anul ${data.year} · sursa: ANAF. Cifra de afaceri: ${data.turnover.toLocaleString('ro-RO')} lei; profit contabil brut: ${data.grossProfit.toLocaleString('ro-RO')} lei${data.grossLoss?`; pierdere contabilă brută: ${data.grossLoss.toLocaleString('ro-RO')} lei`:''}. Estimarea presupune regim general de impozit pe profit și plafon neutilizat; confirmă la contabil. Pentru 2025, termenul obișnuit al formularului 177 a trecut; calculul este informativ.`;
    form.requestSubmit();
-  }catch(error){status.textContent=error.message;document.getElementById('sponsor-result').textContent='Estimarea automată nu este disponibilă. Poți introduce manual datele confirmate de contabil.';}
+  }catch(error){status.textContent=error.name==='TimeoutError'?'ANAF răspunde prea lent. Încearcă din nou mai târziu.':error.message;document.getElementById('sponsor-result').textContent='Estimarea automată nu este disponibilă. Poți introduce manual datele confirmate de contabil.';}
   finally{button.disabled=false;}
  });
 })();
