@@ -106,3 +106,6 @@ put("404.html", '<!doctype html><html lang="ro"><head><meta charset="utf-8"><met
 # Funding articles are maintained separately and included in every site rebuild.
 import runpy
 runpy.run_path(str(HERE/'funding.py'))
+
+# Citizen proposals are restored on every site rebuild.
+runpy.run_path(str(HERE/'citizens.py'))

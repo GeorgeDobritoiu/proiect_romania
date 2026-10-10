@@ -131,6 +131,26 @@
       "source": "/oportunitati-de-finantare/social-awards-2026.html",
       "destination": "/oportunitati-de-finantare/social-awards-2026",
       "statusCode": 301
+    },
+    {
+      "source": "/initiative-cetatenesti.html",
+      "destination": "/initiative-cetatenesti",
+      "statusCode": 301
+    },
+    {
+      "source": "/initiative-cetatenesti/oradea-refoloseste.html",
+      "destination": "/initiative-cetatenesti/oradea-refoloseste",
+      "statusCode": 301
+    },
+    {
+      "source": "/initiative-cetatenesti/statii-verzi-oradea.html",
+      "destination": "/initiative-cetatenesti/statii-verzi-oradea",
+      "statusCode": 301
+    },
+    {
+      "source": "/initiative-cetatenesti/biciclete-securizate-oradea.html",
+      "destination": "/initiative-cetatenesti/biciclete-securizate-oradea",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -212,6 +232,22 @@
     {
       "source": "/oportunitati-de-finantare/social-awards-2026",
       "destination": "/oportunitati-de-finantare/social-awards-2026.html"
+    },
+    {
+      "source": "/initiative-cetatenesti",
+      "destination": "/initiative-cetatenesti.html"
+    },
+    {
+      "source": "/initiative-cetatenesti/oradea-refoloseste",
+      "destination": "/initiative-cetatenesti/oradea-refoloseste.html"
+    },
+    {
+      "source": "/initiative-cetatenesti/statii-verzi-oradea",
+      "destination": "/initiative-cetatenesti/statii-verzi-oradea.html"
+    },
+    {
+      "source": "/initiative-cetatenesti/biciclete-securizate-oradea",
+      "destination": "/initiative-cetatenesti/biciclete-securizate-oradea.html"
     }
   ]
 }
