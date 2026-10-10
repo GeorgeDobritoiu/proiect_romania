@@ -40,3 +40,7 @@ Check 390px and 1440px views, menu and keyboard focus, no horizontal overflow, W
 The bilingual section is at `/democratie-si-buna-guvernare` and `/en/democracy-and-governance`. It contains George Dobritoiu’s conceptual party-governance proposal and editorial references to three independently operated civic initiatives. No affiliations or active registration calls are implied.
 
 Run `python tools/site/democracy.py` after other page generators to regenerate these pages, home/project entry points, routes and sitemap entries. Its source contains both language versions; styling is in `assets/democracy.css`. The generator preserves unrelated page content.
+
+### Manualul partidului responsabil
+
+Sursa editorială: `docs/manual-partid-responsabil.html`. Conține cerințe legale citate distinct de propunerile operaționale. După editare, rulați `python tools/site/manual.py` pentru PDF (ReportLab și fonturi DejaVu Sans), apoi `python tools/site/democracy.py` pentru paginile publice. Verificați vizual PDF-ul și pagina pe mobil înainte de publicare. PDF: `downloads/manual-partid-responsabil.pdf`. Sursele au data verificării 10.10.2026; normele trebuie reverificate la fiecare ediție.

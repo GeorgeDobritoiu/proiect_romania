@@ -100,6 +100,14 @@ CONTENT = {
  }
 }
 
+
+# The manual is maintained independently and shared by the HTML and PDF builders.
+CONTENT['ro']['description'] = 'Manual practic pentru înființarea și organizarea unui partid în România: legislație, filiale, cotizații, KPI și tehnologie.'
+CONTENT['ro']['proposal'] = 'MANUAL DE LUCRU · VERSIUNEA 1.0'
+CONTENT['ro']['read'] = 'Citește manualul'
+CONTENT['ro']['body'] = (P/'docs/manual-partid-responsabil.html').read_text()
+CONTENT['en']['body'] = '<aside class="dem-note"><strong>Practical manual now available in Romanian.</strong> The expanded edition covers registration in Romania, branch governance, membership dues, financial controls, 14 administrative KPIs, technology and privacy, a documentary case study of the AUR app, and eight working templates. Legal requirements are distinguished from proposed rules. Sources reviewed on 10 October 2026. <a href="/proiecte/partidul-ca-organizatie-responsabila">Read the Romanian manual</a> · <a href="/downloads/manual-partid-responsabil.pdf">Download the Romanian PDF</a>.</aside>' + CONTENT['en']['body']
+
 def card(lang):
  d=CONTENT[lang]; paths=EN if lang=='en' else RO
  return f'<article class="dem-card" id="accountable-party-card"><p class="eyebrow">{d["proposal"]}</p><h2><a href="{paths[1]}">{d["title"]}</a></h2><p>{d["description"]}</p><p class="meta">George Dobritoiu · 2025–2026</p><a class="btn" href="{paths[1]}">{d["read"]} ↗</a></article>'
