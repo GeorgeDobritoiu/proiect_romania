@@ -5,7 +5,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import html,json
 P=Path(__file__).resolve().parents[2]
-CATS={'sport':('Sport','Sport'),'solidaritate':('Solidaritate','Solidarity'),'educatie':('Educație','Education'),'democratie':('Democrație','Democracy'),'mediu':('Mediu și comunitate','Environment & community')}
+CATS={'sport':('Sport','Sport'),'solidaritate':('Solidaritate','Solidarity'),'educatie':('Educație','Education'),'democratie':('Democrație','Democracy'),'mediu':('Mediu și comunitate','Environment & community'),'sanatate':('Sănătate și familie','Health & family')}
 # path, English path, category, RO title, EN title, RO summary, EN summary, attribution, image
 ITEMS=[
 ('/proiecte/fotbal-pentru-viitor','/en/projects/football-for-the-future','sport','Fotbal pentru Viitor','Football for the Future','Copii, antrenori și comunități. Propunere pentru fotbalul de bază.','Children, coaches and communities. A grassroots football proposal.','George Dobritoiu','/assets/img/fotbal-pentru-viitor-logo.png'),
@@ -26,6 +26,7 @@ ITEMS=[x if j<3 else (*x[:-1],'/assets/img/project-symbols/'+SYMBOLS[j-3]+'.svg'
 ITEMS.append(('/proiecte/cum-infiintezi-o-asociatie','/en/projects/start-an-association','solidaritate','Cum înființezi o asociație','Start an association in Romania','Ghid: sport, protecția animalelor, acte, buget și organizare.','Sports, animal welfare, registration, budgets and organisation. Full guide in Romanian.','George Dobritoiu','/assets/img/project-symbols/asociatie.svg'))
 ITEMS.append(('/proiecte/sah-in-scoli','/en/projects/chess-in-schools','educatie','Șah în școli','Chess in schools','Descoperă două programe existente și cum pot participa profesorii, școlile și susținătorii.','Explore two existing programmes and ways for teachers, schools and supporters to participate.','Federația Română de Șah · CS Gambitul Damei Iași','/assets/img/project-symbols/sah.svg'))
 ITEMS.extend(json.loads((P/'tools/site/community_entries.json').read_text()))
+ITEMS.extend(json.loads((P/'tools/site/fiv_entries.json').read_text()))
 def esc(s):return html.escape(s,quote=True)
 def card(i,en=False,compact=False):
  path,ep,cat,ro,eng,rd,ed,author,img=i;title=eng if en else ro;url=ep if en and ep else path

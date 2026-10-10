@@ -276,6 +276,16 @@
       "source": "/en/projects/digital-skills-for-families.html",
       "destination": "/en/projects/digital-skills-for-families",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte/fertilizare-in-vitro.html",
+      "destination": "/proiecte/fertilizare-in-vitro",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/ivf-support-romania.html",
+      "destination": "/en/projects/ivf-support-romania",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -473,6 +483,14 @@
     {
       "source": "/en/projects/digital-skills-for-families",
       "destination": "/en/projects/digital-skills-for-families.html"
+    },
+    {
+      "source": "/proiecte/fertilizare-in-vitro",
+      "destination": "/proiecte/fertilizare-in-vitro.html"
+    },
+    {
+      "source": "/en/projects/ivf-support-romania",
+      "destination": "/en/projects/ivf-support-romania.html"
     }
   ]
 }
