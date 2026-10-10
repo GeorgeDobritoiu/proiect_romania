@@ -23,6 +23,7 @@ ITEMS=[
 ]
 SYMBOLS=['votat','refoloseste','statii-verzi','biciclete','gradini','spatiuviu','banii-partidelor','vot-corect','bugete-locale']
 ITEMS=[x if j<3 else (*x[:-1],'/assets/img/project-symbols/'+SYMBOLS[j-3]+'.svg') for j,x in enumerate(ITEMS)]
+ITEMS.append(('/proiecte/cum-infiintezi-o-asociatie','/en/projects/start-an-association','solidaritate','Cum înființezi o asociație','Start an association in Romania','Ghid: sport, protecția animalelor, acte, buget și organizare.','Sports, animal welfare, registration, budgets and organisation. Full guide in Romanian.','George Dobritoiu','/assets/img/project-symbols/asociatie.svg'))
 def esc(s):return html.escape(s,quote=True)
 def card(i,en=False,compact=False):
  path,ep,cat,ro,eng,rd,ed,author,img=i;title=eng if en else ro;url=ep if en and ep else path
@@ -40,7 +41,7 @@ for en in [False,True]:
  intro='Explore proposals and independent initiatives. Find a cause, read the details and choose how to contribute.' if en else 'Descoperă propuneri și inițiative independente. Alege un domeniu, citește proiectul și vezi cum te poți implica.'
  featured=''.join(card(x,en,True) for x in ITEMS[:4])
  body=f'''<section class="wrap compact-hero"><p class="eyebrow">PROIECT ROMÂNIA</p><h1>{title}</h1><p>{intro}</p><nav class="category-shortcuts" aria-label="{'Project categories' if en else 'Categorii de proiecte'}">{cats}</nav></section>
-<section class="wrap home-directory"><div class="directory-heading"><h2>{'Discover the projects' if en else 'Descoperă proiectele'}</h2><a href="{route}">{'View all 12' if en else 'Vezi toate cele 12'} →</a></div><div class="directory-grid home-grid">{featured}</div></section>
+<section class="wrap home-directory"><div class="directory-heading"><h2>{'Discover the projects' if en else 'Descoperă proiectele'}</h2><a href="{route}">{('View all '+str(len(ITEMS))) if en else ('Vezi toate cele '+str(len(ITEMS)))} →</a></div><div class="directory-grid home-grid">{featured}</div></section>
 <section class="wrap compact-callout"><div><h2>{'Have an idea or want to help?' if en else 'Ai o idee sau vrei să ajuți?'}</h2><p>{'Share your proposal or contribute your experience.' if en else 'Propune o soluție sau contribuie cu experiența ta.'}</p></div><a class="btn" href="{'/en/propose-a-project' if en else '/propune-un-proiect'}">{'Get involved' if en else 'Implică-te'} ↗</a></section>'''
  main.append(BeautifulSoup(body,'html.parser'));(P/home).write_text(str(s))
  s=BeautifulSoup((P/directory).read_text(),'html.parser');main=s.select_one('main');main.clear()

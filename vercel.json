@@ -196,6 +196,16 @@
       "source": "/en/projects/romanian-gcse.html",
       "destination": "/en/projects/romanian-gcse",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte/cum-infiintezi-o-asociatie.html",
+      "destination": "/proiecte/cum-infiintezi-o-asociatie",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/start-an-association.html",
+      "destination": "/en/projects/start-an-association",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -329,6 +339,14 @@
     {
       "source": "/en/projects/romanian-gcse",
       "destination": "/en/projects/romanian-gcse.html"
+    },
+    {
+      "source": "/proiecte/cum-infiintezi-o-asociatie",
+      "destination": "/proiecte/cum-infiintezi-o-asociatie.html"
+    },
+    {
+      "source": "/en/projects/start-an-association",
+      "destination": "/en/projects/start-an-association.html"
     }
   ]
 }

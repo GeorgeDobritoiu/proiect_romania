@@ -25,3 +25,5 @@ Retrieved 10 October 2026.
 ## Project pictograms
 
 The SVG files in `assets/img/project-symbols/` are original editorial illustrations created for Proiect România. They identify project themes and are not official logos of the independent organisers. The “VOTAT” stamp is a decorative illustration for the accountable-party manual, not an official electoral stamp.
+
+Pictograma `assets/img/project-symbols/asociatie.svg` este o ilustrație editorială originală pentru ghidul asociațiilor, nu sigla unei organizații existente.
