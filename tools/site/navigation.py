@@ -92,13 +92,13 @@ for p in P.rglob('*.html'):
   nav.append(a)
  for brand in s.select('.site-brand'):
   brand.clear();brand['aria-label']='Proiect România — '+('Home' if en else 'Acasă')
-  brand.append(BeautifulSoup('<img class="brand-map" src="/assets/img/proiect-romania-logo.png" width="78" height="52" alt=""/><span class="brand-wordmark"><small>PROIECT</small><strong>ROMÂNIA<span class="brand-dot">.</span></strong></span>','html.parser'))
- for css in ['/assets/directory.css','/assets/homepage.css?v=20261010']:
+  brand.append(BeautifulSoup('<img class="brand-map" src="/assets/img/proiect-romania-logo-tricolor.png" width="78" height="52" alt=""/><span class="brand-wordmark"><small>PROIECT</small><strong>ROMÂNIA<span class="brand-dot">.</span></strong></span>','html.parser'))
+ for css in ['/assets/directory.css','/assets/homepage.css?v=20261010-tricolor']:
   if not s.select_one(f'link[href="{css}"]'):s.head.append(s.new_tag('link',rel='stylesheet',href=css))
  for js in s.select('script[src]'):
   if js['src'].startswith('/assets/site.js'):js['src']='/assets/site.js?rev=home-20261010'
  icon=s.select_one('link[rel="icon"]')
- if icon:icon['href']='/assets/img/proiect-romania-logo.png';icon['type']='image/png'
+ if icon:icon['href']='/assets/img/proiect-romania-logo-tricolor.png';icon['type']='image/png'
  foot=s.select_one('.site-footer > div:nth-of-type(2)')
  if foot:
   href='/en/how-it-works' if en else '/cum-functioneaza'
