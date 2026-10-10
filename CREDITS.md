@@ -13,3 +13,11 @@ Downloaded 3 October 2026.
 Original campaign logo recovered from hopefriday.ro, Internet Archive capture dated 28 October 2017. Image reused without alteration for the campaign.
 
 Source: https://web.archive.org/web/20171028132249id_/https://hopefriday.ro/wp-content/uploads/2016/05/hf-e1464120635793.jpg
+
+## Romanian GCSE
+
+Official campaign logo, used unchanged to identify the independent campaign by Tessa Dunlop and Beyond Romania CIC. Rights remain with the respective owner; this logo is not covered by the site's own content licence.
+
+Source: https://romaniangcse.co.uk/wp-content/uploads/2026/04/cropped-GCSE-no-background.png
+Campaign website: https://romaniangcse.co.uk/ro/
+Retrieved 10 October 2026.

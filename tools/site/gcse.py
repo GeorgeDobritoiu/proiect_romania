@@ -8,6 +8,7 @@ BASE='https://proiectromania.ro'
 RO='/proiecte/gcse-limba-romana';EN='/en/projects/romanian-gcse'
 FORM='https://form.jotform.com/260113622781046'
 OFFICIAL='https://romaniangcse.co.uk/ro/'
+LOGO='<img src="/assets/img/romanian-gcse-logo.png" alt="Romanian GCSE — logo-ul campaniei / campaign logo" width="1363" height="694" decoding="async" style="display:block;width:100%;max-width:300px;height:auto;object-fit:contain;margin:0 0 24px"/>'
 DATA={
 'ro':dict(title='Limba română ca opțional GCSE',tag='EDUCAȚIE · CAMPANIE INDEPENDENTĂ',description='Promovăm campania Tessa Dunlop și Beyond Romania CIC pentru introducerea limbii române ca materie opțională GCSE.',read='Descoperă campania',back='Înapoi la proiecte',body=f'''
 <aside class="dem-note"><strong>O inițiativă a Tessa Dunlop și Beyond Romania CIC.</strong> Proiect România promovează acțiunea organizatorilor. Prezentarea nu reprezintă un proiect propriu sau un parteneriat anunțat.</aside>
@@ -38,7 +39,7 @@ DATA={
 
 def card(lang):
  d=DATA[lang];path=RO if lang=='ro' else EN
- return f'<section class="wrap section-space" id="education-gcse-entry"><p class="eyebrow">{d["tag"]}</p><article class="dem-card"><h2><a href="{path}">{d["title"]}</a></h2><p>{d["description"]}</p><p class="meta">Tessa Dunlop · Beyond Romania CIC</p><a class="btn" href="{path}">{d["read"]} ↗</a></article></section>'
+ return f'<section class="wrap section-space" id="education-gcse-entry"><p class="eyebrow">{d["tag"]}</p><article class="dem-card">{LOGO}<h2><a href="{path}">{d["title"]}</a></h2><p>{d["description"]}</p><p class="meta">Tessa Dunlop · Beyond Romania CIC</p><a class="btn" href="{path}">{d["read"]} ↗</a></article></section>'
 
 for lang in ['ro','en']:
  d=DATA[lang];path=RO if lang=='ro' else EN
@@ -51,7 +52,7 @@ for lang in ['ro','en']:
  for a in s.select('.languages a'):a['href']=EN if a.get('lang')=='en' else RO
  for script in s.select('script[type="application/ld+json"]'):script.decompose()
  tag=s.new_tag('script',type='application/ld+json');tag.string=json.dumps({'@context':'https://schema.org','@type':'WebPage','name':d['title'],'url':BASE+path,'description':d['description'],'inLanguage':lang},ensure_ascii=False);s.head.append(tag)
- main=s.select_one('main');main.clear();main.append(BeautifulSoup(f'<article class="wrap dem-article"><a href="{"/proiecte" if lang=="ro" else "/en/projects"}">← {d["back"]}</a><p class="eyebrow">{d["tag"]}</p><h1>{d["title"]}</h1><p class="lead">{d["description"]}</p><div class="dem-body">{d["body"]}</div></article>','html.parser'))
+ main=s.select_one('main');main.clear();main.append(BeautifulSoup(f'<article class="wrap dem-article"><a href="{"/proiecte" if lang=="ro" else "/en/projects"}">← {d["back"]}</a><p class="eyebrow">{d["tag"]}</p>{LOGO}<h1>{d["title"]}</h1><p class="lead">{d["description"]}</p><div class="dem-body">{d["body"]}</div></article>','html.parser'))
  (P/(path.lstrip('/')+'.html')).write_text(str(s))
  for filename in (['index.html','proiecte.html'] if lang=='ro' else ['en.html','en/projects.html']):
   q=BeautifulSoup((P/filename).read_text(),'html.parser');old=q.select_one('#education-gcse-entry')
