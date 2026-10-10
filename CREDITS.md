@@ -27,3 +27,11 @@ Retrieved 10 October 2026.
 The SVG files in `assets/img/project-symbols/` are original editorial illustrations created for Proiect România. They identify project themes and are not official logos of the independent organisers. The “VOTAT” stamp is a decorative illustration for the accountable-party manual, not an official electoral stamp.
 
 Pictograma `assets/img/project-symbols/asociatie.svg` este o ilustrație editorială originală pentru ghidul asociațiilor, nu sigla unei organizații existente.
+
+
+## Editorial article visuals — 11 October 2026
+
+- Harta Reciclării: official programme mark from https://hartareciclarii.ro/wp-content/uploads/2021/11/Harta_Reciclarii_secondary_color.png, used to identify the programme. Rights remain with its owner; no affiliation is implied.
+- Școala de Bani: official mark from https://www.scoaladebani.ro/images/ui/long-logo.svg, used to identify the programme. Rights remain with its owner; no affiliation is implied.
+- IVF support image: AI-generated editorial illustration of supportive adult hands, created for Proiect România; not a photograph of actual patients or a treatment outcome.
+- Typographic covers: original HTML/CSS editorial designs for Proiect România, not logos of the featured organisations.

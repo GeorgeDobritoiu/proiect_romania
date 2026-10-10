@@ -28,11 +28,12 @@ ITEMS.append(('/proiecte/sah-in-scoli','/en/projects/chess-in-schools','educatie
 ITEMS.extend(json.loads((P/'tools/site/community_entries.json').read_text()))
 ITEMS.extend(json.loads((P/'tools/site/fiv_entries.json').read_text()))
 def esc(s):return html.escape(s,quote=True)
+from editorial_visuals import visual as editorial_visual
 def card(i,en=False,compact=False):
  path,ep,cat,ro,eng,rd,ed,author,img=i;title=eng if en else ro;url=ep if en and ep else path
  note=(' · RO' if en and not ep else '')+(' · External' if en and path.startswith('https') else ' · Extern' if path.startswith('https') else '')
  author=('Documented citizen initiative' if en and author=='Inițiativă cetățenească documentată' else author)
- visual=f'<img src="{img}" alt="{esc(ro)}" loading="lazy" decoding="async"/>' if img else f'<span class="project-monogram" aria-hidden="true">{esc(CATS[cat][1 if en else 0][:1])}</span>'
+ visual=editorial_visual(i,en)
  return f'<article class="directory-card" data-category="{cat}"><div class="directory-mark">{visual}</div><p class="directory-category">{CATS[cat][1 if en else 0]}{note}</p><h{3 if compact else 2}><a href="{url}">{esc(title)}</a></h{3 if compact else 2}><p class="directory-description">{esc(ed if en else rd)}</p><p class="directory-author">{esc(author)}</p></article>'
 def links(en):
  return [('/en/projects' if en else '/proiecte','Projects' if en else 'Proiecte'),('/oportunitati-de-finantare','Funding (RO)' if en else 'Finanțare'),('/en/about' if en else '/despre','About' if en else 'Despre'),('/en/propose-a-project' if en else '/propune-un-proiect','Propose a project' if en else 'Propune un proiect'),('/en/contact' if en else '/contact','Contact')]
@@ -48,31 +49,32 @@ for en in [False,True]:
  main.append(BeautifulSoup(body,'html.parser'))
  if not s.select_one('script[src="/assets/directory.js"]'):s.body.append(s.new_tag('script',src='/assets/directory.js',defer=''))
  (P/directory).write_text(str(s))
-# Add original editorial symbols to detailed articles and collection cards.
-for entry in ITEMS[3:]:
- path,ep,cat,ro,eng,rd,ed,author,img=entry
+# Refresh article imagery without changing article copy.
+for entry in ITEMS:
+ path,ep,*_=entry
  for route in [path,ep]:
   if not route or route.startswith('https:'):continue
   file=P/(route.lstrip('/')+'.html')
   if not file.exists():continue
   doc=BeautifulSoup(file.read_text(),'html.parser');h=doc.select_one('main h1')
-  if h and not doc.select_one('main .project-editorial-symbol'):
-   icon=doc.new_tag('img',src=img,alt=('Editorial symbol: '+eng if route.startswith('/en/') else 'Simbol ilustrativ: '+ro),width='160',height='160',decoding='async')
-   icon['class']='project-editorial-symbol';icon['style']='display:block;width:104px;height:104px;margin:20px 0'
-   h.insert_before(icon);file.write_text(str(doc))
+  if not h:continue
+  for old in doc.select('main .project-editorial-symbol,main .article-editorial-visual'):old.decompose()
+  # Existing GCSE campaign identity is now displayed inside the shared brand panel.
+  if path=='/proiecte/gcse-limba-romana':
+   for old in doc.select('main img[src="/assets/img/romanian-gcse-logo.png"]'):old.decompose()
+  block=doc.new_tag('div');block['class']='article-editorial-visual';block.append(BeautifulSoup(editorial_visual(entry,route.startswith('/en/')),'html.parser'))
+  h.insert_before(block);file.write_text(str(doc))
 for collection in ['initiative-cetatenesti.html','democratie-si-buna-guvernare.html','en/democracy-and-governance.html']:
- file=P/collection
- doc=BeautifulSoup(file.read_text(),'html.parser')
- for entry in ITEMS[3:]:
-  path,ep,cat,ro,eng,rd,ed,author,img=entry
+ file=P/collection;doc=BeautifulSoup(file.read_text(),'html.parser')
+ for old in doc.select('main .project-editorial-symbol,main .collection-editorial-visual'):old.decompose()
+ for entry in ITEMS:
+  path,ep,*_=entry
   for a in doc.select('main a[href]'):
    if a['href'] not in [path,ep]:continue
    cardnode=a.find_parent('article')
-   if cardnode and not cardnode.select_one('.project-editorial-symbol'):
+   if cardnode and not cardnode.select_one('.collection-editorial-visual'):
     holder=cardnode.select_one('.project-card-body') or cardnode
-    icon=doc.new_tag('img',src=img,alt='Simbol ilustrativ / editorial symbol: '+ro,width='160',height='160',decoding='async')
-    icon['class']='project-editorial-symbol';icon['style']='display:block;width:80px;height:80px;margin:0 0 18px'
-    holder.insert(0,icon)
+    block=doc.new_tag('div');block['class']='collection-editorial-visual';block.append(BeautifulSoup(editorial_visual(entry,collection.startswith('en/')),'html.parser'));holder.insert(0,block)
  file.write_text(str(doc))
 
 # Apply to every existing page using the current site shell, without changing article content.
@@ -96,7 +98,7 @@ for p in P.rglob('*.html'):
  for brand in s.select('.site-brand'):
   brand.clear();brand['aria-label']='Proiect România — '+('Home' if en else 'Acasă')
   brand.append(BeautifulSoup('<img class="brand-map" src="/assets/img/proiect-romania-logo-tricolor.png" width="78" height="52" alt=""/><span class="brand-wordmark"><small>PROIECT</small><strong>ROMÂNIA<span class="brand-dot">.</span></strong></span>','html.parser'))
- for css in ['/assets/directory.css','/assets/homepage.css?v=20261010-tricolor']:
+ for css in ['/assets/directory.css','/assets/homepage.css?v=20261010-tricolor','/assets/editorial-visuals.css?v=20261011']:
   if not s.select_one(f'link[href="{css}"]'):s.head.append(s.new_tag('link',rel='stylesheet',href=css))
  for js in s.select('script[src]'):
   if js['src'].startswith('/assets/site.js'):js['src']='/assets/site.js?rev=home-20261010'
