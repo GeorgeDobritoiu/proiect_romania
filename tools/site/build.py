@@ -112,3 +112,6 @@ runpy.run_path(str(HERE/'citizens.py'))
 
 # HopeFriday project is maintained separately.
 runpy.run_path(str(HERE/"hopefriday.py"))
+
+# Citizen environment features.
+runpy.run_path(str(HERE/"environment.py"))

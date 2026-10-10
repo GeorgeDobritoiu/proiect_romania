@@ -156,6 +156,16 @@
       "source": "/proiecte/hopefriday.html",
       "destination": "/proiecte/hopefriday",
       "statusCode": 301
+    },
+    {
+      "source": "/initiative-cetatenesti/gradini-asumate.html",
+      "destination": "/initiative-cetatenesti/gradini-asumate",
+      "statusCode": 301
+    },
+    {
+      "source": "/initiative-cetatenesti/spatiuviu-mihalache126.html",
+      "destination": "/initiative-cetatenesti/spatiuviu-mihalache126",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -257,6 +267,14 @@
     {
       "source": "/proiecte/hopefriday",
       "destination": "/proiecte/hopefriday.html"
+    },
+    {
+      "source": "/initiative-cetatenesti/gradini-asumate",
+      "destination": "/initiative-cetatenesti/gradini-asumate.html"
+    },
+    {
+      "source": "/initiative-cetatenesti/spatiuviu-mihalache126",
+      "destination": "/initiative-cetatenesti/spatiuviu-mihalache126.html"
     }
   ]
 }
