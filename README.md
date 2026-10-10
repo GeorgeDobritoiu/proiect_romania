@@ -34,3 +34,9 @@ See `CREDITS.md`. Two relevant photos (a real Bucharest street and football pitc
 ## Verification
 
 Check 390px and 1440px views, menu and keyboard focus, no horizontal overflow, WhatsApp draft without sending, language counterpart links and all legacy anchors. After deployment verify the real 301 status for old RO/EN football URLs, including `.html`, and successful PDF downloads. Lighthouse scores should be measured, not assumed.
+
+## Democracy and good governance
+
+The bilingual section is at `/democratie-si-buna-guvernare` and `/en/democracy-and-governance`. It contains George Dobritoiu’s conceptual party-governance proposal and editorial references to three independently operated civic initiatives. No affiliations or active registration calls are implied.
+
+Run `python tools/site/democracy.py` after other page generators to regenerate these pages, home/project entry points, routes and sitemap entries. Its source contains both language versions; styling is in `assets/democracy.css`. The generator preserves unrelated page content.

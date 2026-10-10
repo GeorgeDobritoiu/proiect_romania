@@ -166,6 +166,26 @@
       "source": "/initiative-cetatenesti/spatiuviu-mihalache126.html",
       "destination": "/initiative-cetatenesti/spatiuviu-mihalache126",
       "statusCode": 301
+    },
+    {
+      "source": "/democratie-si-buna-guvernare.html",
+      "destination": "/democratie-si-buna-guvernare",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte/partidul-ca-organizatie-responsabila.html",
+      "destination": "/proiecte/partidul-ca-organizatie-responsabila",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/democracy-and-governance.html",
+      "destination": "/en/democracy-and-governance",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/accountable-political-party.html",
+      "destination": "/en/projects/accountable-political-party",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -275,6 +295,22 @@
     {
       "source": "/initiative-cetatenesti/spatiuviu-mihalache126",
       "destination": "/initiative-cetatenesti/spatiuviu-mihalache126.html"
+    },
+    {
+      "source": "/democratie-si-buna-guvernare",
+      "destination": "/democratie-si-buna-guvernare.html"
+    },
+    {
+      "source": "/proiecte/partidul-ca-organizatie-responsabila",
+      "destination": "/proiecte/partidul-ca-organizatie-responsabila.html"
+    },
+    {
+      "source": "/en/democracy-and-governance",
+      "destination": "/en/democracy-and-governance.html"
+    },
+    {
+      "source": "/en/projects/accountable-political-party",
+      "destination": "/en/projects/accountable-political-party.html"
     }
   ]
 }
