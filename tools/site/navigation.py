@@ -21,6 +21,8 @@ ITEMS=[
 ('https://votcorect.ro/',None,'democratie','Vot Corect','Vot Corect','Informare electorală și observarea alegerilor.','Election information and observation.','Expert Forum · Coaliția Vot Corect',None),
 ('https://comunitate.funky.ong/bugete_2026',None,'democratie','Cu ochii pe bugetele locale','Keeping an eye on local budgets','Program educațional documentat, ediția aprilie–mai 2026.','Documented educational programme, April–May 2026 edition.','Funky Citizens · transparenta.eu',None),
 ]
+SYMBOLS=['votat','refoloseste','statii-verzi','biciclete','gradini','spatiuviu','banii-partidelor','vot-corect','bugete-locale']
+ITEMS=[x if j<3 else (*x[:-1],'/assets/img/project-symbols/'+SYMBOLS[j-3]+'.svg') for j,x in enumerate(ITEMS)]
 def esc(s):return html.escape(s,quote=True)
 def card(i,en=False,compact=False):
  path,ep,cat,ro,eng,rd,ed,author,img=i;title=eng if en else ro;url=ep if en and ep else path
@@ -47,6 +49,33 @@ for en in [False,True]:
  main.append(BeautifulSoup(body,'html.parser'))
  if not s.select_one('script[src="/assets/directory.js"]'):s.body.append(s.new_tag('script',src='/assets/directory.js',defer=''))
  (P/directory).write_text(str(s))
+# Add original editorial symbols to detailed articles and collection cards.
+for entry in ITEMS[3:]:
+ path,ep,cat,ro,eng,rd,ed,author,img=entry
+ for route in [path,ep]:
+  if not route or route.startswith('https:'):continue
+  file=P/(route.lstrip('/')+'.html')
+  if not file.exists():continue
+  doc=BeautifulSoup(file.read_text(),'html.parser');h=doc.select_one('main h1')
+  if h and not doc.select_one('main .project-editorial-symbol'):
+   icon=doc.new_tag('img',src=img,alt=('Editorial symbol: '+eng if route.startswith('/en/') else 'Simbol ilustrativ: '+ro),width='160',height='160',decoding='async')
+   icon['class']='project-editorial-symbol';icon['style']='display:block;width:104px;height:104px;margin:20px 0'
+   h.insert_before(icon);file.write_text(str(doc))
+for collection in ['initiative-cetatenesti.html','democratie-si-buna-guvernare.html','en/democracy-and-governance.html']:
+ file=P/collection
+ doc=BeautifulSoup(file.read_text(),'html.parser')
+ for entry in ITEMS[3:]:
+  path,ep,cat,ro,eng,rd,ed,author,img=entry
+  for a in doc.select('main a[href]'):
+   if a['href'] not in [path,ep]:continue
+   cardnode=a.find_parent('article')
+   if cardnode and not cardnode.select_one('.project-editorial-symbol'):
+    holder=cardnode.select_one('.project-card-body') or cardnode
+    icon=doc.new_tag('img',src=img,alt='Simbol ilustrativ / editorial symbol: '+ro,width='160',height='160',decoding='async')
+    icon['class']='project-editorial-symbol';icon['style']='display:block;width:80px;height:80px;margin:0 0 18px'
+    holder.insert(0,icon)
+ file.write_text(str(doc))
+
 # Apply to every existing page using the current site shell, without changing article content.
 changed=[]
 for p in P.rglob('*.html'):

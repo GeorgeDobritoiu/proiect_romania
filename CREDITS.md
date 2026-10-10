@@ -21,3 +21,7 @@ Official campaign logo, used unchanged to identify the independent campaign by T
 Source: https://romaniangcse.co.uk/wp-content/uploads/2026/04/cropped-GCSE-no-background.png
 Campaign website: https://romaniangcse.co.uk/ro/
 Retrieved 10 October 2026.
+
+## Project pictograms
+
+The SVG files in `assets/img/project-symbols/` are original editorial illustrations created for Proiect România. They identify project themes and are not official logos of the independent organisers. The “VOTAT” stamp is a decorative illustration for the accountable-party manual, not an official electoral stamp.
