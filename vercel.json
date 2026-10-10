@@ -206,6 +206,16 @@
       "source": "/en/projects/start-an-association.html",
       "destination": "/en/projects/start-an-association",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte/sah-in-scoli.html",
+      "destination": "/proiecte/sah-in-scoli",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/chess-in-schools.html",
+      "destination": "/en/projects/chess-in-schools",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -347,6 +357,14 @@
     {
       "source": "/en/projects/start-an-association",
       "destination": "/en/projects/start-an-association.html"
+    },
+    {
+      "source": "/proiecte/sah-in-scoli",
+      "destination": "/proiecte/sah-in-scoli.html"
+    },
+    {
+      "source": "/en/projects/chess-in-schools",
+      "destination": "/en/projects/chess-in-schools.html"
     }
   ]
 }

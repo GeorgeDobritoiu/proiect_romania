@@ -7,7 +7,7 @@ def render_home(en, items, card, cats):
     how = '/en/how-it-works' if en else '/cum-functioneaza'
     contact = '/en/contact' if en else '/contact'
     football = '/en/projects/football-for-the-future' if en else '/proiecte/fotbal-pentru-viitor'
-    featured = ''.join(card(items[i], en, True) for i in [1,2,3,12])
+    featured = ''.join(card(items[i], en, True) for i in [1,2,3,12,13])
     categories = ''.join(f'<a href="{directory}#{key}"><span>{label[en]}</span><span aria-hidden="true">↗</span></a>' for key,label in cats.items())
     steps = [(t('O problemă reală','A real problem'), t('Pornim de la experiența oamenilor și de la dovezi verificabile.','We start with lived experience and evidence that can be checked.')),
              (t('Un plan clar','A clear plan'), t('Punem pe hârtie soluția, resursele, responsabilitățile și rezultatele urmărite.','We set out the solution, resources, responsibilities and intended results.')),
