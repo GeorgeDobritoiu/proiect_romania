@@ -186,6 +186,16 @@
       "source": "/en/projects/accountable-political-party.html",
       "destination": "/en/projects/accountable-political-party",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte/gcse-limba-romana.html",
+      "destination": "/proiecte/gcse-limba-romana",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/romanian-gcse.html",
+      "destination": "/en/projects/romanian-gcse",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -311,6 +321,14 @@
     {
       "source": "/en/projects/accountable-political-party",
       "destination": "/en/projects/accountable-political-party.html"
+    },
+    {
+      "source": "/proiecte/gcse-limba-romana",
+      "destination": "/proiecte/gcse-limba-romana.html"
+    },
+    {
+      "source": "/en/projects/romanian-gcse",
+      "destination": "/en/projects/romanian-gcse.html"
     }
   ]
 }
