@@ -10,4 +10,8 @@ document.querySelectorAll('.join-form').forEach(form=>form.addEventListener('sub
 document.documentElement.classList.add('js');
 const toggle=document.querySelector('.menu-toggle'), menu=document.querySelector('.site-nav');
 toggle?.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));menu.classList.toggle('is-open',open)});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle?.getAttribute('aria-expanded')==='true'){toggle.setAttribute('aria-expanded','false');menu.classList.remove('is-open');toggle.focus()}});
+
+const projectMenu=document.querySelector('.nav-projects');
+document.addEventListener('click',event=>{if(projectMenu?.open&&!projectMenu.contains(event.target))projectMenu.open=false});
+document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;if(projectMenu?.open){projectMenu.open=false;projectMenu.querySelector('summary').focus()}else if(toggle?.getAttribute('aria-expanded')==='true'){toggle.setAttribute('aria-expanded','false');menu.classList.remove('is-open');toggle.focus()}});
+menu?.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{if(projectMenu)projectMenu.open=false;if(toggle){toggle.setAttribute('aria-expanded','false');menu.classList.remove('is-open')}}));

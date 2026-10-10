@@ -1,4 +1,4 @@
-"""Compact home, complete project directory, and consistent site-wide navigation.
+"""Editorial home, complete project directory, and consistent site-wide navigation.
 Run last after content generators. Does not modify project article bodies.
 """
 from pathlib import Path
@@ -36,13 +36,8 @@ def links(en):
 for en in [False,True]:
  lang='en' if en else 'ro';home='en.html' if en else 'index.html';directory='en/projects.html' if en else 'proiecte.html';route='/en/projects' if en else '/proiecte'
  s=BeautifulSoup((P/home).read_text(),'html.parser');main=s.select_one('main');main.clear()
- cats=''.join(f'<a href="{route}#{k}">{v[1 if en else 0]}</a>' for k,v in CATS.items())
- title='Good ideas. Find your next project.' if en else 'Idei bune. Proiecte de descoperit.'
- intro='Explore proposals and independent initiatives. Find a cause, read the details and choose how to contribute.' if en else 'Descoperă propuneri și inițiative independente. Alege un domeniu, citește proiectul și vezi cum te poți implica.'
- featured=''.join(card(x,en,True) for x in ITEMS[:4])
- body=f'''<section class="wrap compact-hero"><p class="eyebrow">PROIECT ROMÂNIA</p><h1>{title}</h1><p>{intro}</p><nav class="category-shortcuts" aria-label="{'Project categories' if en else 'Categorii de proiecte'}">{cats}</nav></section>
-<section class="wrap home-directory"><div class="directory-heading"><h2>{'Discover the projects' if en else 'Descoperă proiectele'}</h2><a href="{route}">{('View all '+str(len(ITEMS))) if en else ('Vezi toate cele '+str(len(ITEMS)))} →</a></div><div class="directory-grid home-grid">{featured}</div></section>
-<section class="wrap compact-callout"><div><h2>{'Have an idea or want to help?' if en else 'Ai o idee sau vrei să ajuți?'}</h2><p>{'Share your proposal or contribute your experience.' if en else 'Propune o soluție sau contribuie cu experiența ta.'}</p></div><a class="btn" href="{'/en/propose-a-project' if en else '/propune-un-proiect'}">{'Get involved' if en else 'Implică-te'} ↗</a></section>'''
+ from homepage import render_home
+ body=render_home(en,ITEMS,card,CATS)
  main.append(BeautifulSoup(body,'html.parser'));(P/home).write_text(str(s))
  s=BeautifulSoup((P/directory).read_text(),'html.parser');main=s.select_one('main');main.clear()
  filters='<button type="button" data-filter="all" aria-pressed="true">'+('All' if en else 'Toate')+'</button>'+''.join(f'<button type="button" data-filter="{k}" aria-pressed="false">{v[1 if en else 0]}</button>' for k,v in CATS.items())
@@ -85,11 +80,25 @@ for p in P.rglob('*.html'):
  if not nav:continue
  en=s.html.get('lang','ro').startswith('en');nav.clear()
  rel=p.relative_to(P).as_posix();current='/en' if rel=='en.html' else '/' if rel=='index.html' else '/'+rel.removesuffix('.html')
- for url,label in links(en):
+ # Native details offers keyboard and no-JavaScript access to grouped navigation.
+ home='/en' if en else '/';directory='/en/projects' if en else '/proiecte'
+ nav.append(BeautifulSoup(f'<a href="{home}"'+(' aria-current="page"' if current==home else '')+'>'+('Home' if en else 'Acasă')+'</a>','html.parser'))
+ categories=''.join(f'<a href="{directory}#{key}">{label[en]} <span aria-hidden="true">↗</span></a>' for key,label in CATS.items())
+ nav.append(BeautifulSoup(f'<details class="nav-projects"><summary>{"Projects" if en else "Proiecte"} <span aria-hidden="true">⌄</span></summary><div class="nav-project-panel"><a class="nav-all-projects" href="{directory}">{"All projects" if en else "Toate proiectele"} <span aria-hidden="true">→</span></a>{categories}</div></details>','html.parser'))
+ for url,label in [links(en)[1],links(en)[2],links(en)[4],links(en)[3]]:
   a=s.new_tag('a',href=url);a.string=label
   if current==url:a['aria-current']='page'
+  if url==links(en)[3][0]:a['class']='nav-cta'
   nav.append(a)
- if not s.select_one('link[href="/assets/directory.css"]'):s.head.append(s.new_tag('link',rel='stylesheet',href='/assets/directory.css'))
+ for brand in s.select('.site-brand'):
+  brand.clear();brand['aria-label']='Proiect România — '+('Home' if en else 'Acasă')
+  brand.append(BeautifulSoup('<img class="brand-map" src="/assets/img/proiect-romania-logo.png" width="78" height="52" alt=""/><span class="brand-wordmark"><small>PROIECT</small><strong>ROMÂNIA<span class="brand-dot">.</span></strong></span>','html.parser'))
+ for css in ['/assets/directory.css','/assets/homepage.css?v=20261010']:
+  if not s.select_one(f'link[href="{css}"]'):s.head.append(s.new_tag('link',rel='stylesheet',href=css))
+ for js in s.select('script[src]'):
+  if js['src'].startswith('/assets/site.js'):js['src']='/assets/site.js?rev=home-20261010'
+ icon=s.select_one('link[rel="icon"]')
+ if icon:icon['href']='/assets/img/proiect-romania-logo.png';icon['type']='image/png'
  foot=s.select_one('.site-footer > div:nth-of-type(2)')
  if foot:
   href='/en/how-it-works' if en else '/cum-functioneaza'

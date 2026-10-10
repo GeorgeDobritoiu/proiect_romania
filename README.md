@@ -47,4 +47,4 @@ Sursa editorială: `docs/manual-partid-responsabil.html`. Conține cerințe lega
 
 ### Navigation and project discovery
 
-`tools/site/navigation.py` maintains the short RO/EN homepages, the full 12-entry project directory, and the five-link menu on all pages using the shared shell. Content generators invoke it last to prevent appended homepage sections returning. Add new entries to its `ITEMS` registry. Filters and accent-insensitive search progressively enhance the directory; all entries remain visible without JavaScript.
+`tools/site/navigation.py` maintains the editorial RO/EN homepages (via `homepage.py`), the complete project directory, and the grouped project menu on all pages using the shared shell. Homepage and brand styles live in `assets/homepage.css`. The original platform logo is `assets/img/proiect-romania-logo.png`. Content generators invoke it last to prevent appended homepage sections returning. Add new entries to its `ITEMS` registry. Filters and accent-insensitive search progressively enhance the directory; all entries remain visible without JavaScript.
