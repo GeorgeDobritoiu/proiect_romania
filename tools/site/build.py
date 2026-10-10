@@ -109,3 +109,6 @@ runpy.run_path(str(HERE/'funding.py'))
 
 # Citizen proposals are restored on every site rebuild.
 runpy.run_path(str(HERE/'citizens.py'))
+
+# HopeFriday project is maintained separately.
+runpy.run_path(str(HERE/"hopefriday.py"))

@@ -151,6 +151,11 @@
       "source": "/initiative-cetatenesti/biciclete-securizate-oradea.html",
       "destination": "/initiative-cetatenesti/biciclete-securizate-oradea",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte/hopefriday.html",
+      "destination": "/proiecte/hopefriday",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -248,6 +253,10 @@
     {
       "source": "/initiative-cetatenesti/biciclete-securizate-oradea",
       "destination": "/initiative-cetatenesti/biciclete-securizate-oradea.html"
+    },
+    {
+      "source": "/proiecte/hopefriday",
+      "destination": "/proiecte/hopefriday.html"
     }
   ]
 }
