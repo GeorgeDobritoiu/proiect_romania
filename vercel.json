@@ -216,6 +216,66 @@
       "source": "/en/projects/chess-in-schools.html",
       "destination": "/en/projects/chess-in-schools",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte/code-kids.html",
+      "destination": "/proiecte/code-kids",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/code-kids.html",
+      "destination": "/en/projects/code-kids",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte/harta-reciclarii.html",
+      "destination": "/proiecte/harta-reciclarii",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/recycling-map.html",
+      "destination": "/en/projects/recycling-map",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte/scoala-de-bani.html",
+      "destination": "/proiecte/scoala-de-bani",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/financial-education.html",
+      "destination": "/en/projects/financial-education",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte/ajungem-mari.html",
+      "destination": "/proiecte/ajungem-mari",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/ajungem-mari.html",
+      "destination": "/en/projects/ajungem-mari",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte/porneste-un-proiect-local.html",
+      "destination": "/proiecte/porneste-un-proiect-local",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/start-a-community-project.html",
+      "destination": "/en/projects/start-a-community-project",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte/competente-digitale-parinti-bunici.html",
+      "destination": "/proiecte/competente-digitale-parinti-bunici",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/projects/digital-skills-for-families.html",
+      "destination": "/en/projects/digital-skills-for-families",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -365,6 +425,54 @@
     {
       "source": "/en/projects/chess-in-schools",
       "destination": "/en/projects/chess-in-schools.html"
+    },
+    {
+      "source": "/proiecte/code-kids",
+      "destination": "/proiecte/code-kids.html"
+    },
+    {
+      "source": "/en/projects/code-kids",
+      "destination": "/en/projects/code-kids.html"
+    },
+    {
+      "source": "/proiecte/harta-reciclarii",
+      "destination": "/proiecte/harta-reciclarii.html"
+    },
+    {
+      "source": "/en/projects/recycling-map",
+      "destination": "/en/projects/recycling-map.html"
+    },
+    {
+      "source": "/proiecte/scoala-de-bani",
+      "destination": "/proiecte/scoala-de-bani.html"
+    },
+    {
+      "source": "/en/projects/financial-education",
+      "destination": "/en/projects/financial-education.html"
+    },
+    {
+      "source": "/proiecte/ajungem-mari",
+      "destination": "/proiecte/ajungem-mari.html"
+    },
+    {
+      "source": "/en/projects/ajungem-mari",
+      "destination": "/en/projects/ajungem-mari.html"
+    },
+    {
+      "source": "/proiecte/porneste-un-proiect-local",
+      "destination": "/proiecte/porneste-un-proiect-local.html"
+    },
+    {
+      "source": "/en/projects/start-a-community-project",
+      "destination": "/en/projects/start-a-community-project.html"
+    },
+    {
+      "source": "/proiecte/competente-digitale-parinti-bunici",
+      "destination": "/proiecte/competente-digitale-parinti-bunici.html"
+    },
+    {
+      "source": "/en/projects/digital-skills-for-families",
+      "destination": "/en/projects/digital-skills-for-families.html"
     }
   ]
 }

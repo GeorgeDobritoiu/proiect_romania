@@ -25,6 +25,7 @@ SYMBOLS=['votat','refoloseste','statii-verzi','biciclete','gradini','spatiuviu',
 ITEMS=[x if j<3 else (*x[:-1],'/assets/img/project-symbols/'+SYMBOLS[j-3]+'.svg') for j,x in enumerate(ITEMS)]
 ITEMS.append(('/proiecte/cum-infiintezi-o-asociatie','/en/projects/start-an-association','solidaritate','Cum înființezi o asociație','Start an association in Romania','Ghid: sport, protecția animalelor, acte, buget și organizare.','Sports, animal welfare, registration, budgets and organisation. Full guide in Romanian.','George Dobritoiu','/assets/img/project-symbols/asociatie.svg'))
 ITEMS.append(('/proiecte/sah-in-scoli','/en/projects/chess-in-schools','educatie','Șah în școli','Chess in schools','Descoperă două programe existente și cum pot participa profesorii, școlile și susținătorii.','Explore two existing programmes and ways for teachers, schools and supporters to participate.','Federația Română de Șah · CS Gambitul Damei Iași','/assets/img/project-symbols/sah.svg'))
+ITEMS.extend(json.loads((P/'tools/site/community_entries.json').read_text()))
 def esc(s):return html.escape(s,quote=True)
 def card(i,en=False,compact=False):
  path,ep,cat,ro,eng,rd,ed,author,img=i;title=eng if en else ro;url=ep if en and ep else path
