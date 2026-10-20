@@ -48,3 +48,15 @@ Sursa editorială: `docs/manual-partid-responsabil.html`. Conține cerințe lega
 ### Navigation and project discovery
 
 `tools/site/navigation.py` maintains the editorial RO/EN homepages (via `homepage.py`), the complete project directory, and the grouped project menu on all pages using the shared shell. Homepage and brand styles live in `assets/homepage.css`. The original platform logo is `assets/img/proiect-romania-logo.png`. Content generators invoke it last to prevent appended homepage sections returning. Add new entries to its `ITEMS` registry. Filters and accent-insensitive search progressively enhance the directory; all entries remain visible without JavaScript.
+
+### Funding deadlines and archive
+
+`data/finantari.json` is the funding registry. Each edition has a unique ID,
+source, editorial verification date and offset-aware `expires_at` in Romanian
+local time. Date-only deadlines are archived at the next local midnight; this
+is a display rule, not a claim about the organiser's unspecified closing hour.
+Run `python tools/site/funding_refresh.py` to refresh the static active/archive
+sections without regenerating unrelated pages. The legacy funding generator
+calls it last. `assets/funding.js` also moves expired cards to `#arhiva` on visits
+and while a page remains open. Keep old editions and their links; add future
+editions separately. Only change a deadline after verifying an official extension.

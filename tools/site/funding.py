@@ -50,3 +50,6 @@ config.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
 import runpy
 from pathlib import Path
 runpy.run_path(str(Path(__file__).with_name('navigation.py')))
+
+# Restore the registry and time-aware archive after legacy page generation.
+runpy.run_path(str(Path(__file__).with_name('funding_refresh.py')), run_name='__main__')
