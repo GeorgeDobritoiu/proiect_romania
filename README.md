@@ -60,3 +60,11 @@ sections without regenerating unrelated pages. The legacy funding generator
 calls it last. `assets/funding.js` also moves expired cards to `#arhiva` on visits
 and while a page remains open. Keep old editions and their links; add future
 editions separately. Only change a deadline after verifying an official extension.
+
+### Projects seeking support and crowdfunding concept
+
+`/proiecte-de-sustinut` is an independent editorial directory with external official
+support links. Its data is in `data/proiecte-de-sustinut.json`; rebuild with
+`python tools/site/support.py`. The navigation generator calls it last to preserve
+the grouped funding menu. No money is collected here. The future crowdfunding
+scope and implementation decisions are in `docs/crowdfunding-plan.md`.

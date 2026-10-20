@@ -286,6 +286,11 @@
       "source": "/en/projects/ivf-support-romania.html",
       "destination": "/en/projects/ivf-support-romania",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte-de-sustinut.html",
+      "destination": "/proiecte-de-sustinut",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -491,6 +496,10 @@
     {
       "source": "/en/projects/ivf-support-romania",
       "destination": "/en/projects/ivf-support-romania.html"
+    },
+    {
+      "source": "/proiecte-de-sustinut",
+      "destination": "/proiecte-de-sustinut.html"
     }
   ]
 }

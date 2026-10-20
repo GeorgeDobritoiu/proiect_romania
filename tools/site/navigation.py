@@ -112,3 +112,7 @@ for p in P.rglob('*.html'):
  result=str(s)
  if result!=original:p.write_text(result);changed.append(rel)
 print('Navigation applied:',len(changed),'pages')
+
+# Preserve the fundraising directory and grouped funding menu on future rebuilds.
+import runpy
+runpy.run_path(str(P/'tools/site/support.py'), run_name='__main__')
