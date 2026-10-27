@@ -291,6 +291,11 @@
       "source": "/proiecte-de-sustinut.html",
       "destination": "/proiecte-de-sustinut",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte/biblioteca-sah-icc-iasi.html",
+      "destination": "/proiecte/biblioteca-sah-icc-iasi",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -500,6 +505,10 @@
     {
       "source": "/proiecte-de-sustinut",
       "destination": "/proiecte-de-sustinut.html"
+    },
+    {
+      "source": "/proiecte/biblioteca-sah-icc-iasi",
+      "destination": "/proiecte/biblioteca-sah-icc-iasi.html"
     }
   ]
 }

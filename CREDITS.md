@@ -35,3 +35,5 @@ Pictograma `assets/img/project-symbols/asociatie.svg` este o ilustrație editori
 - Școala de Bani: official mark from https://www.scoaladebani.ro/images/ui/long-logo.svg, used to identify the programme. Rights remain with its owner; no affiliation is implied.
 - IVF support image: AI-generated editorial illustration of supportive adult hands, created for Proiect România; not a photograph of actual patients or a treatment outcome.
 - Typographic covers: original HTML/CSS editorial designs for Proiect România, not logos of the featured organisations.
+
+- Biblioteca de Șah ICC Iași: imagine ilustrativă generată cu AI pentru Proiect România, 27 octombrie 2026. Nu reprezintă sediul sau colecția reală a clubului.

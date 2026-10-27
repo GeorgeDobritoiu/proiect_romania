@@ -19,6 +19,8 @@ TITLES={
 GUIDES={'/proiecte/partidul-ca-organizatie-responsabila','/proiecte/cum-infiintezi-o-asociatie','/proiecte/porneste-un-proiect-local','/proiecte/competente-digitale-parinti-bunici'}
 def visual(entry,en=False):
  path,ep,cat,ro,eng,rd,ed,author,img=entry
+ if path=='/proiecte/biblioteca-sah-icc-iasi':
+  return '<div class="editorial-visual"><img style="width:100%;height:auto;display:block" src="/assets/img/biblioteca-sah-icc-iasi.jpg" alt="Imagine ilustrativă AI: cărți și piese de șah. O carte. O nouă mutare." decoding="async"/></div>'
  if path=='/proiecte/fotbal-pentru-viitor':
   return '<div class="editorial-visual visual-photo"><img src="/assets/img/football-960.webp" alt="" loading="lazy" decoding="async"/><span>'+('GRASSROOTS FOOTBALL' if en else 'FOTBAL DE BAZĂ')+'</span></div>'
  if path=='/proiecte/fertilizare-in-vitro':
