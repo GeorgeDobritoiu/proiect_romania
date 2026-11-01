@@ -517,6 +517,22 @@
     {
       "source": "/proiecte/romania-administrativa-2035",
       "destination": "/proiecte/romania-administrativa-2035.html"
+    },
+    {
+      "source": "/documente/romania-administrativa-2035/rezumat-decidenti",
+      "destination": "/documente/romania-administrativa-2035/rezumat-decidenti.html"
+    },
+    {
+      "source": "/documente/romania-administrativa-2035/scrisoare-mdlpa",
+      "destination": "/documente/romania-administrativa-2035/scrisoare-mdlpa.html"
+    },
+    {
+      "source": "/documente/romania-administrativa-2035/comunicat-presa",
+      "destination": "/documente/romania-administrativa-2035/comunicat-presa.html"
+    },
+    {
+      "source": "/documente/romania-administrativa-2035/plan-distributie",
+      "destination": "/documente/romania-administrativa-2035/plan-distributie.html"
     }
   ]
 }
