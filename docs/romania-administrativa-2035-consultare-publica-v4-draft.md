@@ -23,7 +23,7 @@ Condiții propuse pentru evaluare independentă: servicii uzuale accesibile de l
 ## 4. Cele două programe-pilot
 **Pilot A — comunități depopulate:** Bătrâna, Bunila și Cerbăl sunt candidați pentru cercetare în Hunedoara, nu o grupare de fuziune decisă. Blăjeni este inclusă în setul de comparație bugetară Hunedoara, nu în Pilotul B. Repere RPL 2021 ce necesită sursă primară INS: Bătrâna 88, Bunila 247, Cerbăl 403, Blăjeni 883. Trebuie verificate vârstele, mobilitatea, timpii rutieri vara/iarna, transportul, serviciile medicale și sociale.
 
-**Pilot B — administrație pentru circa 10.000 de locuitori:** preselecție exploratorie în Alba: Cenade, Doștat, Cut, Ohaba, Hopârta, Rădești, Fărău, Roșia de Secaș și Blandiana. Totalul de 9.432 de locuitori din fișierul de lucru este **nevalidat direct cu INS**, iar contiguitatea, naveta și diversitatea demografică nu sunt încă demonstrate. Lista nu este o propunere de comasare și trebuie retrasă sau modificată dacă analiza geografică nu o susține.
+**Pilot B — administrație pentru circa 10.000 de locuitori:** aria de implementare **nu este încă selectată**. Cele nouă comune din Alba (Cenade, Doștat, Cut, Ohaba, Hopârta, Rădești, Fărău, Roșia de Secaș și Blandiana; 9.432 locuitori cumulat în eșantionul RPL 2021) sunt doar un **grup de comparație**, nu o arie contiguă. Blandiana nu se învecinează cu celelalte comune, astfel că gruparea nu poate fi propusă drept o administrație comună. Un nou pilot necesită limite UAT verificate, timpi rutieri, navetă, servicii, profil demografic și acordul autorităților. Nicio comună nu este propusă acum pentru comasare.
 
 ## 5. Manualul de implementare
 Primele 90 de zile: mandat tehnic în cadrul START, inventar al serviciilor, bugetelor, posturilor, clădirilor, contractelor, arhivelor, conectivității și nevoilor sociale. Următoarele 90 de zile: prototipuri digitale, telefonice și poștale, testare cu utilizatori, plan de continuitate și audit. Pilotarea completă poate dura 24 de luni; studiul inițial de 90 de zile nu este același lucru cu implementarea. Orizontul financiar este de 15 ani, iar analiza la 5 ani reprezintă un reper intermediar.
@@ -46,9 +46,12 @@ Nu propunem automat o nouă lege-cadru pentru servicii comune. Mai întâi trebu
 Se colectează valori inițiale pentru deplasări obligatorii, timp median, acces fără internet, dosare sociale active, cost pe cerere, reclamații, erori, securitate și reprezentare locală. Pragurile de oprire se stabilesc înainte de pilot, cu responsabil și frecvență de verificare. Nu se închide un punct local înaintea testării alternativei și nu se transferă dosare sociale fără responsabil calificat.
 
 ## 11. Contribuții la consultarea publică
-Sunt invitați cetățenii, autoritățile locale, specialiștii și organizațiile să trimită observații motivate și documente justificative. Propunem un registru public al observațiilor, cu protejarea datelor personale și răspunsuri motivate. Un formular funcțional de colectare și o politică de moderare sunt încă de implementat; nu pretindem că sunt active.
+Sunt invitați cetățenii, autoritățile locale, specialiștii și organizațiile să contribuie cu observații documentate. **Canalul de consultare nu este încă deschis:** formularul, adresa de contact verificată, nota de informare GDPR, politica de moderare și registrul de observații trebuie implementate înainte de lansarea consultării. Până atunci, documentul are statut de **draft public pentru audit**, nu de consultare activă.
 
-## 12. Ce solicităm instituțional
+## 12. Calendarul de livrabile și solicitarea instituțională
+**Până la reperul anunțat de 1 martie 2027:** (1) publicarea metodologiei de evaluare a accesului la servicii; (2) fișa standard de comparație între status quo, cooperare și fuziune; (3) registrul surselor și al ipotezelor; (4) matricea juridică verificată; (5) definirea criteriilor de selecție pentru Pilotul B; (6) consultare deschisă numai după activarea unui canal real și a informării privind datele. Calendarul este o propunere editorială, nu obligație normativă.
+
+**Solicitarea instituțională:**
 O singură solicitare: examinarea **standardului de pregătire administrativă** ca instrument de evaluare a dosarelor START și discutarea metodologiei celor două pilote. Nu cerem acum o nouă structură, comasarea unor comune sau aprobarea unei legi.
 
 ## Anexe și limite
@@ -70,4 +73,4 @@ Aceste anexe nu sunt toate publicate sau validate. Lipsurile nu se înlocuiesc c
 - Ordinul MDLPA 1334/2026: verificare în Monitorul Oficial și text consolidat.
 
 **Autor / inițiativă:** Proiect România — George Dobritoiu. Independență editorială: nu reprezintă MDLPA, grupul START sau comunele analizate.  
-**Jurnal:** ediția 4.0 draft — restructurare pentru consultare, clarificarea limitelor probelor, pregătire pentru audit Claude.  
+**Jurnal:** ediția 4.0 draft — restructurare pentru audit; revizia 4.0.1 (1 noiembrie 2026): Pilotul B reclasificat drept eșantion comparativ, consultarea declarată neactivă, calendar de livrabile introdus. Documentul canonic de lucru este acest fișier Markdown; HTML-ul public este versiune anterioară, în curs de aliniere.  
