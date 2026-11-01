@@ -509,6 +509,10 @@
     {
       "source": "/proiecte/biblioteca-sah-icc-iasi",
       "destination": "/proiecte/biblioteca-sah-icc-iasi.html"
+    },
+    {
+      "source": "/proiecte/combaterea-dezinformarii-online",
+      "destination": "/proiecte/combaterea-dezinformarii-online.html"
     }
   ]
 }
