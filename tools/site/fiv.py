@@ -38,11 +38,11 @@ for i,d in enumerate(DATA):
   sources='<h2>'+('Sources and resources' if english else 'Surse și resurse')+'</h2><ul>'+''.join('<li><a href="'+html.escape(u,quote=True)+'">'+html.escape(label)+'</a></li>' for u,label in d['sources'])+'</ul>' if d['sources'] else ''
   date=('Editorial version: 1 November 2026. ' if guide else 'Sources checked on 1 November 2026. Confirm current participation terms with the organiser. ') if english else ('Versiune editorială: 1 noiembrie 2026. ' if guide else 'Surse consultate la 1 noiembrie 2026. Condițiile actuale se confirmă la organizator. ')
   main=s.select_one('main');main.clear();main.append(BeautifulSoup(f'<article class="wrap dem-article"><a href="{"/en/projects" if english else "/proiecte"}#{d["cat"]}">← {"All projects" if english else "Toate proiectele"}</a><p class="eyebrow">{"PRACTICAL GUIDE" if guide and english else "GHID PRACTIC" if guide else "EXISTING INITIATIVE" if english else "INIȚIATIVĂ EXISTENTĂ"}</p><h1>{html.escape(title)}</h1><p class="lead">{html.escape(desc)}</p><p class="meta">{html.escape(d["author"])}</p><div class="dem-body"><aside class="dem-note">{note}</aside>{d["en_body"] if english else d["body"]}{sources}<p class="meta">{date}</p></div></article>','html.parser'))
-  (P/(path.lstrip('/')+'.html')).write_text(str(s))
+  # Existing editorial HTML pages are canonical. Do not silently overwrite their\n  # hand-edited layout or legal updates when rerunning this legacy generator.\n  target=P/(path.lstrip('/')+'.html')\n  if not target.exists():\n   target.write_text(str(s))\n  else:\n   print(f'Preserved existing editorial page: {target.relative_to(P)}')
   if not any(x['source']==path for x in v['rewrites']):v['rewrites'].append({'source':path,'destination':path+'.html'})
   if not any(x['source']==path+'.html' for x in v['redirects']):v['redirects'].append({'source':path+'.html','destination':path,'statusCode':301})
   if BASE+path not in known:
    x=ET.SubElement(root,'{'+ns+'}url');ET.SubElement(x,'{'+ns+'}loc').text=BASE+path;ET.SubElement(x,'{'+ns+'}lastmod').text='2026-10-11'
 (P/'vercel.json').write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n');tree.write(P/'sitemap.xml',encoding='utf-8',xml_declaration=True)
 (P/'tools/site/fiv_entries.json').write_text(json.dumps(items,ensure_ascii=False,indent=2)+'\n')
-print('Generated 2 IVF pages and 1 editorial symbol')
+print('IVF metadata processed; existing editorial HTML pages preserved')
