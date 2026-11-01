@@ -1,31 +1,34 @@
-# România administrativă 2035 — mandat de audit independent
-Data: 1 noiembrie 2026. Statut: pentru revizuire, nu raport de audit realizat.
+# Audit independent final — România administrativă 2035 / START
+**Versiune de lucru:** 4.0, 1 noiembrie 2026. **Status:** solicitare de audit, NU raport de audit realizat.
 
-## Materiale de verificat
-- /proiecte/romania-administrativa-2035.html (versiunea curentă)
-- /downloads/romania-administrativa-2035-manual.html
-- Modelul financiar de 15 ani și reconcilierea UAT Hunedoara (fișiere de lucru externe; trebuie furnizate auditorului)
-- Constituția României, Legea 3/2000, Codul administrativ, legislația serviciilor sociale, GDPR, AI Act și normele de tehnică legislativă.
+## Context și materiale
+Proiectul este o contribuție independentă de îmbunătățire a programului guvernamental START, nu o reformă paralelă.
+- Articol: https://proiectromania.ro/proiecte/romania-administrativa-2035
+- Sursă articol: https://github.com/GeorgeDobritoiu/proiect_romania/blob/main/proiecte/romania-administrativa-2035.html
+- Manual: https://proiectromania.ro/downloads/romania-administrativa-2035-manual.html
+- Date bugetare 2021–2025: workbookul „Reconciliere_UAT_Hunedoara_Preselecție_Pilot_B_v2.xlsx” trebuie atașat separat.
+- Dosar Word/PDF și model financiar 15 ani: de atașat separat pentru auditul cifrelor.
+- START: Ordinul MDLPA nr. 1334/21.10.2026, programul guvernamental și documentele publice ulterioare.
 
-## Întrebări de audit
-1. Sunt corecte temeiurile legale, procedurile de referendum și competențele instituționale? Identifică orice articol sau interpretare incorectă.
-2. Ce date sunt oficiale, ce date sunt din surse secundare și ce valori sunt ipoteze? Cere dovezi pentru fiecare afirmație numerică.
-3. Reconcilierea 2021–2025 pentru Bătrâna, Bunila, Cerbăl și Blăjeni: verifică SIRUTA/CUI, anexa 24 originală, clasificările economice și funcționale, cheltuieli de capital, transferuri, solduri și eventuale duble numărări.
-4. Pilot A: verifică accesibilitatea reală, îmbătrânirea, mobilitatea, capacitatea socială, costurile și continuitatea serviciilor.
-5. Pilot B: verifică dacă cele nouă comune propuse pentru explorare în Alba formează o arie funcțională; verifică populația și structura de vârstă, naveta, drumurile și distanțele. Nu presupune că sunt contigue.
-6. Compară status quo modernizat, cooperare intercomunală și fuziune; verifică dacă sunt comparate la același nivel de calitate.
-7. Audit financiar pe 15 ani: CAPEX, OPEX, inflație, discount, TVA, costuri de personal, datorii, patrimoniu, servicii sociale, riscuri și sensibilitate.
-8. Verifică protecția drepturilor minorităților, consultarea cetățenilor, impactul asupra copiilor, vârstnicilor și persoanelor fără internet.
-9. Evaluează guvernanța IT, interoperabilitatea, securitatea cibernetică și folosirea limitată și supravegheată a AI.
-10. Identifică riscurile de captură politică, recrutare discreționară, conflicte de interese, contracte transferate și pierderea reprezentării locale.
+## Ce trebuie auditat fără menajamente
+1. **START:** ce există deja oficial, ce este doar propus, ce este omis din analiza noastră și ce îmbunătățiri sunt cu adevărat suplimentare?
+2. **Legal:** Constituția, Legea 3/2000, Codul administrativ, Legea 24/2000, protecția datelor, asistență socială, statutul personalului, competențe și referendumuri. Identifică articole și interpretări incorecte.
+3. **Bugete:** verifică independent cifrele pentru Bătrâna, Bunila, Cerbăl, Blăjeni cu fișierele originale MDLPA/MF, codurile UAT, clasificațiile și diferența între venituri, plăți, investiții și datorii. Nu confunda reconcilierea aritmetică cu auditul contabil.
+4. **Pilot A:** verifică populația actuală, vârstele, mobilitatea, accesul rutier sezonier, nevoile sociale, competențele instituționale și costurile de acces.
+5. **Pilot B:** verifică cele nouă comune din Alba pentru populație, contiguitate, navetă, timp de călătorie, diversitate demografică, fezabilitate și acord voluntar. Respinge gruparea dacă nu este funcțională.
+6. **Model 15 ani:** compară status quo modernizat, cooperare și fuziune; CAPEX/OPEX, salarii, patrimoniu, servicii sociale, costuri cetățeni, costul inacțiunii, inflație, rată de actualizare, riscuri și teste de stres.
+7. **Impact social:** vârstnici, copii, minorități, persoane fără internet, servicii de teren, reprezentare, reutilizarea sediilor și transferul/recalificarea personalului.
+8. **IT/AI:** arhitectură interoperabilă, securitate, continuitate, protecția datelor, limitele automatizării deciziilor sensibile.
+9. **Editare și UX:** identifică dublurile de capitole 16–18, repetițiile, diferențele dintre articol și manual, graficele care nu sunt fundamentate și lipsa de navigare clară.
+10. **Destinație instituțională:** poate fi depus ca propunere de consultare? Ce lipsește pentru fundamentare legislativă și bugetară? Ce trebuie inclus în scrisoarea către MDLPA/grupul START?
 
-## Formatul răspunsului solicitat
-- Verdict de maturitate: concept / consultare / fezabilitate / fundamentare legislativă.
-- Tabel cu constatări: severitate, afirmație, sursă, problemă, consecință, remediere, responsabil.
-- Cel puțin 10 obiecții de tip «red team» pe care le-ar ridica Ministerul Finanțelor, MDLPA, Consiliul Legislativ, ANFP, ANSPDCP și autoritățile locale.
-- Listă de date lipsă, ordonate după impactul asupra deciziei.
-- Propuneri de rescriere pentru articolele-cadru și calendarul pilotului.
-- Separă constatările certe de ipoteze; nu inventa surse, cifre sau texte legale.
+## Format obligatoriu
+- Verdict de maturitate: concept / consultare / fezabilitate / proiect legislativ fundamentat.
+- Tabel: problemă, severitate, dovadă și link exact, consecință, remediere, responsabil.
+- Minimum 10 obiecții de tip red-team, din perspectiva MDLPA, Ministerului Finanțelor, Consiliului Legislativ, ANFP, ANSPDCP, autorităților locale și comunităților.
+- Listă de afirmații factuale neverificate și de date lipsă, ordonate după importanță.
+- Propunere de structură finală fără capitole duplicate, cu anexele ce trebuie descărcate.
+- Propuneri concrete de modificări legislative, etichetate drept proiecte și nu drept drept în vigoare.
+- Nu inventa surse, numere, date, costuri sau aprobări instituționale.
 
-## Notă
-Acest fișier nu reprezintă un audit efectuat de Claude sau de alt auditor. Raportul trebuie obținut separat și apoi analizat critic.
+**Nu publica și nu modifica site-ul.** Returnează auditul pentru revizuire critică înainte de aprobarea ediției finale.
