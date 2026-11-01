@@ -513,6 +513,10 @@
     {
       "source": "/proiecte/combaterea-dezinformarii-online",
       "destination": "/proiecte/combaterea-dezinformarii-online.html"
+    },
+    {
+      "source": "/proiecte/romania-administrativa-2035",
+      "destination": "/proiecte/romania-administrativa-2035.html"
     }
   ]
 }
