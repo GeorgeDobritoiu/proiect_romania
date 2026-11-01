@@ -5,6 +5,21 @@
 
 > Document de analiză și recomandări transmisibil instituțiilor. Nu presupune acordul localităților menționate, nu reprezintă MDLPA sau grupul START și nu pretinde fundamentare financiară certificată.
 
+## Sinteză: unde propunem completări la START
+
+Acest tabel prezintă **contribuții propuse**, nu măsuri aprobate. Descrierea START este sintetică; pentru orice modificare normativă trebuie consultat actul oficial aplicabil. Linkurile conduc la explicațiile detaliate din articol.
+
+| Domeniu | Direcția START analizată | Completarea propusă de Proiect România | Detalii |
+|---|---|---|---|
+| Asociere și comasare | START prevede asocierea și comasarea voluntară | Comparație obligatorie între modernizare, cooperare și fuziune | [Vezi capitolul](https://proiectromania.ro/proiecte/romania-administrativa-2035#sect-4) |
+| Digitalizarea serviciilor | Servicii comune și modernizare administrativă | Servicii online înaintea comasării, plus telefon, poștă și puncte asistate | [Vezi capitolul](https://proiectromania.ro/proiecte/romania-administrativa-2035#sect-6) |
+| Capacitatea personalului | Mobilitate și recrutare competitivă | Verificarea calificărilor, transfer legal, recalificare și supervizare | [Vezi capitolul](https://proiectromania.ro/proiecte/romania-administrativa-2035#sect-16) |
+| Protecția socială | Accesul la servicii trebuie păstrat | Servicii mobile, continuitatea cazurilor și sprijin pentru persoane izolate | [Vezi capitolul](https://proiectromania.ro/proiecte/romania-administrativa-2035#sect-5) |
+| Finanțare și economii | Sustenabilitate și stimulente pentru asociere | Costuri CAPEX/OPEX, efecte sociale și comparație pe 15 ani, inclusiv fără stimulente | [Vezi capitolul](https://proiectromania.ro/proiecte/romania-administrativa-2035#sect-7) |
+| Clădirile fostelor primării | Necesită evaluare patrimonială locală | Conversie în centre sociale, educaționale și de asistență digitală | [Vezi capitolul](https://proiectromania.ro/proiecte/romania-administrativa-2035#sect-8) |
+| Pilotare și evaluare | START are grup de lucru central și structuri județene | Două modele de studiu și criterii de oprire; Pilotul B nu are arie selectată | [Vezi capitolul](https://proiectromania.ro/proiecte/romania-administrativa-2035#sect-5) |
+| Transparență și control | Cadrul START trebuie urmărit prin documente oficiale | Indicatori, audit independent, surse reproductibile și praguri de continuitate | [Vezi capitolul](https://proiectromania.ro/proiecte/romania-administrativa-2035#sect-11) |
+
 ## 1. Rezumat executiv
 Proiect România analizează independent măsurile START pentru asocierea și comasarea voluntară a UAT-urilor și propune completări operaționale. Nu revendică măsuri deja asumate guvernamental. Întrebarea centrală este dacă digitalizarea, cooperarea intercomunală și profesionalizarea pot furniza servicii mai bune înaintea sau fără schimbarea limitelor administrative.
 
