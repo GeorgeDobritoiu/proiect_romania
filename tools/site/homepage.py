@@ -15,7 +15,8 @@ def render_home(en, items, card, cats):
              (t('Un plan clar','A clear plan'), t('Punem pe hârtie soluția, resursele, responsabilitățile și rezultatele urmărite.','We set out the solution, resources, responsibilities and intended results.')),
              (t('Un pas în comunitate','A step into the community'), t('Îmbunătățim propunerea prin feedback și pregătim condițiile unui pilot.','We improve the proposal through feedback and prepare the conditions for a pilot.'))]
     steps_html = ''.join(f'<li><span class="home-step-number">0{i+1}</span><h3>{title}</h3><p>{body}</p></li>' for i,(title,body) in enumerate(steps))
-    return f'''
+    audit_notice = "<section class=\"wrap\" aria-label=\"Audit instituții publice\" style=\"padding:18px 20px;margin:24px auto;border:1px solid #d3dedc;border-radius:12px\"><p class=\"eyebrow\">TRANSPARENȚĂ INSTITUȚIONALĂ</p><h2 style=\"margin:8px 0\">Auditul instituțiilor publice – metodologie în consultare</h2><p>Am trimis solicitări de informații către MADR, SGG, AMEPIP și ANFP. Vom reveni cu răspunsurile instituțiilor și cu analiza documentelor primite. Nu există încă fișe de instituții publicate.</p><p><a href=\"/audit/metodologie\">Citește metodologia</a> · <a href=\"/audit/cereri-544\">Urmărește solicitările</a></p></section>" if not en else ''
+    return f'''\n{audit_notice}
 <section class="wrap editorial-hero" aria-labelledby="home-title">
  <div class="editorial-copy"><p class="eyebrow">{t('O PLATFORMĂ DESCHISĂ IDEILOR CONSTRUCTIVE','AN OPEN PLATFORM FOR CONSTRUCTIVE IDEAS')}</p>
  <h1 id="home-title">{t('România se construiește.<br><em>Proiect cu proiect.</em>','Building Romania.<br><em>Project by project.</em>')}</h1>
