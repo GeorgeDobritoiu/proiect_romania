@@ -1,1 +1,1 @@
-indicator_id,institutie_id,indicator_cod,an,valoare,unitate,perimetru,data_verificarii,sursa_id,verificator_cod
+indicator_id,institutie_id,indicator_cod,an,perioada,tip_valoare,valoare,unitate,nivel_raportare,perimetru_consolidare_id,perimetru,document_referinta,pagina_sau_tabel,data_verificarii,sursa_id,verificator_cod
