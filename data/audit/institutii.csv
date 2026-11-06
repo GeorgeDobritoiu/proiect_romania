@@ -1,1 +1,1 @@
-institutie_id,denumire,cui,tip_institutie,autoritate_parinte_id,personalitate_juridica,statut,data_infiintarii,data_incetarii,sursa_id
+institutie_id,denumire,cui,tip_institutie,nivel_ordonator,autoritate_parinte_id,personalitate_juridica,statut,data_infiintarii,data_incetarii,temei_legal_url,garantii_juridice,restrictii_reorganizare,sursa_id
