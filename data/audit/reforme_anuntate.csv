@@ -1,1 +1,1 @@
-reforma_id,titlu,data_anuntului,initiator,obiectiv,economie_anuntata,economie_bugetata,economie_realizata,stadiu,sursa_id
+reforma_id,titlu,data_anuntului,initiator,obiectiv,tip_economie,orizont_ani,baza_comparatie,data_scadenta,grad_incredere,economie_anuntata,economie_bugetata,economie_realizata,stadiu,sursa_id
