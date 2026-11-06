@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CSV = ROOT / "data/audit/cereri_544.csv"
 PAGE = ROOT / "audit/cereri-544.html"
 ABOUT = ROOT / "despre.html"
-PAGES = (ROOT / "audit/metodologie.html", PAGE)
+PAGES = (ROOT / "audit/metodologie.html", PAGE, ROOT / "audit/metodologie-tehnica.html")
 LABELS = {
     "pregatita_netrimisa": "Pregătită, netrimisă",
     "trimisa": "Trimisă",
@@ -36,8 +36,6 @@ def render_rows(rows):
             value = row.get(column, "") or "—"
             if column == "status":
                 value = LABELS.get(value, value)
-            if column == "nr_inregistrare" and row.get("destinatar") == "AMEPIP":
-                value = "În curs de verificare"
             cells.append("<td>" + html.escape(value, quote=True) + "</td>")
         rendered.append("<tr>" + "".join(cells) + "</tr>")
     return "\n".join(rendered)
