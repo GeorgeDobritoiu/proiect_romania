@@ -57,6 +57,6 @@ def main():
     table='<div class="audit-table-wrap"><table class="audit-table"><thead><tr>'+''.join(f'<th scope="col">{esc(h)}</th>' for h in heads)+'</tr></thead><tbody>'
     for row in rows:table+='<tr>'+''.join(f'<td>{esc(row.get(k) or "—")}</td>' for k in keys)+'</tr>'
     table+='</tbody></table></div>'
-    body='<p class="eyebrow">TRANSPARENȚĂ · LEGEA 544/2001</p><h1>Jurnalul cererilor de informații</h1><p>Solicitările sunt marcate ca trimise conform confirmării solicitantului; datele de trimitere, numerele de înregistrare și termenele rămân necompletate până la verificarea dovezilor.</p>'+table+'<p><a href="/audit/metodologie">Înapoi la metodologie</a></p>'
+    body='<p class="eyebrow">TRANSPARENȚĂ · LEGEA 544/2001</p><h1>Jurnalul cererilor de informații</h1><p>Solicitările sunt marcate ca trimise conform confirmării solicitantului; data de 6 noiembrie 2026 este confirmată de solicitant; numerele de înregistrare sunt încă necunoscute. Pragul de 30 de zile este 6 decembrie 2026, sub rezerva calculului termenelor legale.</p>'+table+'<p><a href="/audit/metodologie">Înapoi la metodologie</a></p>'
     render("audit/cereri-544","Jurnalul cererilor 544",body)
 if __name__=="__main__":main()
