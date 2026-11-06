@@ -61,5 +61,56 @@ class AuditValidationTests(unittest.TestCase):
         self.add("audit_corectii",corectie_id="COR-1",tabel="indicatori",tinta_id="IND-404",camp="valoare",data_sesizarii="2026-11-06",status="sesizata",sursa_id="SRC-1")
         self.assertTrue(any("tinta_id orfan" in x for x in module.validate(self.path)))
 
+
+    def test_confirmed_overlap_with_press_only_is_rejected(self):
+        self.source_and_institution()
+        self.add("surse", sursa_id="PRESS", titlu="Articol", emitent="Redacție",
+                 tip_sursa="presa", metoda_extragere="text_structurat")
+        for key in ("A", "B"):
+            self.add("atributii", atributie_id=key, institutie_id="INS-1",
+                     functie_cod="CTRL", descriere="Control", obiect="alimente", sursa_id="SRC-1")
+        self.add("suprapuneri", suprapunere_id="OV-1", atributie_a_id="A",
+                 atributie_b_id="B", categorie="operationala", dovada_sursa_id="PRESS", status="confirmata")
+        self.assertTrue(any("confirmare fără sursă primară" in e for e in module.validate(self.path)))
+
+    def test_confirmed_claim_with_press_only_is_rejected(self):
+        self.source_and_institution()
+        self.add("surse", sursa_id="PRESS", titlu="Articol", emitent="Redacție",
+                 tip_sursa="presa", metoda_extragere="text_structurat")
+        self.add("afirmatii_publice", afirmatie_id="AF-1", text_afirmatie="Afirmație",
+                 data_afirmatie="2026-11-06", status_verificare="confirmata", sursa_id="PRESS")
+        self.assertTrue(any("verdict fără sursă primară" in e for e in module.validate(self.path)))
+
+    def test_non_numeric_indicator_is_rejected(self):
+        self.source_and_institution()
+        self.indicator(valoare="abc")
+        self.assertTrue(any("valoare nenumerică" in e for e in module.validate(self.path)))
+
+    def test_indicator_unit_mismatch_is_rejected(self):
+        self.source_and_institution()
+        self.indicator(unitate="lei")
+        self.assertTrue(any("unitate diferită de dicționar" in e for e in module.validate(self.path)))
+
+    def test_reversed_overlap_duplicate_is_rejected(self):
+        self.source_and_institution()
+        for key in ("A", "B"):
+            self.add("atributii", atributie_id=key, institutie_id="INS-1",
+                     functie_cod="CTRL", descriere="Control", obiect="alimente", sursa_id="SRC-1")
+        for number, a, b in ((1,"A","B"),(2,"B","A")):
+            self.add("suprapuneri", suprapunere_id=f"OV-{number}", atributie_a_id=a,
+                     atributie_b_id=b, categorie="operationala", dovada_sursa_id="SRC-1", status="suspectata")
+        self.assertTrue(any("pereche duplicată" in e for e in module.validate(self.path)))
+
+    def test_self_parent_is_rejected(self):
+        self.add("surse",sursa_id="SRC-1",titlu="Act",emitent="Emitent",tip_sursa="act_normativ",metoda_extragere="text_structurat")
+        self.add("institutii",institutie_id="INS-1",denumire="Instituție",statut="activa",
+                 autoritate_parinte_id="INS-1",sursa_id="SRC-1")
+        self.assertTrue(any("propriul părinte" in e for e in module.validate(self.path)))
+
+    def test_deadline_before_submission_is_rejected(self):
+        self.add("cereri_544",cerere_id="C1",destinatar="MADR",subiect="Cerere",
+                 data_trimiterii="2026-11-06",termen_legal="2026-11-05",status="depusa")
+        self.assertTrue(any("anterior trimiterii" in e for e in module.validate(self.path)))
+
 if __name__ == "__main__":
     unittest.main()
