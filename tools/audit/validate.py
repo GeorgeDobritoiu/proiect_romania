@@ -3,6 +3,7 @@
 from pathlib import Path
 from datetime import date
 import csv, json, re, sys
+from decimal import Decimal, InvalidOperation
 ROOT = Path(__file__).resolve().parents[2] / "data" / "audit"
 SCHEMAS = {"institutii":["institutie_id","denumire","cui","tip_institutie","nivel_ordonator","autoritate_parinte_id","personalitate_juridica","statut","data_infiintarii","data_incetarii","temei_legal_url","garantii_juridice","restrictii_reorganizare","sursa_id"],"relatii_institutii":["relatie_id","institutie_sursa_id","institutie_destinatie_id","tip_relatie","data_inceput","data_sfarsit","sursa_id"],"indicatori":["indicator_id","institutie_id","indicator_cod","an","perioada","tip_valoare","valoare","unitate","nivel_raportare","perimetru_consolidare_id","perimetru","document_referinta","pagina_sau_tabel","data_verificarii","sursa_id","verificator_cod"],"indicatori_dictionar":["indicator_cod","denumire","definitie","unitate","granularitate","metoda_calcul"],"surse":["sursa_id","titlu","emitent","url","data_document","data_accesarii","tip_sursa","metoda_extragere","verificare_tabel","offset_pagina","hash_sha256","observatii"],"atributii":["atributie_id","institutie_id","functie_cod","descriere","obiect","competenta_teritoriala","beneficiari_entitati_reglementate","temei_legal","tip_competenta","tip_intersectie","cofog_cod","regim_juridic","valabil_de_la","valabil_pana_la","sursa_id"],"audit_corectii":["corectie_id","tabel","tinta_id","camp","valoare_anterioara","valoare_noua","motiv","data_sesizarii","data_corectie","status","decizie_motivata","dovada_url","sursa_id","verificator_cod"],"scenarii_reorganizare":["scenariu_id","titlu","tip_scenariu","varianta","ipoteze","cost_tranzitie_estimat","costuri_transferate","economie_bruta","economie_neta","economie_estimata","orizont_ani","stadiu","sursa_id"],"scenariu_institutii":["legatura_id","scenariu_id","institutie_id","rol"],"proiecte_obligatii":["obligatie_id","institutie_id","obligatie","temei_legal","termen","stadiu","sursa_id"],"reforme_anuntate":["reforma_id","titlu","data_anuntului","initiator","obiectiv","tip_economie","orizont_ani","baza_comparatie","data_scadenta","grad_incredere","economie_anuntata","economie_bugetata","economie_realizata","stadiu","sursa_id"],"reforme_evenimente":["eveniment_id","reforma_id","data_eveniment","tip_eveniment","descriere","act_normativ","sursa_id"],"afirmatii_publice":["afirmatie_id","reforma_id","text_afirmatie","autor_institutional","data_afirmatie","tip_afirmatie","status_verificare","explicatie","sursa_id"],"cereri_544":["cerere_id","destinatar","subiect","data_trimiterii","nr_inregistrare","termen_legal","data_raspuns","status","observatii"],"suprapuneri":["suprapunere_id","atributie_a_id","atributie_b_id","categorie","dovada_sursa_id","status"]}
 REQUIRED = {"institutii":["institutie_id","denumire","statut","sursa_id"],"relatii_institutii":["relatie_id","institutie_sursa_id","institutie_destinatie_id","tip_relatie","sursa_id"],"indicatori":["indicator_id","institutie_id","indicator_cod","an","tip_valoare","valoare","unitate","nivel_raportare","sursa_id"],"indicatori_dictionar":["indicator_cod","denumire","definitie","unitate","granularitate"],"surse":["sursa_id","titlu","emitent","tip_sursa","metoda_extragere"],"atributii":["atributie_id","institutie_id","functie_cod","descriere","obiect","sursa_id"],"audit_corectii":["corectie_id","tabel","tinta_id","camp","data_sesizarii","status","sursa_id"],"scenarii_reorganizare":["scenariu_id","titlu","tip_scenariu","varianta","stadiu","sursa_id"],"scenariu_institutii":["legatura_id","scenariu_id","institutie_id","rol"],"proiecte_obligatii":["obligatie_id","institutie_id","obligatie","temei_legal","sursa_id"],"reforme_anuntate":["reforma_id","titlu","data_anuntului","tip_economie","stadiu","sursa_id"],"reforme_evenimente":["eveniment_id","reforma_id","data_eveniment","tip_eveniment","sursa_id"],"afirmatii_publice":["afirmatie_id","text_afirmatie","data_afirmatie","status_verificare","sursa_id"],"cereri_544":["cerere_id","destinatar","subiect","data_trimiterii","status"],"suprapuneri":["suprapunere_id","atributie_a_id","atributie_b_id","categorie","dovada_sursa_id","status"]}
@@ -12,6 +13,9 @@ KEYS = {"institutii":"institutie_id","relatii_institutii":"relatie_id","indicato
 DATES = set("data_infiintarii data_incetarii data_inceput data_sfarsit data_document data_accesarii data_verificarii data_corectie data_sesizarii data_anuntului data_scadenta data_eveniment data_afirmatie data_trimiterii data_raspuns termen_legal termen valabil_de_la valabil_pana_la".split())
 METHODS = {"text_structurat","paragrafe_tabel","randare_vizuala","OCR","verificare_incrucisata"}
 TABLE_CHECKS = {"neverificat","verificat_vizual","reconciliat"}
+SOURCE_TYPES = {"act_normativ","document_oficial","raspuns_544","presa","declaratie","raport","altul"}
+PRIMARY_TYPES = {"act_normativ","document_oficial","raspuns_544"}
+NUMBER_PATTERN = re.compile(r"-?(?:0|[1-9][0-9]*)(?:\.[0-9]+)?")
 
 def validate(root=ROOT):
     errors, records, identifiers = [], {}, {}
@@ -59,6 +63,9 @@ def validate(root=ROOT):
                 errors.append(f"{name}:{line}: an invalid")
             if name == "suprapuneri" and row.get("atributie_a_id") == row.get("atributie_b_id"):
                 errors.append(f"{name}:{line}: atribuții identice în pereche")
+    sources = {r["sursa_id"]: r for r in records.get("surse", []) if r.get("sursa_id")}
+    dictionary = {r["indicator_cod"]: r for r in records.get("indicatori_dictionar", []) if r.get("indicator_cod")}
+    pairs = set()
     for name, rows in records.items():
         for line, row in enumerate(rows, 2):
             relations = dict(REFS.get(name, {}))
@@ -70,6 +77,47 @@ def validate(root=ROOT):
                 v = (row.get(col) or "").strip()
                 if v and v not in identifiers.get(target, set()):
                     errors.append(f"{name}:{line}: referință orfană {col}={v}")
+            if name == "surse":
+                kind = (row.get("tip_sursa") or "").strip()
+                if kind and kind not in SOURCE_TYPES:
+                    errors.append(f"{name}:{line}: tip_sursa invalid {kind}")
+            if name == "indicatori":
+                value = (row.get("valoare") or "").strip()
+                if value:
+                    if not NUMBER_PATTERN.fullmatch(value):
+                        errors.append(f"{name}:{line}: valoare nenumerică {value}")
+                    else:
+                        try:
+                            if not Decimal(value).is_finite():
+                                errors.append(f"{name}:{line}: valoare nefinita")
+                        except InvalidOperation:
+                            errors.append(f"{name}:{line}: valoare nenumerică {value}")
+                definition = dictionary.get(row.get("indicator_cod"))
+                if definition and row.get("unitate") != definition.get("unitate"):
+                    errors.append(f"{name}:{line}: unitate diferită de dicționar")
+            if name == "institutii" and row.get("institutie_id") and row.get("autoritate_parinte_id") == row.get("institutie_id"):
+                errors.append(f"{name}:{line}: instituția nu poate fi propriul părinte")
+            if name == "cereri_544" and row.get("data_trimiterii") and row.get("termen_legal"):
+                try:
+                    if date.fromisoformat(row["termen_legal"]) < date.fromisoformat(row["data_trimiterii"]):
+                        errors.append(f"{name}:{line}: termen_legal anterior trimiterii")
+                except ValueError:
+                    pass
+            if name == "suprapuneri":
+                a, b = row.get("atributie_a_id"), row.get("atributie_b_id")
+                if a and b:
+                    pair = tuple(sorted((a,b)))
+                    if pair in pairs:
+                        errors.append(f"{name}:{line}: pereche duplicată {a}/{b}")
+                    pairs.add(pair)
+                if row.get("status") == "confirmata":
+                    source = sources.get(row.get("dovada_sursa_id"))
+                    if source and source.get("tip_sursa") not in PRIMARY_TYPES:
+                        errors.append(f"{name}:{line}: confirmare fără sursă primară")
+            if name == "afirmatii_publice" and row.get("status_verificare") in {"confirmata","infirmata"}:
+                source = sources.get(row.get("sursa_id"))
+                if source and source.get("tip_sursa") not in PRIMARY_TYPES:
+                    errors.append(f"{name}:{line}: verdict fără sursă primară")
             if name == "audit_corectii":
                 table = row.get("tabel", "")
                 target = row.get("tinta_id", "")
