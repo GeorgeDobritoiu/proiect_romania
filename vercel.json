@@ -549,6 +549,10 @@
     {
       "source": "/audit/metodologie-tehnica",
       "destination": "/audit/metodologie-tehnica.html"
+    },
+    {
+      "source": "/audit/studiu-ces-controale",
+      "destination": "/audit/studiu-ces-controale.html"
     }
   ]
 }
