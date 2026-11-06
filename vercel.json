@@ -545,6 +545,10 @@
     {
       "source": "/audit/metodologie-tehnica",
       "destination": "/audit/metodologie-tehnica.html"
+    },
+    {
+      "source": "/audit/metodologie-tehnica",
+      "destination": "/audit/metodologie-tehnica.html"
     }
   ]
 }
