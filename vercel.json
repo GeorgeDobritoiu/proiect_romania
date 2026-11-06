@@ -533,6 +533,14 @@
     {
       "source": "/documente/romania-administrativa-2035/plan-distributie",
       "destination": "/documente/romania-administrativa-2035/plan-distributie.html"
+    },
+    {
+      "source": "/audit/metodologie",
+      "destination": "/audit/metodologie.html"
+    },
+    {
+      "source": "/audit/cereri-544",
+      "destination": "/audit/cereri-544.html"
     }
   ]
 }
