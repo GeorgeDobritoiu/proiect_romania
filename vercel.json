@@ -553,6 +553,10 @@
     {
       "source": "/audit/studiu-ces-controale",
       "destination": "/audit/studiu-ces-controale.html"
+    },
+    {
+      "source": "/audit/studiu-ces-controale",
+      "destination": "/audit/studiu-ces-controale.html"
     }
   ]
 }
