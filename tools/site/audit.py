@@ -36,6 +36,8 @@ def render_rows(rows):
             value = row.get(column, "") or "—"
             if column == "status":
                 value = LABELS.get(value, value)
+            if column == "nr_inregistrare" and row.get("destinatar") == "AMEPIP":
+                value = "În curs de verificare"
             cells.append("<td>" + html.escape(value, quote=True) + "</td>")
         rendered.append("<tr>" + "".join(cells) + "</tr>")
     return "\n".join(rendered)
