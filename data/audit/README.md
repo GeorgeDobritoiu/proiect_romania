@@ -11,11 +11,11 @@ Cheie primară: `institutie_id`.
 | Coloană | Definiție | Format / valori | Exemplu fictiv |
 |---|---|---|---|
 | `institutie_id` | Identificator unic al rândului din institutii | text stabil | INS-001 |
-| `denumire` | Denumirea oficială completă a instituției sau indicatorului | text | Direcția X |
+| `denumire` | Denumirea oficială completă a instituției | text | Direcția X |
 | `cui` | Cod unic de identificare fiscală, păstrat ca text | cifre ca text | 12345678 |
 | `tip_institutie` | Clasa juridico-administrativă a entității | minister / agenție / direcție / altul | agenție |
 | `nivel_ordonator` | Poziția în ierarhia bugetară | principal / secundar / terțiar / neaplicabil | terțiar |
-| `autoritate_parinte_id` | Instituția superioară în ierarhia administrativă; referință internă | institutie_id | INST-001 |
+| `autoritate_parinte_id` | Instituția superioară în ierarhia administrativă; referință internă | institutie_id | INS-001 |
 | `personalitate_juridica` | Dacă entitatea are personalitate juridică | da / nu / necunoscut | da |
 | `statut` | Starea juridică verificată la data evidenței | activa / reorganizata / desfiintata / exceptata / necunoscut | activa |
 | `data_infiintarii` | Data intrării în existență juridică | AAAA-LL-ZZ | 2024-01-01 |
@@ -276,3 +276,10 @@ Cheie primară: `suprapunere_id`.
 ## Comenzi
 
 `python tools/audit/validate.py` · `python -m unittest discover -s tests` · `python tools/site/audit.py`.
+
+## Proveniența dovezilor și validare (Runda 22)
+
+- `surse.tip_sursa`: `act_normativ`, `document_oficial`, `raspuns_544`, `presa`, `declaratie`, `raport`, `altul`.
+- Pentru `suprapuneri.status=confirmata` și `afirmatii_publice.status_verificare=confirmata/infirmata`, sursa directă trebuie clasificată `act_normativ`, `document_oficial` sau `raspuns_544`. O sursă primară este o condiție necesară, nu dovadă suficientă; validarea editorială rămâne obligatorie.
+- `indicatori.valoare`: număr zecimal cu punct, fără separatori de mii; unitatea trebuie să coincidă cu `indicatori_dictionar.unitate`.
+- Perechile de atribuții sunt unice indiferent de ordine. Instituția nu poate fi propriul părinte. Termenul legal nu poate preceda data trimiterii.
