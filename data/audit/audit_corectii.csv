@@ -1,1 +1,1 @@
-corectie_id,tabel,tinta_id,camp,valoare_anterioara,valoare_noua,motiv,data_corectie,sursa_id,verificator_cod
+corectie_id,tabel,tinta_id,camp,valoare_anterioara,valoare_noua,motiv,data_sesizarii,data_corectie,status,decizie_motivata,dovada_url,sursa_id,verificator_cod
