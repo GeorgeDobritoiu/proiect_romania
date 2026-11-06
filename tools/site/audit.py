@@ -13,6 +13,8 @@ import re
 ROOT = Path(__file__).resolve().parents[2]
 CSV = ROOT / "data/audit/cereri_544.csv"
 PAGE = ROOT / "audit/cereri-544.html"
+ABOUT = ROOT / "despre.html"
+PAGES = (ROOT / "audit/metodologie.html", PAGE)
 LABELS = {
     "pregatita_netrimisa": "Pregătită, netrimisă",
     "trimisa": "Trimisă",
@@ -38,7 +40,22 @@ def render_rows(rows):
         rendered.append("<tr>" + "".join(cells) + "</tr>")
     return "\n".join(rendered)
 
+def sync_shell():
+    """Reuse the current generated /despre shell; never hardcode navigation."""
+    about = ABOUT.read_text(encoding="utf-8")
+    header = re.search(r'<a class="skip"[\\s\\S]*?</header>', about).group()
+    header = header.replace(' aria-current="page" href="/despre"', ' href="/despre"')
+    footer = re.search(r'<footer class="site-footer"[\\s\\S]*?</footer>', about).group()
+    styles = "\\n".join(re.findall(r'<link[^>]+rel="stylesheet"[^>]*/>', about))
+    for path in PAGES:
+        page = path.read_text(encoding="utf-8")
+        page = re.sub(r'<a class="skip"[\\s\\S]*?</header>', lambda _: header, page, count=1)
+        page = re.sub(r'<footer class="site-footer"[\\s\\S]*?</footer>', lambda _: footer, page, count=1)
+        page = re.sub(r'<link[^>]+rel="stylesheet"[^>]*/>(?:\\n<link[^>]+rel="stylesheet"[^>]*/>)*', lambda _: styles, page, count=1)
+        path.write_text(page, encoding="utf-8")
+
 def main():
+    sync_shell()
     with CSV.open(encoding="utf-8-sig", newline="") as stream:
         rows = list(csv.DictReader(stream))
     page = PAGE.read_text(encoding="utf-8")
