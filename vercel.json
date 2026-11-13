@@ -557,6 +557,10 @@
     {
       "source": "/audit/studiu-ces-controale",
       "destination": "/audit/studiu-ces-controale.html"
+    },
+    {
+      "source": "/proiecte/reforma-administratiei-publice",
+      "destination": "/proiecte/reforma-administratiei-publice.html"
     }
   ]
 }
