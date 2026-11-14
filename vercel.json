@@ -3,6 +3,16 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/proiecte/romania-15-judete-intrebari-reforma",
+      "destination": "/proiecte/romania-administrativa-2035",
+      "statusCode": 301
+    },
+    {
+      "source": "/proiecte/romania-15-judete-intrebari-reforma.html",
+      "destination": "/proiecte/romania-administrativa-2035",
+      "statusCode": 301
+    },
+    {
       "source": "/fotbal-pentru-viitor",
       "destination": "/proiecte/fotbal-pentru-viitor",
       "statusCode": 301
