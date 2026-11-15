@@ -9,3 +9,7 @@
 
 /* Approved tricolor lockup includes its own wordmark. */
 .site-brand .brand-map{width:144px;height:96px;object-fit:contain}.site-brand>span.brand-wordmark{display:none}.site-brand::after{display:none}.blueprint-figure>img{mix-blend-mode:normal}@media(max-width:480px){.site-brand .brand-map{width:114px;height:76px}}
+
+/* Logo Proiect România: +50% față de dimensiunile anterioare, inclusiv mobil */
+.site-header .site-brand .brand-map{width:216px;height:144px;max-width:none;object-fit:contain}
+@media(max-width:480px){.site-header .site-brand .brand-map{width:171px;height:114px}}
