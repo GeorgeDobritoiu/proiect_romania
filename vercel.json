@@ -296,6 +296,11 @@
       "source": "/proiecte/biblioteca-sah-icc-iasi.html",
       "destination": "/proiecte/biblioteca-sah-icc-iasi",
       "statusCode": 301
+    },
+    {
+      "source": "/proiecte/ziromania.html",
+      "destination": "/proiecte/ziromania",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -565,6 +570,10 @@
     {
       "source": "/proiecte/reforma-administratiei-publice",
       "destination": "/proiecte/reforma-administratiei-publice.html"
+    },
+    {
+      "source": "/proiecte/ziromania",
+      "destination": "/proiecte/ziromania.html"
     }
   ]
 }

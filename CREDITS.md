@@ -37,3 +37,5 @@ Pictograma `assets/img/project-symbols/asociatie.svg` este o ilustrație editori
 - Typographic covers: original HTML/CSS editorial designs for Proiect România, not logos of the featured organisations.
 
 - Biblioteca de Șah ICC Iași: imagine ilustrativă generată cu AI pentru Proiect România, 27 octombrie 2026. Nu reprezintă sediul sau colecția reală a clubului.
+
+- ZiRomania.ro: portretul lui Eduard Tecșan și panorama satului Rășinari sunt fotografii furnizate pentru articol.
