@@ -15,3 +15,68 @@ const projectMenu=document.querySelector('.nav-projects');
 document.addEventListener('click',event=>{if(projectMenu?.open&&!projectMenu.contains(event.target))projectMenu.open=false});
 document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;if(projectMenu?.open){projectMenu.open=false;projectMenu.querySelector('summary').focus()}else if(toggle?.getAttribute('aria-expanded')==='true'){toggle.setAttribute('aria-expanded','false');menu.classList.remove('is-open');toggle.focus()}});
 menu?.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{if(projectMenu)projectMenu.open=false;if(toggle){toggle.setAttribute('aria-expanded','false');menu.classList.remove('is-open')}}));
+
+function addPageSharing() {
+  const canonical = document.querySelector('link[rel="canonical"]');
+  const url = new URL(canonical?.href || location.href);
+  const isArticle = /^\/(?:proiecte|initiative-cetatenesti|en\/projects|audit|oportunitati-de-finantare)\/[^/]+\/?$/.test(url.pathname);
+  const heading = document.querySelector('main h1') || document.querySelector('h1');
+  if (!isArticle || !heading) return;
+
+  url.search = '';
+  url.hash = '';
+  const title = document.querySelector('meta[property="og:title"]')?.content || heading.textContent.trim();
+  const controls = document.createElement('div');
+  controls.className = 'page-sharing';
+
+  function addButton(label) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = label;
+    controls.append(button);
+    return button;
+  }
+
+  const shareButton = addButton(english ? 'Share' : 'Distribuie');
+  const copyButton = addButton(english ? 'Copy link' : 'Copiază linkul');
+  const status = document.createElement('span');
+  status.setAttribute('role', 'status');
+
+  const manualLink = document.createElement('input');
+  manualLink.type = 'url';
+  manualLink.readOnly = true;
+  manualLink.hidden = true;
+  manualLink.value = url.href;
+  manualLink.setAttribute('aria-label', english ? 'Link to copy' : 'Link de copiat');
+  controls.append(status, manualLink);
+  heading.after(controls);
+
+  async function copyLink() {
+    try {
+      await navigator.clipboard.writeText(url.href);
+      manualLink.hidden = true;
+      status.textContent = english ? 'Link copied.' : 'Link copiat.';
+    } catch {
+      status.textContent = english ? 'Select and copy this link.' : 'Selectează și copiază linkul.';
+      manualLink.hidden = false;
+      manualLink.focus();
+      manualLink.select();
+    }
+  }
+
+  copyButton.addEventListener('click', copyLink);
+  shareButton.addEventListener('click', async () => {
+    status.textContent = '';
+    if (typeof navigator.share !== 'function') {
+      await copyLink();
+      return;
+    }
+    try {
+      await navigator.share({ title, url: url.href });
+    } catch (error) {
+      if (error.name !== 'AbortError') await copyLink();
+    }
+  });
+}
+
+addPageSharing();

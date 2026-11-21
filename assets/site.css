@@ -53,3 +53,46 @@
 
 
 .site-nav{flex-wrap:wrap}
+
+.page-sharing {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 20px;
+}
+
+.page-sharing button {
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid #173e38;
+  border-radius: 6px;
+  background: #173e38;
+  color: #fff;
+  font: inherit;
+  font-size: .9rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.page-sharing button + button {
+  background: transparent;
+  color: #173e38;
+}
+
+.page-sharing button:focus-visible,
+.page-sharing input:focus-visible {
+  outline: 3px solid #1b7382;
+  outline-offset: 3px;
+}
+
+.page-sharing [role="status"] {
+  font-size: .9rem;
+}
+
+.page-sharing input {
+  flex-basis: 100%;
+  min-width: 0;
+  padding: 8px;
+  font: inherit;
+}
