@@ -1,0 +1,37 @@
+{
+  "requests": [
+    {
+      "institution": "SGG",
+      "sent": "2026-11-21",
+      "registrationNumber": null,
+      "registered": null,
+      "deadline": null,
+      "status": "Trimisă",
+      "responseUrl": null
+    },
+    {
+      "institution": "MIPE",
+      "sent": "2026-11-21",
+      "registrationNumber": null,
+      "registered": null,
+      "deadline": null,
+      "status": "Trimisă",
+      "responseUrl": null
+    },
+    {
+      "institution": "AMEPIP",
+      "sent": "2026-11-21",
+      "registrationNumber": null,
+      "registered": null,
+      "deadline": null,
+      "status": "Trimisă",
+      "responseUrl": null
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-11-21",
+      "text": "Am trimis cererile de informații către SGG, MIPE și AMEPIP."
+    }
+  ]
+}

@@ -316,6 +316,10 @@
   ],
   "rewrites": [
     {
+      "source": "/audit/pnrr-tinta-443",
+      "destination": "/audit/pnrr-tinta-443.html"
+    },
+    {
       "source": "/proiecte/romania-15-judete-intrebari-reforma",
       "destination": "/proiecte/romania-15-judete-intrebari-reforma.html"
     },
